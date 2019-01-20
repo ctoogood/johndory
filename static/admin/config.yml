@@ -1,0 +1,15 @@
+backend:
+  name: github
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "team"
+    label: "Team"
+    folder: src/team
+    slug: '{{slug}}'
+    fields:
+      - { label: "Team Member", name: "title", widget:'string' }
+      - { label: "Bio", name: "bio", widget: 'markdown' }
