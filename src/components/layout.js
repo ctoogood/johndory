@@ -32,7 +32,10 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} siteSubtitle={data.site.siteMetadata.subtitle} />
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Img fluid={data.file.childImageSharp.fluid } style={{
+          maxHeight:`75vh`,
+          objectFit:`cover`
+        }}/>
         <div
           style={{
             margin: `0 auto`,

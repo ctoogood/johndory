@@ -4,8 +4,10 @@ module.exports = {
     subtitle: `Culinary Tales`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Calum Toogood`,
+    siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/'
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {

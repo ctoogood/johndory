@@ -1,15 +1,22 @@
 backend:
   name: github
   branch: master
+  repo: ctoogood/johndory
+
 
 media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "team"
-    label: "Team"
-    folder: src/team
+  - name: "Post"
+    label: "Post "
+    folder: src/posts
+    create: true
     slug: '{{slug}}'
     fields:
-      - { label: "Team Member", name: "title", widget:'string' }
-      - { label: "Bio", name: "bio", widget: 'markdown' }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - { label: "Title", name: "title", widget: 'string' }
+      - { label: "Slug", name: "slug", widget: 'string' }
+      - { label: "Date", name: "date", widget: 'date' }
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}

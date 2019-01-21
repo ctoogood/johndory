@@ -8,6 +8,7 @@ export default class postLayout extends Component {
     return (
       <Layout>
         <h1>{ markdownRemark.frontmatter.title }</h1>
+        <img src={ markdownRemark.frontmatter.thumbnail} alt=""/>
         <div dangerouslySetInnerHTML = { {
             __html: markdownRemark.html
          } } />
@@ -28,6 +29,7 @@ export const query = graphql `
             title
             date
             slug
+            thumbnail
         }
         }
     }
