@@ -18,11 +18,11 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderText = styled.h1`
-  font-weight:normal;
+  
 `
 
 const SubheaderText = styled.h4`
-  font-weight:normal;
+  
 `
 
 const Header = ({ siteTitle, siteSubtitle }) => (
