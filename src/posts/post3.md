@@ -2,7 +2,7 @@
 slug: "/third-post"
 title: "The Fish Market"
 date: "2019-01-11"
-thumbnail: "/img/IMG_4714.jpg"
+thumbnail: '/img/IMG_4714.jpg'
 ---
 
 # Yo

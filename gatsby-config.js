@@ -48,22 +48,30 @@ module.exports = {
           name:'images'
         },
     },
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/img`,
-        name:'images'
+        path: `${__dirname}/public/posts/img`,
+        name:'img'
       },
   },
-    'gatsby-transformer-remark',
-    `gatsby-plugin-netlify-cms`,
-    
-    {
-      resolve: 'gatsby-remark-images',
-      options: {
-        maxWidth: 1600,
-      },
+
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 1600,
+          },
+        },
+      ],
     },
+  },
+
+    `gatsby-plugin-netlify-cms`,
 
     {
       resolve: `gatsby-plugin-typography`,

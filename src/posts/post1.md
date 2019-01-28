@@ -2,7 +2,7 @@
 title: 'Salmon Farming, Shetland'
 slug: /first-post
 date: '2019-01-09'
-thumbnail: /img/IMG_1500.jpg
+thumbnail:  '/img/IMG_1500.jpg'
 ---
 
 # Hello
