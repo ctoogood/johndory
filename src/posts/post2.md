@@ -1,7 +1,8 @@
 ---
 slug: "/second-post"
-title: "Our Second Post"
+title: "Shetland's Harvest"
 date: "2019-01-10"
+thumbnail: "/img/IMG_4295.jpg"
 ---
 
 # Yo

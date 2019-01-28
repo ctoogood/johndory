@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, StaticQuery, graphql } from 'gatsby'
+import {Link, StaticQuery, graphql} from 'gatsby'
 import styled from 'styled-components'
 
 const LISTING_QUERY = graphql `
@@ -15,6 +15,7 @@ const LISTING_QUERY = graphql `
                 date(formatString: "MMMM DD, YYYY" )
                 title
                 slug
+                thumbnail
                 }
             }
             }
@@ -29,6 +30,7 @@ const Post = styled.article`
         margin-bottom:1rem;
         margin-top:1rem;
         text-align:center;
+        
         a {
             color:#115974;
             text-decoration:none;
@@ -52,6 +54,8 @@ const Post = styled.article`
 `
 
 const PostsList = styled.div`
+        max-width:1600px;
+        margin:auto;
         @media only screen and (min-width:720px) {
             display:grid;
             grid-template-columns:1fr 1fr 1fr;
@@ -66,6 +70,7 @@ const Listing = () => (
         render={( {allMarkdownRemark}) => (
             allMarkdownRemark.edges.map( ( {node} ) => (
                 <Post key={node.frontmatter.slug}>
+                    <img src={node.frontmatter.thumbnail} alt="" />
                     <Link to={`/posts${node.frontmatter.slug}`}><h2>{node.frontmatter.title}</h2></Link>
                     <h4>{node.frontmatter.date}</h4>
                     <Link class='read-more' to={`/posts${node.frontmatter.slug}`}>Read More</Link>

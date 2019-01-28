@@ -1,7 +1,9 @@
 ---
 slug: "/first-post"
-title: "Our First Post"
+title: "Salmon Farming in Shetland"
 date: "2019-01-09"
+thumbnail: /img/IMG_1500.jpg
+
 ---
 
 # Hello

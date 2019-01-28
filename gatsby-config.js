@@ -19,6 +19,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -55,6 +56,21 @@ module.exports = {
       },
   },
     'gatsby-transformer-remark',
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    
+    {
+      resolve: 'gatsby-remark-images',
+      options: {
+        maxWidth: 1600,
+      },
+    },
+
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+
   ],
 }

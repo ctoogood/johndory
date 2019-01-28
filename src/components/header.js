@@ -5,8 +5,9 @@ import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
   background:white;
-  margin-bottom:1rem;
+  padding-bottom:.1rem;
   text-align:center;
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.5);
 `;
 
 const HeaderContainer = styled.div`
@@ -15,6 +16,14 @@ const HeaderContainer = styled.div`
   padding: 0.5rem;
   padding-bottom:0;
 `;
+
+const HeaderText = styled.h1`
+  font-weight:normal;
+`
+
+const SubheaderText = styled.h4`
+  font-weight:normal;
+`
 
 const Header = ({ siteTitle, siteSubtitle }) => (
   <HeaderWrapper>
@@ -26,8 +35,8 @@ const Header = ({ siteTitle, siteSubtitle }) => (
             textDecoration: `none`,
           }}
         >
-          <h1 style={{ margin: 0 }}>{siteTitle}</h1>
-          <h4 style={{color:`#ab4f34`}}><em>{siteSubtitle}</em></h4>
+          <HeaderText style={{ margin: 0 }}>{siteTitle}</HeaderText>
+          <SubheaderText style={{color:`#ab4f34`}}><em>{siteSubtitle}</em></SubheaderText>
         </Link>
       </HeaderContainer>
   </HeaderWrapper>
