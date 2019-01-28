@@ -4,9 +4,24 @@ const typography = new Typography({
   baseFontSize: "18px",
   baseLineHeight: 1.666,
   headerFontFamily: [
-    "Indie Flower"
+    "Playfair Display"
   ],
   bodyFontFamily: ["Montserrat"],
+  googleFonts: [
+    {
+      name: 'Montserrat',
+      styles: [
+        '400',
+      ],
+    },
+    {
+      name: 'Playfair Display',
+      styles: [
+        '400',
+        '400i',
+      ],
+    },
+  ],
 })
 
 export default typography
