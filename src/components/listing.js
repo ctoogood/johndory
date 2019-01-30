@@ -1,26 +1,32 @@
 import React from 'react'
 import {Link, StaticQuery, graphql} from 'gatsby'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
-const LISTING_QUERY = graphql `
-    query blogPostListing {
-        allMarkdownRemark (limit:10, sort:{
-            order:DESC
-            fields:[frontmatter___date]
-        }) {
-            edges {
-            node {
-                excerpt
-                frontmatter {
-                date(formatString: "MMMM DD, YYYY" )
-                title
-                slug
-                thumbnail
+const LISTING_QUERY = graphql`
+  query blogPostListing {
+    allMarkdownRemark(limit:10, sort:{
+        fields: [frontmatter___date], 
+        order: DESC
+    }) {
+      edges {
+        node {
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            slug
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 630) {
+                        ...GatsbyImageSharpSizes
+                    }
                 }
             }
-            }
+          }
         }
-        }
+      }
+    }
+  }
 `
 
 const Post = styled.article`
@@ -70,7 +76,7 @@ const Listing = () => (
         render={( {allMarkdownRemark}) => (
             allMarkdownRemark.edges.map( ( {node} ) => (
                 <Post key={node.frontmatter.slug}>
-                    <img src={node.frontmatter.thumbnail} alt="" />
+                    <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
                     <Link to={`/posts${node.frontmatter.slug}`}><h2>{node.frontmatter.title}</h2></Link>
                     <h4>{node.frontmatter.date}</h4>
                     <Link class='read-more' to={`/posts${node.frontmatter.slug}`}>Read More</Link>

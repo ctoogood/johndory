@@ -10,6 +10,23 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1600,
+            },
+          },
+        ],
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,8 +34,30 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/posts`,
+        name:'posts'
+      },
+    },
+    
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/img`,
+        name:'static images'
+      },
+    },
+
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/public/img`,
+        name:'public images'
+      },
+    },
     
     {
       resolve: `gatsby-plugin-manifest`,
@@ -31,47 +70,6 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/posts`,
-        name:'posts'
-      },
-    },
-      {
-        resolve: 'gatsby-source-filesystem',
-        options: {
-          path: `${__dirname}/src/images`,
-          name:'images'
-        },
-    },
-
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/img`,
-        name:'img'
-      },
-  },
-
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        {
-          resolve: `gatsby-remark-images`,
-          options: {
-            maxWidth: 1600,
-          },
-        },
-      ],
-    },
-  },
-
-    
 
     {
       resolve: `gatsby-plugin-typography`,

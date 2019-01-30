@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
 
 
@@ -15,7 +16,7 @@ const BlogPostHeaderImage = styled.section`
             height:60vh;
             }
 
-    img {
+    Img {
         filter:opacity(.7);
         height:100%;
         width:100%;
@@ -64,7 +65,8 @@ export default class postLayout extends Component {
     return (
       <Layout>
             <BlogPostHeaderImage>
-                <img src={ markdownRemark.frontmatter.thumbnail} alt=""/>
+            <Img style={{ objectPosition:`center`, height:'100%' }} sizes={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
+                
                 <BlogPostTitle>
                     <h1>{ markdownRemark.frontmatter.title }</h1>
                     <h4>{ markdownRemark.frontmatter.date}</h4>
@@ -91,7 +93,13 @@ export const query = graphql `
             title
             date(formatString: "MMMM DD, YYYY" )
             slug
-            thumbnail
+            featuredImage {
+                childImageSharp {
+                  fluid(maxWidth:1600) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
         }
         }
     }
