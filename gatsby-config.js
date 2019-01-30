@@ -52,7 +52,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/public/posts/img`,
+        path: `${__dirname}/static/img`,
         name:'img'
       },
   },
@@ -71,7 +71,7 @@ module.exports = {
     },
   },
 
-    `gatsby-plugin-netlify-cms`,
+    
 
     {
       resolve: `gatsby-plugin-typography`,
@@ -79,6 +79,8 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+
+    `gatsby-plugin-netlify-cms`,
 
   ],
 }
