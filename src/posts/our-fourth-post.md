@@ -2,7 +2,7 @@
 title: "Waas Bakery, Shetland"
 slug: "/fourth-post"
 date: "2019-01-21T17:39:14.129Z"
-featuredImage: "../images/IMG_0015.jpg"
+featuredImage: "/images/img_0015.jpg"
 ---
 # Home
 

@@ -2,7 +2,7 @@
 title: "Salmon Farming, Shetland"
 slug: "/shetland-salmon"
 date: "2019-01-29T17:39:14.129Z"
-featuredImage: "../images/IMG_1500.jpg"
+featuredImage: "/images/img_1500.jpg"
 ---
 # Salmon Farming
 
