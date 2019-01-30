@@ -7,3 +7,5 @@ featuredImage: /images/dsc06301.jpg
 # White Fish from Shetland
 
 Fishing
+
+![](/images/dsc02929.jpg)
