@@ -9,7 +9,7 @@ module.exports = {
   plugins: [
 
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/images`,
         name:'uploads',
@@ -17,10 +17,10 @@ module.exports = {
     },
   
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/posts`,
-        name:'posts'
+        name:'posts',
       },
     },
 
@@ -34,9 +34,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: `gatsby-remark-relative-images`,
-          },
+            `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,
             options: {
