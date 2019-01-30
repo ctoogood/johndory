@@ -1,10 +1,10 @@
 ---
-title: "Waas Bakery, Shetland"
-slug: "/fourth-post"
-date: "2019-01-21T17:39:14.129Z"
-featuredImage: "/images/img_0015.jpg"
+title: "Salmon Farming, Shetland"
+slug: "/shetland-salmon"
+date: "2019-01-29T17:39:14.129Z"
+featuredImage: "/images/img_1500.jpg"
 ---
-# Home
+# Salmon Farming
 
 Lorem ipsum dolor amet actually farm-to-table tacos post-ironic glossier biodiesel. Synth cold-pressed tacos green juice. Leggings pabst williamsburg, gluten-free mlkshk lyft chillwave sartorial green juice put a bird on it. 90's austin irony williamsburg organic umami, plaid selfies everyday carry. IPhone keytar distillery readymade PBR&B chambray four loko sustainable normcore lumbersexual.
 

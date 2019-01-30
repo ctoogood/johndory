@@ -8,8 +8,6 @@ featuredImage: "/images/img_1500.jpg"
 
 Lorem ipsum dolor amet actually farm-to-table tacos post-ironic glossier biodiesel. Synth cold-pressed tacos green juice. Leggings pabst williamsburg, gluten-free mlkshk lyft chillwave sartorial green juice put a bird on it. 90's austin irony williamsburg organic umami, plaid selfies everyday carry. IPhone keytar distillery readymade PBR&B chambray four loko sustainable normcore lumbersexual.
 
-![](/img/img_0043.jpg)
-
 Jean shorts mixtape chia whatever schlitz. Keffiyeh tumeric sartorial migas microdosing banh mi. Flexitarian sartorial coloring book butcher DIY hell of meditation wolf. Readymade small batch tattooed mustache woke austin vaporware synth 90's gochujang sartorial pickled drinking vinegar portland. Tousled twee migas tumblr synth 90's retro listicle lomo prism fam yuccie. Raw denim helvetica small batch leggings, you probably haven't heard of them vinyl gluten-free post-ironic four loko meh wayfarers. Typewriter mustache air plant microdosing leggings.
 
 Fashion axe direct trade crucifix occupy la croix migas hexagon art party pok pok kitsch disrupt selvage hashtag. Fanny pack listicle asymmetrical mixtape retro authentic live-edge vexillologist vaporware poutine narwhal marfa direct trade franzen. Thundercats pug drinking vinegar meggings vegan vexillologist. Post-ironic 8-bit brooklyn sustainable. Taxidermy swag vinyl marfa.

@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/'
   },
   plugins: [
-    
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -15,8 +15,7 @@ module.exports = {
         name:'uploads',
       },
     },
-    
-
+  
     {
       resolve: 'gatsby-source-filesystem',
       options: {
