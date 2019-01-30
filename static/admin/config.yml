@@ -4,8 +4,8 @@ backend:
   repo: ctoogood/johndory
 
 
-media_folder: src/images
-public_folder: /images
+media_folder: ../static/img
+public_folder: ../img
 
 collections:
   - name: "Post"
