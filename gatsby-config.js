@@ -7,6 +7,24 @@ module.exports = {
     siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/'
   },
   plugins: [
+    
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/images`,
+        name:'uploads',
+      },
+    },
+    
+
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/posts`,
+        name:'posts'
+      },
+    },
+
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -29,24 +47,6 @@ module.exports = {
         ],
       },
     },
-
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/images`,
-        name:'uploads',
-      },
-    },
-    
-
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/posts`,
-        name:'posts'
-      },
-    },
-    
     
     {
       resolve: `gatsby-plugin-manifest`,
