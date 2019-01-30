@@ -1,5 +1,11 @@
 const path = require('path')
 
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+
+exports.onCreateNode = ({ node }) => {
+  fmImagesToRelative(node);
+};
+
 exports.createPages = ( { graphql, actions} ) => {
     const { createPage } = actions;
     return new Promise( ( resolve, reject ) => {
@@ -28,10 +34,5 @@ exports.createPages = ( { graphql, actions} ) => {
             resolve( );
         })
     });  
-}
-
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
-
-exports.onCreateNode = ({ node }) => {
-  fmImagesToRelative(node);
 };
+
