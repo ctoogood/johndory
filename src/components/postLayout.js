@@ -62,6 +62,7 @@ const BlogPostContent = styled.article`
 export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
+      console.log(this.props.pageContext)
     return (
       <Layout>
             <BlogPostHeaderImage>

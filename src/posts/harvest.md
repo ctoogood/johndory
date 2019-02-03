@@ -1,7 +1,7 @@
 ---
 title: "Shetland's Harvest"
 slug: "/shetland-harvest"
-date: "2019-01-29T17:39:14.129Z"
+date: "2019-03-16"
 featuredImage: "/images/IMG_0315.jpg"
 ---
 # Salmon Farming
