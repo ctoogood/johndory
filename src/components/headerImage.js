@@ -11,7 +11,7 @@ const HeaderImageWrapper = styled.div`
    overflow:hidden;
    border-bottom:.5rem solid #d2a193;
    @media only screen and (min-width:720px) {
-    height:65vh;
+    height:60vh;
     }
 
     Img {

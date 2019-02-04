@@ -159,7 +159,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            date
+            date(formatString: "MMMM DD, YYYY")
             title
             slug
             featuredImage {
