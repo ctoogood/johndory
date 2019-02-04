@@ -7,7 +7,6 @@ const HeaderWrapper = styled.div`
   background:white;
   padding-bottom:.1rem;
   text-align:center;
-  box-shadow: 0px 7px 7px rgba(0,0,0,0.5);
 `;
 
 const HeaderContainer = styled.div`

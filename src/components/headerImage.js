@@ -4,12 +4,16 @@ import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 const HeaderImageWrapper = styled.div`
-   height:100%;
+  display:none;
+  height:100%;
    background-color:#464646;
    position:relative;
    margin-bottom:2rem;
    overflow:hidden;
    border-bottom:.5rem solid #d2a193;
+   @media only screen and (min-width:480px) {
+     display:block;
+   }
    @media only screen and (min-width:720px) {
     height:60vh;
     }
@@ -39,6 +43,7 @@ const HeaderImageWrapper = styled.div`
 const HeaderImageBorder = styled.div`
   border-bottom:.5rem solid #6e929e;
   height:1rem;
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.2);
 `
 
 
