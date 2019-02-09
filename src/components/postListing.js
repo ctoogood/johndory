@@ -104,7 +104,8 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           return (
           <Post key={node.frontmatter.slug}>
-          <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />          <Link to={`/posts${node.frontmatter.slug}`}><h2>{node.frontmatter.title}</h2></Link>
+          <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />          
+          <Link to={`/posts${node.frontmatter.slug}`}><h2>{node.frontmatter.title}</h2></Link>
           <h4>{node.frontmatter.date}</h4>
           <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More</Link>
       </Post>

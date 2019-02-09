@@ -1,3 +1,10 @@
+var netlifyCmsPaths = {
+  resolve: `gatsby-plugin-netlify-cms-paths`,
+  options: {
+    cmsConfig: `/static/admin/config.yml`,
+  },
+}
+
 module.exports = {
   siteMetadata: {
     title: `The John Dory`,
@@ -6,6 +13,7 @@ module.exports = {
     author: `Calum Toogood`,
     siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/'
   },
+
   plugins: [
 
     {
@@ -13,6 +21,14 @@ module.exports = {
       options: {
         path: `${__dirname}/static/images`,
         name:'uploads',
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name:'images',
       },
     },
   
@@ -27,13 +43,24 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    netlifyCmsPaths,
 
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          netlifyCmsPaths,
+          {
+            resolve: "gatsby-remark-images-grid",
+            options: {
+                className: "myCustomClassName",
+                gridGap: "20px",
+                margin: "20px auto",
+            },
+        },
           {
             resolve: `gatsby-remark-relative-images`,
           },
