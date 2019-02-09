@@ -1,11 +1,10 @@
 ---
-title: "Waas Bakery"
-slug: "/waas-bakery"
-date: "2016-02-09"
-featuredImage: "/images/waas-bakery-scene-42.jpg"
+title: Waas Bakery
+slug: /waas-bakery
+date: '2016-02-09'
+featuredImage: /images/waas-bakery-scene-42.jpg
 ---
-
-#A bakery on the westside of the Shetland Islands delivering a fantastic range of freshly baked breads, cakes, biscuits and pastries.
+\#A bakery on the westside of the Shetland Islands delivering a fantastic range of freshly baked breads, cakes, biscuits and pastries.
 
 I arrived at the bakery at around 3am.  It had been a challenge to negotiate the winding single track road to Walls on such a bitterly cold & snowy February morning.  A warm glowing light radiated from the bakery windows - work must have already begun.
 
@@ -16,19 +15,22 @@ I entered the building, squeezing past several large trolleys stacked with bread
 One of the main changes that had been made to the bakery was the addition of freshly baked artisan breads, which are made and delivered daily.  There is a range of these breads which include sourdough, puckle loaf (cracked wheat), tattie braed (contains local potatoes), and wholemeal.   
 
 ```grid|2
-![Freshly scored bread dough](/images/waas-bakery-scene-1.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-2.jpg)
+![](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734529/johndory/waas/waas-bakery-scene-1.jpg)
 ```
+
+
+
 ```grid|3
 ![Freshly scored bread dough](/images/waas-bakery-scene-4.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-6.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-7.jpg)
 ```
+
 ```grid|2
 ![Freshly scored bread dough](/images/waas-bakery-scene-8.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-21.jpg)
 ```
-
 
 I had arrived just as Bruce had begun to score the doughs prior to baking.  The pieces of dough were then carefully placed on large baking trays and placed in the large tiered ovens which lined one of the walls. It didn’t take long for the warming aroma of baked bread to fill the room.  
 
@@ -50,25 +52,27 @@ Throughout the rest of the morning the activity continues, as numerous tasks are
 ![Freshly scored bread dough](/images/waas-bakery-scene-5.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-13.jpg)
 ```
+
 ```grid|3
 ![Freshly scored bread dough](/images/waas-bakery-scene-15.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-22.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-26.jpg)
 ```
+
 ```grid|2
 ![Freshly scored bread dough](/images/waas-bakery-scene-30.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-35.jpg)
 ```
+
 ```grid|3
 ![Freshly scored bread dough](/images/waas-bakery-scene-34.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-40.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-48.jpg)
 ```
+
 ```grid|2
 ![Freshly scored bread dough](/images/waas-bakery-scene-49.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-41.jpg)
 ```
 
-
-##More from Waas Bakery to Follow..
-
+\##More from Waas Bakery to Follow..
