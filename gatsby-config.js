@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The John Dory`,
     subtitle: `Culinary Tales`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Stories about food production`,
     author: `Calum Toogood`,
     siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/'
   },
