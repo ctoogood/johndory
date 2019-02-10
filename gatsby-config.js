@@ -52,7 +52,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          netlifyCmsPaths,
+          
           {
             resolve: "gatsby-remark-images-grid",
             options: {
@@ -61,15 +61,17 @@ module.exports = {
                 margin: "20px auto",
             },
         },
-          {
-            resolve: `gatsby-remark-relative-images`,
-          },
+
+        `gatsby-remark-relative-images`,
+
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1600,
+              maxWidth: 1200,
             },
           },
+
+          netlifyCmsPaths,
         ],
       },
     },
