@@ -1,8 +1,10 @@
 ---
 title: Waas Bakery
+location: Shetland Islands
 slug: /waas-bakery
 date: '2016-02-09'
-featuredImage: /images/waas-bakery-scene-42.jpg
+featuredImage: >-
+  https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814141/johndory/waas/waas-bakery-scene-42.jpg
 ---
 #Waas bakery is in the small village of Walls (Waas) on the westside of Shetland’s mainland, about 25 miles from Lerwick.  In 2016 the bakery was bought by an American entrepreneur, Bruce Gilardi, who had a vision to create premium products that use natural, and where possible, locally sourced ingredients.  The bakery now produces a wide range of fresh bread, cakes, biscuits & pastries.
 
@@ -13,22 +15,25 @@ I entered the building, squeezing past several large trolleys stacked with bread
 One of the main changes that had been made to the bakery was the addition of freshly baked artisan breads, which are made and delivered daily.  There is a range of these breads which include sourdough, puckle loaf (cracked wheat), tattie braed (contains local potatoes), and wholemeal.   
 
 ```grid|2
-![Freshly scored bread dough](/images/waas-bakery-scene-2.jpg)
-![](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734529/johndory/waas/waas-bakery-scene-1.jpg)
+![baker flouring bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734507/johndory/waas/waas-bakery-scene-2.jpg)
+
+![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734529/johndory/waas/waas-bakery-scene-1.jpg)
 ```
 
-
-
 ```grid|3
-![Freshly scored bread dough](/images/waas-bakery-scene-4.jpg)
-![Freshly scored bread dough](/images/waas-bakery-scene-6.jpg)
-![Freshly scored bread dough](/images/waas-bakery-scene-7.jpg)
+![bread dough ready for baking](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734510/johndory/waas/waas-bakery-scene-4.jpg)
+
+![baker checking bread in the oven](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549813978/johndory/waas/waas-bakery-scene-6.jpg)
+
+![baker removing bread dough from the oven](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549739617/johndory/waas/waas-bakery-scene-7.jpg)
 ```
 
 ```grid|2
-![Freshly scored bread dough](/images/waas-bakery-scene-8.jpg)
-![Freshly scored bread dough](/images/waas-bakery-scene-21.jpg)
+![freshly baked bread on tray](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549813957/johndory/waas/waas-bakery-scene-8.jpg)
+
+![baker checking bread in oven](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814064/johndory/waas/waas-bakery-scene-21.jpg)
 ```
+
 
 I had arrived just as Bruce had begun to score the doughs prior to baking.  The pieces of dough were then carefully placed on large baking trays and placed in the large tiered ovens which lined one of the walls. It didn’t take long for the warming aroma of baked bread to fill the room.  
 
