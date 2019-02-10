@@ -4,7 +4,7 @@ slug: /waas-bakery
 date: '2016-02-09'
 featuredImage: /images/waas-bakery-scene-42.jpg
 ---
-\#A bakery on the westside of the Shetland Islands delivering a fantastic range of freshly baked breads, cakes, biscuits and pastries.
+#A bakery on the westside of the Shetland Islands delivering a fantastic range of freshly baked breads, cakes, biscuits and pastries.
 
 I arrived at the bakery at around 3am.  It had been a challenge to negotiate the winding single track road to Walls on such a bitterly cold & snowy February morning.  A warm glowing light radiated from the bakery windows - work must have already begun.
 
