@@ -3,8 +3,7 @@ title: Waas Bakery
 location: Shetland Islands
 slug: /waas-bakery
 date: '2016-02-09'
-featuredImage: >-
-  https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814141/johndory/waas/waas-bakery-scene-42.jpg
+featuredImage: /images/waas-bakery-scene-42.jpg
 ---
 #Waas bakery is in the small village of Walls (Waas) on the westside of Shetland’s mainland, about 25 miles from Lerwick.  In 2016 the bakery was bought by an American entrepreneur, Bruce Gilardi, who had a vision to create premium products that use natural, and where possible, locally sourced ingredients.  The bakery now produces a wide range of fresh bread, cakes, biscuits & pastries.
 
