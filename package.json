@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@dylanvann/gatsby-cloudinary": "0.0.18",
     "@dylanvann/gatsby-transformer-cloudinary": "^1.0.36",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.89",
@@ -22,6 +23,7 @@
     "gatsby-remark-images": "^3.0.1",
     "gatsby-remark-images-grid": "^1.0.2",
     "gatsby-remark-relative-images": "^0.2.1",
+    "gatsby-source-cloudinary": "^0.1.8",
     "gatsby-source-filesystem": "^2.0.13",
     "gatsby-transformer-remark": "^2.2.1",
     "gatsby-transformer-sharp": "^2.1.12",

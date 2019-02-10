@@ -40,6 +40,16 @@ module.exports = {
       },
     },
 
+    {
+      resolve:`gatsby-source-cloudinary`,
+      options:{
+        cloudName: 'dhat0b0ey',
+        apiKey: '328191115239953',
+        apiSecret: 'NCYcw2XGxf3Ivvr1eX7sXmGd0gM'
+      },
+    },
+    
+
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -67,7 +77,7 @@ module.exports = {
           options: {
               cloudName: 'dhat0b0ey',
               apiKey: '328191115239953',
-              apiSecret: 'NCYcw2XGxf3Ivvr1eX7sXmGd0gM',
+              apiSecret: 'NCYcw2XGxf3Ivvr1eX7sXmGd0gM'
           },
       },
 

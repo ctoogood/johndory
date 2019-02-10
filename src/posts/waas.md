@@ -14,7 +14,7 @@ I entered the building, squeezing past several large trolleys stacked with bread
 One of the main changes that had been made to the bakery was the addition of freshly baked artisan breads, which are made and delivered daily.  There is a range of these breads which include sourdough, puckle loaf (cracked wheat), tattie braed (contains local potatoes), and wholemeal.   
 
 ```grid|2
-![baker flouring bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734507/johndory/waas/waas-bakery-scene-2.jpg)
+![baker flouring bread dough](/images/waas-bakery-scene-2.jpg)
 
 ![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734529/johndory/waas/waas-bakery-scene-1.jpg)
 ```
