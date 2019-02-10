@@ -66,7 +66,7 @@ export default class postLayout extends Component {
     return (
       <Layout>
             <BlogPostHeaderImage>
-            <Img style={{ objectPosition:`center`, height:'100%' }} sizes={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
+            <Img style={{ objectPosition:`center`, height:'100%' }} fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
                 
                 <BlogPostTitle>
                     <h1>{ markdownRemark.frontmatter.title }</h1>
