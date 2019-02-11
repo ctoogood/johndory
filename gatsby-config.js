@@ -1,10 +1,3 @@
-var netlifyCmsPaths = {
-  resolve: `gatsby-plugin-netlify-cms-paths`,
-  options: {
-    cmsConfig: `/static/admin/config.yml`,
-  },
-}
-
 module.exports = {
   siteMetadata: {
     title: `The John Dory`,
@@ -39,24 +32,13 @@ module.exports = {
         name:'posts'
       },
     },
-
-    {
-      resolve:`gatsby-source-cloudinary`,
-      options:{
-        cloudName: 'dhat0b0ey',
-        apiKey: '328191115239953',
-        apiSecret: 'NCYcw2XGxf3Ivvr1eX7sXmGd0gM'
-      },
-    },
     
-
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-
-    `gatsby-transformer-sharp`,
+    
     `gatsby-plugin-sharp`,
-    netlifyCmsPaths,
+    `gatsby-transformer-sharp`,
 
     {
       resolve: `gatsby-transformer-remark`,
@@ -72,15 +54,6 @@ module.exports = {
             },
         },
 
-        {
-          resolve: '@dylanvann/gatsby-transformer-cloudinary',
-          options: {
-              cloudName: 'dhat0b0ey',
-              apiKey: '328191115239953',
-              apiSecret: 'NCYcw2XGxf3Ivvr1eX7sXmGd0gM'
-          },
-      },
-
         `gatsby-remark-relative-images`,
 
           {
@@ -89,8 +62,6 @@ module.exports = {
               maxWidth: 1200,
             },
           },
-
-          netlifyCmsPaths,
         ],
       },
     },

@@ -3,12 +3,6 @@ backend:
   branch: master
   repo: ctoogood/johndory
 
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: dhat0b0ey
-    api_key: 328191115239953
-
 media_folder: "static/images" 
 public_folder: "/images" 
 
