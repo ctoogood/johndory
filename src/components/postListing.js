@@ -7,12 +7,14 @@ import styled from 'styled-components'
 
 const Post = styled.article`
         box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
-        padding:1rem;
+        border:1rem solid white;
         border-radius:7px;
         margin-bottom:1rem;
         margin-top:1rem;
         text-align:center;
         position:relative;
+        overflow:hidden;
+        transition:all .2s ease-in-out;
         
         a {
             color:#115974;
@@ -45,16 +47,27 @@ const Post = styled.article`
         .post-image {
           min-height:250px;
           position:relative;
+          transition:all 2s linear;
+        }
+
+        .image-container {
+
         }
 
         .title-container {
           position:absolute;
-          bottom:0;
+          bottom:-2px;
           left:50%;
           transform:translate(-50%,-0%);
           background-color:white;
           width:75%;
-          border-radius:7px;
+          border-radius:7px 7px 0px 0px;
+        }
+
+        &:hover {
+          transform:scale(1.01);
+    
+          }
         }
 `
 
@@ -128,7 +141,11 @@ class BlogIndex extends React.Component {
           return (
           <Post key={node.frontmatter.slug}>
           <Link to={`/posts${node.frontmatter.slug}`}>
-          <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
+
+          <div className="image-container">
+              <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
+          </div>
+          
           <div className="title-container">
             <h2>{node.frontmatter.title}</h2>
             <h3>{node.frontmatter.location}</h3>
