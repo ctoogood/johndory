@@ -21,9 +21,15 @@ const Post = styled.article`
             margin-bottom:0;
             font-weight:normal;
         }
+        h3 {
+          margin-bottom:5px;
+          color:#507f90;
+          font-size:.9rem;
+        }
         h4 {
             color:#507f90;
             font-weight:normal;
+            margin-bottom:10px;
         }
         p {
             font-size:0.8rem;
@@ -105,7 +111,9 @@ class BlogIndex extends React.Component {
           return (
           <Post key={node.frontmatter.slug}>
           <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />          
-          <Link to={`/posts${node.frontmatter.slug}`}><h2>{node.frontmatter.title}</h2></Link>
+          <Link to={`/posts${node.frontmatter.slug}`}>
+          <h2>{node.frontmatter.title}</h2></Link>
+          <h3>{node.frontmatter.location}</h3>
           <h4>{node.frontmatter.date}</h4>
           <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More</Link>
       </Post>
@@ -162,6 +170,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            location
             slug
             featuredImage {
               childImageSharp {

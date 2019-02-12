@@ -33,14 +33,28 @@ const BlogPostTitle = styled.div`
 
         h1 {
             color:white;
+            margin:0;
             @media only screen and (min-width:720px) {
                 font-size:5rem;
              }
         }
 
-        h4 {
-            opacity:0.7;
+        h2 {
             color:white;
+            opacity:0.9;
+            font-size:.8rem;
+            font-family:montserrat;
+            @media only screen and (min-width:720px) {
+                font-size:1.5rem;
+             }
+        }
+
+        h4 {
+            opacity:0.8;
+            color:white;
+            font-family:montserrat;
+            padding:0;
+            margin:0;
         }
 `
 
@@ -70,6 +84,7 @@ export default class postLayout extends Component {
                 
                 <BlogPostTitle>
                     <h1>{ markdownRemark.frontmatter.title }</h1>
+                    <h2>{ markdownRemark.frontmatter.location}</h2>
                     <h4>{ markdownRemark.frontmatter.date}</h4>
                 </BlogPostTitle>
             </BlogPostHeaderImage>
@@ -92,6 +107,7 @@ export const query = graphql `
         html
         frontmatter {
             title
+            location
             date(formatString: "MMMM DD, YYYY" )
             slug
             featuredImage {
