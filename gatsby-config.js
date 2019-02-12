@@ -6,7 +6,7 @@ module.exports = {
     author: `Calum Toogood`,
     siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/'
   },
-
+  
   plugins: [
 
     {

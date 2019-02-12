@@ -4,7 +4,13 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
-
+const BlogPostMain = styled.main `
+    .blog-content {
+        h2 {
+            text-align:center;
+        }
+    }
+`
 
 const BlogPostHeaderImage = styled.section`
     position:relative;
@@ -79,6 +85,7 @@ export default class postLayout extends Component {
       console.log(this.props.pageContext)
     return (
       <Layout>
+            <BlogPostMain>
             <BlogPostHeaderImage>
             <Img style={{ objectPosition:`center`, height:'100%' }} fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
                 
@@ -89,9 +96,10 @@ export default class postLayout extends Component {
                 </BlogPostTitle>
             </BlogPostHeaderImage>
         <BlogPostHeader />
-        <BlogPostContent dangerouslySetInnerHTML = { {
+        <BlogPostContent className="blog-content" dangerouslySetInnerHTML = { {
             __html: markdownRemark.html
          } } />
+         </BlogPostMain>
       </Layout>
     )
   }
