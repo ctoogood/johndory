@@ -6,12 +6,13 @@ import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 const Post = styled.article`
-        box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.1);
+        box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
         padding:1rem;
-        border-radius:4px;
+        border-radius:7px;
         margin-bottom:1rem;
         margin-top:1rem;
         text-align:center;
+        position:relative;
         
         a {
             color:#115974;
@@ -20,6 +21,7 @@ const Post = styled.article`
         h2 {
             margin-bottom:0;
             font-weight:normal;
+            color:#c96649;
         }
         h3 {
           margin-bottom:5px;
@@ -38,6 +40,21 @@ const Post = styled.article`
             text-decoration:underline;
             font-size:0.8rem;
             color:#c96649;
+        }
+
+        .post-image {
+          min-height:250px;
+          position:relative;
+        }
+
+        .title-container {
+          position:absolute;
+          bottom:0;
+          left:50%;
+          transform:translate(-50%,-0%);
+          background-color:white;
+          width:75%;
+          border-radius:7px;
         }
 `
 
@@ -110,12 +127,14 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           return (
           <Post key={node.frontmatter.slug}>
-          <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />          
           <Link to={`/posts${node.frontmatter.slug}`}>
-          <h2>{node.frontmatter.title}</h2></Link>
-          <h3>{node.frontmatter.location}</h3>
-          <h4>{node.frontmatter.date}</h4>
-          <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More</Link>
+          <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
+          <div className="title-container">
+            <h2>{node.frontmatter.title}</h2>
+            <h3>{node.frontmatter.location}</h3>
+            <h4>{node.frontmatter.date}</h4>
+          </div>
+          </Link>
       </Post>
           )
         })}
