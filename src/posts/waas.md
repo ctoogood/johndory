@@ -2,10 +2,10 @@
 title: Waas Bakery
 location: Shetland Islands
 slug: /waas-bakery
-date: '2016-02-09'
+date: 2017-02-09T00:00:00.000Z
 featuredImage: /images/waas-bakery-scene-42.jpg
 ---
-\#Waas bakery is in the small village of Walls (Waas) on the westside of Shetland’s mainland, about 25 miles from Lerwick.  In 2016 the bakery was bought by an American entrepreneur, Bruce Gilardi, who had a vision to create premium products that use natural, and where possible, locally sourced ingredients.  The bakery now produces a wide range of fresh bread, cakes, biscuits & pastries.
+## Waas bakery is in the small village of Walls (Waas) on the westside of Shetland’s mainland, about 25 miles from Lerwick.  In 2016 the bakery was bought by an American entrepreneur, Bruce Gilardi, who had a vision to create premium products that use natural, and where possible, locally sourced ingredients. 
 
 I arrived at the bakery at around 3am.  It had been a challenge to negotiate the winding single track road to Walls on such a bitterly cold & snowy February morning.  A warm glowing light radiated from the bakery windows - work must have already begun.
 
@@ -16,21 +16,21 @@ One of the main changes that had been made to the bakery was the addition of fre
 ```grid|2
 ![baker flouring bread dough](/images/waas-bakery-scene-2.jpg)
 
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734529/johndory/waas/waas-bakery-scene-1.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-1.jpg)
 ```
 
 ```grid|3
-![bread dough ready for baking](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734510/johndory/waas/waas-bakery-scene-4.jpg)
+![bread dough ready for baking](/images/waas-bakery-scene-4.jpg)
 
-![baker checking bread in the oven](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549813978/johndory/waas/waas-bakery-scene-6.jpg)
+![baker checking bread in the oven](/images/waas-bakery-scene-6.jpg)
 
-![baker removing bread dough from the oven](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549739617/johndory/waas/waas-bakery-scene-7.jpg)
+![baker removing bread dough from the oven](/images/waas-bakery-scene-7.jpg)
 ```
 
 ```grid|2
-![freshly baked bread on tray](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549813957/johndory/waas/waas-bakery-scene-8.jpg)
+![freshly baked bread on tray](/images/waas-bakery-scene-8.jpg)
 
-![baker checking bread in oven](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814064/johndory/waas/waas-bakery-scene-21.jpg)
+![baker checking bread in oven](/images/waas-bakery-scene-21.jpg)
 ```
 
 I had arrived just as Bruce had begun to score the doughs prior to baking.  The pieces of dough were then carefully placed on large baking trays and placed in the large tiered ovens which lined one of the walls. It didn’t take long for the warming aroma of baked bread to fill the room.  
@@ -50,30 +50,30 @@ There is a rush as orders are assembled in the packing room and more fresh bread
 Throughout the rest of the morning the activity continues, as numerous tasks are carried out concurrently by the bakery’s small, but highly organised workforce.  
 
 ```grid|2
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549734502/johndory/waas/waas-bakery-scene-5.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549813966/johndory/waas/waas-bakery-scene-13.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-5.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-13.jpg)
 ```
 
 ```grid|3
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814018/johndory/waas/waas-bakery-scene-15.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814046/johndory/waas/waas-bakery-scene-22.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814089/johndory/waas/waas-bakery-scene-26.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-15.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-22.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-26.jpg)
 ```
 
 ```grid|2
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814085/johndory/waas/waas-bakery-scene-30.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814133/johndory/waas/waas-bakery-scene-35.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-30.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-35.jpg)
 ```
 
 ```grid|3
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814078/johndory/waas/waas-bakery-scene-34.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814139/johndory/waas/waas-bakery-scene-40.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814143/johndory/waas/waas-bakery-scene-48.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-34.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-40.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-48.jpg)
 ```
 
 ```grid|2
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814138/johndory/waas/waas-bakery-scene-49.jpg)
-![Freshly scored bread dough](https://res.cloudinary.com/dhat0b0ey/image/upload/v1549814148/johndory/waas/waas-bakery-scene-41.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-49.jpg)
+![Freshly scored bread dough](/images/waas-bakery-scene-41.jpg)
 ```
 
-\##More from Waas Bakery to Follow..
+## More from Waas Bakery to Follow..
