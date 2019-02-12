@@ -9,8 +9,6 @@ const Post = styled.article`
         box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
         border:1rem solid white;
         border-radius:7px;
-        margin-bottom:1rem;
-        margin-top:1rem;
         text-align:center;
         position:relative;
         overflow:hidden;
@@ -74,10 +72,12 @@ const Post = styled.article`
 const PostsList = styled.div`
         max-width:1600px;
         margin:auto;
+        margin-top:1rem;
         @media only screen and (min-width:720px) {
             display:grid;
             grid-template-columns:1fr 1fr 1fr;
             grid-gap:1rem;
+            margin:1rem;
         }
 `
 const NavContainer = styled.div `
