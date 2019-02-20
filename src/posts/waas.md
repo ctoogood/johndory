@@ -75,5 +75,3 @@ Throughout the rest of the morning the activity continues, as numerous tasks are
 ![Freshly scored bread dough](/images/waas-bakery-scene-49.jpg)
 ![Freshly scored bread dough](/images/waas-bakery-scene-41.jpg)
 ```
-
-## More from Waas Bakery to Follow..

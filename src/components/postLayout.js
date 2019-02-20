@@ -3,6 +3,8 @@ import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
+import SEO from './seo'
+
 
 const BlogPostMain = styled.main `
     .blog-content {
@@ -82,9 +84,15 @@ const BlogPostContent = styled.article`
 export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
-      console.log(this.props.pageContext)
+      const post = this.props.data.markdownRemark
+      const image = post.frontmatter.featuredImage.childImageSharp
+
     return (
       <Layout>
+            <SEO
+             title={markdownRemark.frontmatter.title} 
+             image={image}
+             description={post.frontmatter.description}/>
             <BlogPostMain>
             <BlogPostHeaderImage>
             <Img style={{ objectPosition:`center`, height:'100%' }} fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />

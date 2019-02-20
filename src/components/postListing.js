@@ -4,6 +4,8 @@ import Layout from './layout.js'
 import HeaderImage from './headerImage'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
+import SEO from './seo'
+
 
 const Post = styled.article`
         box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
@@ -58,8 +60,12 @@ const Post = styled.article`
           left:50%;
           transform:translate(-50%,-0%);
           background-color:white;
-          width:75%;
+          width:100%;
           border-radius:7px 7px 0px 0px;
+
+          @media only screen and (min-width:1100px) {
+            width:75%;
+          }
         }
 
         &:hover {
@@ -135,6 +141,7 @@ class BlogIndex extends React.Component {
     return (
 
       <Layout>
+        <SEO title="Home" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
         <HeaderImage />
         <PostsList>
         {posts.map(({ node }) => {
