@@ -22,7 +22,7 @@ In the past few decades aquaculture has grown exponentially worldwide.  It now p
 The crew and I aboard Dolphin arrived at the first salmon site in the morning light.  The duties for the day were to catch a series of salmon from the pens in this site and then visually check them for sea lice.  
 
 ```grid|2
-![Salmon farm worker removing netting](/images/salmonfarming-Copy 1.jpg)
+![Salmon farm worker removing netting](/images/salmonfarming-Copy1.jpg)
 
 ![Salmon farm worker throwing salmon feed](/images/salmonfarming-lice-checks-salmon-farming-3.jpg)
 ```
@@ -37,9 +37,9 @@ The process involved mooring the vessel alongside the pen. The net covering the 
 ![Salmon being placed in container of water](/images/salmonfarming-lice-checks-salmon-farming-5.jpg)
 
 ```grid|2
-![Salmon beign placed in container of water](/images/salmonfarming-Copy 1-3.jpg)
+![Salmon beign placed in container of water](/images/salmonfarming-Copy1-3.jpg)
 
-![Workers checking salmon for lice](/images/salmonfarming-Copy 1-4.jpg)
+![Workers checking salmon for lice](/images/salmonfarming-Copy1-4.jpg)
 ```
 
 ![Worker holding a salmon](/images/salmonfarming-worker-holding-scottish-salmon.jpg)
