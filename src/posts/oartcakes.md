@@ -3,7 +3,7 @@ title: Oatcakes
 location: Shetland Islands
 slug: /oatcakes-shetland
 date: 2017-11-25T00:00:00.000Z
-featuredImage: /images/oatcakes-008.jpg
+featuredImage: /images/oatcakes-011.jpg
 ---
 # Oatcakes
 

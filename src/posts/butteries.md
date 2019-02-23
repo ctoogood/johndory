@@ -3,7 +3,7 @@ title: Butteries
 location: Shetland Islands
 slug: /butteries-shetland
 date: 2017-02-09T00:00:00.000Z
-featuredImage: /images/butteries-003.jpg
+featuredImage: /images/butteries-002.jpg
 ---
 # Butteries
 
