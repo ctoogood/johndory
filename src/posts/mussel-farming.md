@@ -2,7 +2,7 @@
 title: Mussel Farming
 location: Shetland Islands
 slug: /mussel-farming
-date: 2017-04-30T23:00:00.000Z
+date: 2017-05-03T23:00:00.000Z
 featuredImage: /images/mussel-farming-5.jpg
 ---
 #Mussel farming in Shetland
