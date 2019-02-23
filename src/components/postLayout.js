@@ -17,7 +17,8 @@ const BlogPostMain = styled.main `
 const BlogPostHeaderImage = styled.section`
     position:relative;
     background-color:#464646;
-    height:40vh;
+    height:50vh;
+    min-height:250px;
     border-bottom:.5rem solid #d2a193;
     
         @media only screen and (min-width:720px) {
