@@ -9,6 +9,7 @@ module.exports = {
   
   plugins: [
 
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -32,7 +33,6 @@ module.exports = {
         name:'posts'
       },
     },
-  
     
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
@@ -41,7 +41,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
 
-    
     {
       resolve: `gatsby-transformer-remark`,
       options: {
