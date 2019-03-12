@@ -15,6 +15,7 @@ const Post = styled.article`
         position:relative;
         overflow:hidden;
         transition:all .2s ease-in-out;
+        font-family: Playfair Display;
         
         a {
             color:#115974;

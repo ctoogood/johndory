@@ -21,7 +21,7 @@ const HeaderText = styled.h1`
 `
 
 const SubheaderText = styled.h4`
-  
+  font-family: Playfair Display;
 `
 
 const Header = ({ siteTitle, siteSubtitle }) => (
