@@ -16,6 +16,11 @@ const Post = styled.article`
         overflow:hidden;
         transition:all .2s ease-in-out;
         font-family: Playfair Display;
+        margin:1rem;
+
+        @media only screen and (min-width:720px) {
+          margin:0;
+        }
         
         a {
             color:#115974;
@@ -61,8 +66,9 @@ const Post = styled.article`
           left:50%;
           transform:translate(-50%,-0%);
           background-color:white;
-          width:100%;
+          width:75%;
           border-radius:7px 7px 0px 0px;
+          
 
           @media only screen and (min-width:1100px) {
             width:75%;
@@ -82,10 +88,13 @@ const PostsList = styled.div`
         margin-top:1rem;
         @media only screen and (min-width:720px) {
             display:grid;
-            grid-template-columns:1fr 1fr 1fr;
+            grid-template-columns:1fr 1fr;
             grid-gap:1rem;
             margin:1rem;
         }
+        @media only screen and (min-width:1100px) {
+          grid-template-columns:1fr 1fr 1fr;
+      }
 `
 const NavContainer = styled.div `
         position:relative;
