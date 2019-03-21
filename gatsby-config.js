@@ -54,6 +54,7 @@ module.exports = {
                 margin: '20px auto'
             },
         },
+    
         
           {
             resolve: `gatsby-remark-images`,

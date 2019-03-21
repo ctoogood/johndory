@@ -91,6 +91,8 @@ const PostsList = styled.div`
             grid-template-columns:1fr 1fr;
             grid-gap:1rem;
             margin:1rem;
+            margin-left:4rem;
+            margin-right:4rem;
         }
         @media only screen and (min-width:1100px) {
           grid-template-columns:1fr 1fr 1fr;
