@@ -5,7 +5,7 @@ slug: /mussel-farming
 date: 2017-05-03T23:00:00.000Z
 featuredImage: /images/mussel-farming-5.jpg
 ---
-#Mussel farming in Shetland
+# Mussel farming in Shetland
 
 ```grid|2
 ![workboat at a pier](/images/mussel-farming-1.jpg)
