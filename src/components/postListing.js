@@ -168,7 +168,6 @@ class BlogIndex extends React.Component {
           <div className="title-container">
             <h2>{node.frontmatter.title}</h2>
             <h3>{node.frontmatter.location}</h3>
-            <h4>{node.frontmatter.date}</h4>
           </div>
           </Link>
       </Post>
