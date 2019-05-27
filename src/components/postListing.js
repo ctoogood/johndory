@@ -82,17 +82,20 @@ const Post = styled.article`
         }
 `
 
+const PostsListContainer = styled.section `
+        position:relative;
+`
+
 const PostsList = styled.div`
-        max-width:1600px;
+        max-width:1100px;
+        position:relative;
         margin:auto;
         margin-top:1rem;
         @media only screen and (min-width:720px) {
             display:grid;
             grid-template-columns:1fr 1fr;
             grid-gap:1rem;
-            margin:1rem;
-            margin-left:4rem;
-            margin-right:4rem;
+
         }
         @media only screen and (min-width:1100px) {
           grid-template-columns:1fr 1fr 1fr;
@@ -155,7 +158,8 @@ class BlogIndex extends React.Component {
       <Layout>
         <SEO title="Home" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
         <HeaderImage />
-        <PostsList>
+        <PostsListContainer>
+          <PostsList>
         {posts.map(({ node }) => {
           return (
           <Post key={node.frontmatter.slug}>
@@ -174,6 +178,7 @@ class BlogIndex extends React.Component {
           )
         })}
         </PostsList>
+        </PostsListContainer>
         <NavContainer>
         <PageNum>
         {Array.from({ length: numPages }, (_, i) => (

@@ -5,7 +5,16 @@ slug: /scallop-fishing
 date: 2017-07-24T23:00:00.000Z
 featuredImage: /images/scallop-fishing-shetland-006.jpg
 ---
-# Scallop fishing
+
+# Scallops can be found in abundance in the inshore waters around Shetland, and they are caught by a fleet of small vessels.
+
+I observed the process that these vessels carry out on two occasions, on the *Mari Dawn* and the *Arctic Solitaire*.  On both occassions it was an early start, setting off shortly after daybreak and heading towards the fishing grounds.  
+
+Scallops are caught using a row of dredges which are towed along the seabed and hauled in at certain times and emptied on to the deck.  The dredges look like sacks made out of a series of metal rings which are towed behind a spring loaded & teethed bar of steel.  This bar agitates the seabed and digs up the scallops.
+
+Once the dredges are emptied on to the deck, the crew(usually only 1 or 2) will sort through the catch.  The scallops will be graded so only ones above a certain size are kept and then they will be put in baskets.  Once they have 100 in a basket these get transferred into sacks and tied.
+
+Once back ashore the sacks of scallops will be collected by companies for processing and distribution.
 
 ```grid|2
 ![Buoys on side of boat](/images/scallop-fishing-shetland-011.jpg)

@@ -19,9 +19,7 @@ color:white;
 
 const Footer = () => (
     <FooterContainer >
-        <p>© {new Date().getFullYear()}, Built with
-    {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a></p>
+        <p>© {new Date().getFullYear()}</p>
     </FooterContainer>
   )
   
