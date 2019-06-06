@@ -54,10 +54,12 @@ const Post = styled.article`
           min-height:250px;
           position:relative;
           transition:all 2s linear;
+          filter:opacity(80%);
         }
 
         .image-container {
-
+          background-color:#6e929e;
+          transition:all 0.3s linear;
         }
 
         .title-container {
@@ -77,6 +79,10 @@ const Post = styled.article`
 
         &:hover {
           transform:scale(1.01);
+
+          .image-container {
+            background-color:white;
+          }
     
           }
         }

@@ -6,7 +6,7 @@ date: 2017-07-24T23:00:00.000Z
 featuredImage: /images/scallop-fishing-shetland-006.jpg
 ---
 
-# Scallops can be found in abundance in the inshore waters around Shetland, and they are caught by a fleet of small vessels.
+## Scallops can be found in abundance in the inshore waters around Shetland, and they are caught by a fleet of small vessels.
 
 I observed the process that these vessels carry out on two occasions, on the *Mari Dawn* and the *Arctic Solitaire*.  On both occassions it was an early start, setting off shortly after daybreak and heading towards the fishing grounds.  
 
