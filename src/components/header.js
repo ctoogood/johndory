@@ -7,6 +7,12 @@ const HeaderWrapper = styled.div`
   background:white;
   padding-bottom:.1rem;
   text-align:center;
+  position:sticky;
+  left:0;
+  top:0;
+  z-index:2;
+  box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
+
 `;
 
 const HeaderContainer = styled.div`

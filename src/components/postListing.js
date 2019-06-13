@@ -1,22 +1,38 @@
 import React from "react"
-import { graphql, Link } from 'gatsby'
-import Layout from './layout.js'
-import HeaderImage from './headerImage'
-import Img from 'gatsby-image'
+import { StaticQuery, graphql, Link } from "gatsby"
 import styled from 'styled-components'
-import SEO from './seo'
+import Img from "gatsby-image"
 
+const PostGrid = styled.section `
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:1rem;
+  margin:1rem;
+`
 
+const PostList = styled.main `
+  margin-left:0;
+  width:100%;
+  
+
+  .post-image {
+    position:relative;
+
+  }
+
+  .image-container {
+    overflow:hidden;
+    border-radius:3px;
+  }
+
+`
 const Post = styled.article`
-        box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
-        border:1rem solid white;
-        border-radius:7px;
-        text-align:center;
         position:relative;
         overflow:hidden;
         transition:all .2s ease-in-out;
         font-family: Playfair Display;
         margin:1rem;
+        margin-bottom:8rem;
 
         @media only screen and (min-width:720px) {
           margin:0;
@@ -28,12 +44,13 @@ const Post = styled.article`
         }
         h2 {
             margin-bottom:0;
-            font-weight:normal;
-            color:#c96649;
+            margin-top:1rem;
+            font-weight:bold;
+            color:#507f90;
         }
         h3 {
           margin-bottom:5px;
-          color:#507f90;
+          color:#7c7c7c;
           font-size:.9rem;
         }
         h4 {
@@ -63,10 +80,6 @@ const Post = styled.article`
         }
 
         .title-container {
-          position:absolute;
-          bottom:-2px;
-          left:50%;
-          transform:translate(-50%,-0%);
           background-color:white;
           width:75%;
           border-radius:7px 7px 0px 0px;
@@ -78,7 +91,6 @@ const Post = styled.article`
         }
 
         &:hover {
-          transform:scale(1.01);
 
           .image-container {
             background-color:white;
@@ -88,166 +100,69 @@ const Post = styled.article`
         }
 `
 
-const PostsListContainer = styled.section `
-        position:relative;
-`
-
-const PostsList = styled.div`
-        max-width:1100px;
-        position:relative;
-        margin:auto;
-        margin-top:1rem;
-        @media only screen and (min-width:720px) {
-            display:grid;
-            grid-template-columns:1fr 1fr;
-            grid-gap:1rem;
-
-        }
-        @media only screen and (min-width:1100px) {
-          grid-template-columns:1fr 1fr 1fr;
-      }
-`
-const NavContainer = styled.div `
-        position:relative;
-        width:100%;
-        height:4rem;
-        padding-top:1rem;
-
-`
-
-const NextPage = styled(Link) `
-        color:#c96649;
-        text-decoration:none;
-        position:absolute;
-        right:0;
-        margin-right:1rem;
-`
-const PrevPage = styled(Link) `
-       color:#c96649;  
-       text-decoration:none;
-        position:absolute;
-        left:0;
-        margin-left:1rem;
-`
-const PageNum = styled.div `
-        position:absolute;
-        right:50%;
-
-        li {
-          list-style-type:none;
-          display:inline;
-        }
-
-        .page-numbers {
-          color:#c96649;
-          text-decoration:none;
-          padding:.5rem;
-        }
-`
-
-
-
-class BlogIndex extends React.Component {
-
-  
-  render( ) {
-
-    const posts = this.props.data.allMarkdownRemark.edges
-    const { currentPage, numPages } = this.props.pageContext
-    const isFirst = currentPage === 1
-    const isLast = currentPage === numPages
-    const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
-    const nextPage = (currentPage + 1).toString()
-
-    return (
-
-      <Layout>
-        <SEO title="Home" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
-        <HeaderImage />
-        <PostsListContainer>
-          <PostsList>
-        {posts.map(({ node }) => {
-          return (
-          <Post key={node.frontmatter.slug}>
-          <Link to={`/posts${node.frontmatter.slug}`}>
+const PostListing = () => (
+  <StaticQuery
+    query={POST_LISTING_QUERY}
+    render={({allMarkdownRemark}) => (
+      <>
+        
+        <PostList>
+        <PostGrid>
+        {allMarkdownRemark.edges.map(edges => (
+          
+          <Post key={edges.node.frontmatter.slug}>
+          <Link to={`/posts${edges.node.frontmatter.slug}`}>
 
           <div className="image-container">
-              <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
+              <Img className="post-image" fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid} />
           </div>
           
           <div className="title-container">
-            <h2>{node.frontmatter.title}</h2>
-            <h3>{node.frontmatter.location}</h3>
+            <h2>{edges.node.frontmatter.title}</h2>
+            <hr />
+            <h3>{edges.node.frontmatter.description}</h3>
           </div>
           </Link>
       </Post>
-          )
-        })}
-        </PostsList>
-        </PostsListContainer>
-        <NavContainer>
-        <PageNum>
-        {Array.from({ length: numPages }, (_, i) => (
-            <li
-              key={`pagination-number${i + 1}`}
-              style={{
-                margin: 0,
-              }}
-            >
-              <Link className='page-numbers'
-                to={`/${i === 0 ? '' : i + 1}`}
-                style={{
-                  textDecoration: i + 1 === currentPage ? 'underline' : '',
+         
+        ))}
+        </PostGrid>
+        </PostList>
+      </>
+    )}
+  />
+)
 
-                }}
-              >
-                {i + 1}
-              </Link>
-</li>
-      ))}
-      </PageNum>
-        {!isFirst && (
-        <PrevPage to={prevPage} rel="prev">
-          ← Previous Page
-        </PrevPage>
-      )}
-      {!isLast && (
-        <NextPage to={nextPage} rel="next">
-          Next Page →
-        </NextPage>
-      )}
-      </NavContainer>
-  </Layout>
 
-    )}}
+export default PostListing
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query ListingQuery ($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
-      edges {
-        node {
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            location
-            slug
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth:1600) {
-                  ...GatsbyImageSharpFluid
+const POST_LISTING_QUERY = graphql`
+query PostListingQuery {
+	allMarkdownRemark(sort:{
+    order: DESC,
+    fields:[frontmatter___date]
+    
+  }
+  filter: {
+    frontmatter: {category: {eq: "post"}}
+  }) {
+    edges {
+      node {
+        frontmatter {
+          title
+          date(formatString: "MMMM DD, YYYY" )
+          slug
+          description
+          featuredImage {
+            childImageSharp {
+              fluid(maxWidth:800) {
+                ...GatsbyImageSharpFluid
               }
             }
-          }
           }
         }
       }
     }
   }
+}
 `
-

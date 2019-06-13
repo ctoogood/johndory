@@ -16,7 +16,7 @@ const BlogPostMain = styled.main `
 
 const BlogPostHeaderImage = styled.section`
     position:relative;
-    background-color:#464646;
+    background-color:black;
     height:50vh;
     min-height:250px;
     border-bottom:.5rem solid #d2a193;
@@ -24,6 +24,10 @@ const BlogPostHeaderImage = styled.section`
         @media only screen and (min-width:720px) {
             height:60vh;
             }
+
+    .image-container {
+        background-color:black;
+    }
 
     Img {
         filter:opacity(.7);
@@ -36,6 +40,7 @@ const BlogPostHeaderImage = styled.section`
 const BlogPostTitle = styled.div`
     position:absolute;
     text-align:center;
+    width:90%;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
@@ -43,8 +48,8 @@ const BlogPostTitle = styled.div`
         h1 {
             color:white;
             margin:0;
-            @media only screen and (min-width:720px) {
-                font-size:5rem;
+            @media only screen and (min-width:900px) {
+                font-size:4rem;
              }
         }
 
@@ -53,7 +58,7 @@ const BlogPostTitle = styled.div`
             opacity:0.9;
             font-size:.8rem;
             font-family:montserrat;
-            @media only screen and (min-width:720px) {
+            @media only screen and (min-width:900px) {
                 font-size:1.5rem;
              }
         }
@@ -96,8 +101,7 @@ export default class postLayout extends Component {
              description={post.frontmatter.description}/>
             <BlogPostMain>
             <BlogPostHeaderImage>
-            <Img style={{ objectPosition:`center`, height:'100%' }} fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
-                
+                <Img style={{ objectPosition:`center`, height:'100%' }} fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
                 <BlogPostTitle>
                     <h1>{ markdownRemark.frontmatter.title }</h1>
                     <h2>{ markdownRemark.frontmatter.location}</h2>

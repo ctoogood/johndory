@@ -17,20 +17,20 @@ module.exports = {
         name:'uploads',
       },
     },
-
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/images`,
-        name:'images',
-      },
-    },
   
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/posts`,
+        path: `${__dirname}/src/content/posts`,
         name:'posts'
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/features`,
+        name:'features'
       },
     },
     
@@ -38,24 +38,23 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     
-    `gatsby-plugin-sharp`,
+    
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
 
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          
           {
-            resolve: `gatsby-remark-images-grid`,
+            resolve: "gatsby-remark-images-grid",
             options: {
-                className: 'myCustomClassName',
-                gridGap: '20px',
-                margin: '20px auto'
+                className: "myCustomClassName",
+                gridGap: "20px",
+                margin: "20px auto",
             },
         },
-    
-        
+   
           {
             resolve: `gatsby-remark-images`,
             options: {
