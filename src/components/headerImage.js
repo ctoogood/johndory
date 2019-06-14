@@ -33,7 +33,7 @@ const HeaderImageWrapper = styled.div`
         transform:translate(-50%,-50%);
         text-align:center;
         color:white;
-        font-size:2rem;
+        font-size:2.7rem;
         font-weight:bolder;
             @media only screen and (min-width:720px) {
                 font-size:4rem;

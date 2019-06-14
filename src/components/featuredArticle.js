@@ -78,6 +78,13 @@ const FeaturedContainer = styled.div `
       box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
       font-family:montserrat;
       margin-bottom:1rem;
+      transition:all 0.3s ease-in-out;
+
+      &:hover {
+        color:white;
+        border:1px solid white;
+        background-color: #d2a193
+      }
     }
     
     hr {
@@ -156,7 +163,7 @@ const Feature = ( ) => (
                   <h2>{edge.node.frontmatter.title}</h2>
                   </Link>
                   <h4>{edge.node.frontmatter.description}</h4>
-                  <button><Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}>View Post</Link></button>
+                  <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}><button>View Post</button></Link>
                   </span>
                 </div>
               </FeaturedContainer>

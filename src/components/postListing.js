@@ -4,10 +4,19 @@ import styled from 'styled-components'
 import Img from "gatsby-image"
 
 const PostGrid = styled.section `
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:1rem;
-  margin:1rem;
+position:relative;
+text-align:center;
+@media only screen and (min-width:720px) {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:1rem;
+    margin:2rem;
+    text-align:left;
+
+}
+@media only screen and (min-width:1100px) {
+  grid-template-columns:1fr 1fr 1fr;
+}
 `
 
 const PostList = styled.main `
@@ -83,6 +92,11 @@ const Post = styled.article`
           background-color:white;
           width:75%;
           border-radius:7px 7px 0px 0px;
+          margin:auto;
+
+          @media only screen and (min-width:720px) {
+            margin:0;
+          }
           
 
           @media only screen and (min-width:1100px) {
@@ -124,7 +138,7 @@ const PostListing = () => (
           </div>
           </Link>
       </Post>
-         
+      
         ))}
         </PostGrid>
         </PostList>

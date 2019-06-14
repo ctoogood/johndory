@@ -21,7 +21,7 @@ a {
     text-decoration:none;
 }
 h2 {
-    margin-bottom:0;
+    margin-bottom:.2rem;;
     margin-top:1rem;
     font-weight:bold;
     color:#507f90;
@@ -35,6 +35,8 @@ h4 {
     color:#507f90;
     font-weight:normal;
     margin-bottom:10px;
+    font-family:montserrat;
+    padding-top:.5rem;
 }
 p {
     font-size:0.8rem;
@@ -97,6 +99,13 @@ const FeaturedListContainer = styled.section `
           box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
           font-family:montserrat;
           margin-bottom:1rem;
+          transition:all 0.3s ease-in-out;
+
+      &:hover {
+        color:white;
+        border:1px solid white;
+        background-color: #d2a193
+      }
         }
 `
 
@@ -143,6 +152,7 @@ const FoodFocusList = ( ) => (
         skip:1) {
           edges {
             node {
+              excerpt
               frontmatter {
                 title
                 description
@@ -167,24 +177,24 @@ const FoodFocusList = ( ) => (
         <FeaturedList>
            {allMarkdownRemark.edges.map(edge => (
               <Featured>
-                <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}>
+                <Link classname="link" to={`/features${edge.node.frontmatter.slug}`}>
                 <div className="image-container">
                   <Img fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
                 </div>
                 </Link>
                 <div className="text-container">
                   <span>
-                  <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}>
+                  <Link classname="link" to={`/features${edge.node.frontmatter.slug}`}>
                   <h2>{edge.node.frontmatter.title}</h2>
                   </Link>
                   <hr />
-                  <h4>{edge.node.frontmatter.description}</h4>
+                  <h4>{edge.node.excerpt}</h4>
                   </span>
                 </div>
               </Featured>
            ))}
         </FeaturedList>
-        <button>View All</button>
+        <Link to="/features"><button>View All</button></Link>
         </FeaturedListContainer>
       </>
     )}

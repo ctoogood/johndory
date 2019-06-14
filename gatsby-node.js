@@ -28,7 +28,7 @@ exports.createPages = ( { graphql, actions} ) => {
                 if(node.frontmatter.category === 'feature') {
                   createPage ( {
                     path: `/features${node.frontmatter.slug}`,
-                    component: path.resolve('./src/components/featureLayout.js'),
+                    component: path.resolve('./src/components/FoodFocusLayout.js'),
                     context: {
                         slug: node.frontmatter.slug,
                     }

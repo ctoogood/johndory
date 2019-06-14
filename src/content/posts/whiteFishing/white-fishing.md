@@ -1,5 +1,5 @@
 ---
-title: Northern Seas Fishing from the Shetland Islands
+title: Northern Seas Fishing, Shetland Islands
 location: Shetland Islands
 slug: /white-fishing-shetland
 date: 2017-09-19T11:01:23.835Z

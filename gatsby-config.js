@@ -49,7 +49,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images-grid",
             options: {
-                className: "myCustomClassName",
+                className: "markdown-grid",
                 gridGap: "20px",
                 margin: "20px auto",
             },

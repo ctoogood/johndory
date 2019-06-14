@@ -16,7 +16,7 @@ const FeaturedContainer = styled.div `
     Img {
       padding:0;
       max-height:70vh;
-      filter: opacity(0.6);
+      filter: opacity(0.8);
     }
   }
 
@@ -39,6 +39,7 @@ const FeaturedContainer = styled.div `
     h2 {
       margin-top:0.5rem;
       font-size:3rem;
+      font-weight:bold;
     }
 
     h4 {
@@ -61,6 +62,13 @@ const FeaturedContainer = styled.div `
       box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
       font-family:montserrat;
       margin-bottom:1rem;
+      transition:all 0.5s ease-in-out;
+
+      &:hover {
+        color:black;
+        border:1px solid black;
+        background-color: white
+      }
     }
     
     hr {
@@ -91,7 +99,7 @@ const FeaturedContainer = styled.div `
 `
 
 
-const FoodFeature = ( ) => (
+const FoodFocusFeature = ( ) => (
   <StaticQuery
     query={graphql`
     query FoodFeatureIndex {
@@ -100,6 +108,7 @@ const FoodFeature = ( ) => (
         filter: {fileAbsolutePath: {regex: "\/features/"}}) {
           edges {
             node {
+              excerpt
               frontmatter {
                 title
                 description
@@ -132,7 +141,7 @@ const FoodFeature = ( ) => (
                   <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}>
                   <h2>{edge.node.frontmatter.title}</h2>
                   </Link>
-                  <h4>{edge.node.frontmatter.description}</h4>
+                  <h4>{edge.node.excerpt}</h4>
                   <button><Link classname="link" to={`/features${edge.node.frontmatter.slug}`}>View</Link></button>
                   </span>
                 </div>
@@ -146,4 +155,4 @@ const FoodFeature = ( ) => (
   />
 )
 
-export default FoodFeature
+export default FoodFocusFeature

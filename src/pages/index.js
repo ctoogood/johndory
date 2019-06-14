@@ -6,6 +6,9 @@ import SEO from '../components/seo'
 import Feature from '../components/featuredArticle'
 import Img from 'gatsby-image'
 import HeaderImage from '../components/headerImage'
+import FoodFocusList from '../components/foodFocusList'
+import FoodFocusFeature from "../components/FoodFocusFeature";
+
 
 
 
@@ -104,6 +107,13 @@ const PostsListContainer = styled.section `
           box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
           font-family:montserrat;
           margin-bottom:1rem;
+          transition:all 0.3s ease-in-out;
+
+          &:hover {
+            color:white;
+            border:1px solid white;
+            background-color: #d2a193
+          }
         }
 `
 
@@ -182,7 +192,8 @@ class Index extends React.Component {
         <Link to="/posts"><button>View All</button></Link>
         </PostsListContainer>
         <FoodFocusSection>
-
+          <FoodFocusFeature />
+          <FoodFocusList />
         </FoodFocusSection>
         
         

@@ -7,7 +7,6 @@ import SEO from './seo'
 
 
 const BlogPostMain = styled.main `
-    margin-top:5.5rem;
     .blog-content {
         h2 {
             text-align:center;
@@ -23,7 +22,7 @@ const BlogPostHeaderImage = styled.section`
     border-bottom:.5rem solid #d2a193;
     
         @media only screen and (min-width:720px) {
-            height:60vh;
+            height:80vh;
             }
 
     Img {
@@ -81,9 +80,11 @@ const BlogPostContent = styled.article`
         @media only screen and (min-width:720px) {
             padding:2rem;
             }
+    
+    
 `
 
-export default class featureLayout extends Component {
+export default class FoodFocusLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
       const post = this.props.data.markdownRemark

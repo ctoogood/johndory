@@ -17,7 +17,7 @@ Scallops are caught using a row of dredges which are towed along the seabed and 
 
 Once the dredges are emptied on to the deck, the crew(usually only 1 or 2) will sort through the catch.  The scallops will be graded so only ones above a certain size are kept and then they will be put in baskets.  Once they have 100 in a basket these get transferred into sacks and tied.
 
-Once back ashore the sacks of scallops will be collected by companies for processing and distribution.
+When back ashore the sacks of scallops will be collected by companies for processing and distribution.
 
 ```grid|2
 ![Buoys on side of boat](/images/scallop-fishing-shetland-011.jpg)
