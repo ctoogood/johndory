@@ -6,7 +6,7 @@ date: 2019-06-14
 featuredImage: ./images/mackerel-001.jpg
 category: feature
 ---
-Mackerel is a hugely popular, oily fish which has a distinctive shiny and striped body.  It can be caught in abundance during its migration as they travel in huge shoals, they are renowned for biting anything in their sight.
+Mackerel is a hugely popular, oily fish which has a distinctive shiny and striped body.  It can be caught in abundance during its migration as they travel in huge shoals. 
 
 [Here](http://www.donalskehan.com/2009/09/bbq-mackerel-with-lemon-and-smoked-sea-salt/)'s a simple way of cooking mackerel on the barbeque
 

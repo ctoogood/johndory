@@ -11,7 +11,7 @@ Butteries are a kind of bread roll, originating from North-East Scotland, with a
 
 It is said that butteries were created for those in the fishing industry.  The high fat content was a great source of energy and the buttery does not become stale quickly - ideal for long trips at sea.
 
-A butteries recipe can be found [here](https://www.bbc.co.uk/food/recipes/aberdeenbutteriesrow_92370) or you can but them online or in many bakeries in NE Scotland.
+A butteries recipe can be found [here](https://www.bbc.co.uk/food/recipes/aberdeenbutteriesrow_92370). You can also buy them online or in many bakeries in NE Scotland.
 
 
 ```grid|2
