@@ -40,7 +40,7 @@ I had arrived just as Bruce had begun to score the doughs prior to baking.  The 
 
 Other staff had now begun arriving and as Bruce emptied and refilled the ovens, other activities began to take place.  The focus in the early morning is the fresh breads, as they need to get baked and packaged before the delivery driver takes them away for distribution to the many small shops and supermarkets scattered throughout the isles.
 
-Fresh doughnuts are now being made and the smell throughout the air becomes even more delightful.  The doughnuts are formed using a contraption with shapes the batter as it’s dropped in to the fryer – One of the many fascinating mechanisms to be found in the bakery.
+Fresh doughnuts are now being made and the smell throughout the air becomes even more delightful.  The doughnuts are formed using a contraption which shapes the batter as it’s dropped in to the fryer – One of the many fascinating mechanisms to be found in the bakery.
 
 ```grid|2
 ![Doughnut batter being prepared](/images/waas-bakery-scene-14.jpg)
