@@ -2,7 +2,7 @@
 title: Mackerel
 location: Scotland
 slug: /mackerel
-date: 2019-06-14
+date: 2019-06-10
 featuredImage: ./images/mackerel-001.jpg
 category: feature
 ---

@@ -208,7 +208,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 3
-      skip: 1
+      skip: 0
       filter: {fileAbsolutePath: {regex: "\/posts/"}}
     ) {
       edges {

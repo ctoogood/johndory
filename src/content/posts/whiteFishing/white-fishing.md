@@ -2,7 +2,7 @@
 title: Northern Seas Fishing, Shetland Islands
 location: Shetland Islands
 slug: /white-fishing-shetland
-date: 2017-09-19T11:01:23.835Z
+date: 2013-09-19T11:01:23.835Z
 description: This series of images is the outcome of a succession of trips aboard local white fishing vessels in the waters around Shetland.
 featuredImage: ./images/white-fishing-028.jpg
 category: post
