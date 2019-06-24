@@ -30,9 +30,10 @@ h3 {
   margin-bottom:5px;
   color:#7c7c7c;
   font-size:.9rem;
+  margin-top:0.5rem;
 }
 h4 {
-    color:#507f90;
+    color:#7c7c7c;
     font-weight:normal;
     margin-bottom:10px;
     font-family:montserrat;
@@ -188,7 +189,7 @@ const FoodFocusList = ( ) => (
                   <h2>{edge.node.frontmatter.title}</h2>
                   </Link>
                   <hr />
-                  <h4>{edge.node.excerpt}</h4>
+                  <h3>{edge.node.excerpt}</h3>
                   </span>
                 </div>
               </Featured>
