@@ -67,9 +67,14 @@ const Post = styled.article`
 
         .title-container {
           background-color:white;
-          width:75%;
+          width:100%;
           border-radius:7px 7px 0px 0px;
-          
+          text-align:center;
+
+          @media only screen and (min-width:720px) {
+            width:75%;
+            text-align:left;
+          }
 
           @media only screen and (min-width:1100px) {
             width:75%;

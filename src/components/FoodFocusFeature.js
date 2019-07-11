@@ -16,6 +16,7 @@ const FeaturedContainer = styled.div `
     Img {
       padding:0;
       max-height:70vh;
+      object-fit:cover!important;
       filter: opacity(0.8);
     }
   }
@@ -38,8 +39,13 @@ const FeaturedContainer = styled.div `
 
     h2 {
       margin-top:0.5rem;
-      font-size:3rem;
+      font-size:2rem;
       font-weight:bold;
+
+      @media only screen and (min-width:720px) {
+        font-size:3.5rem;
+      }
+
     }
 
     h4 {

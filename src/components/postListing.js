@@ -43,6 +43,7 @@ const Post = styled.article`
         margin:1rem;
         margin-bottom:8rem;
 
+
         @media only screen and (min-width:720px) {
           margin:0;
         }
@@ -93,6 +94,7 @@ const Post = styled.article`
           width:75%;
           border-radius:7px 7px 0px 0px;
           margin:auto;
+          
 
           @media only screen and (min-width:720px) {
             margin:0;

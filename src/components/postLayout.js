@@ -128,7 +128,6 @@ export const query = graphql `
         html
         frontmatter {
             title
-            location
             date(formatString: "MMMM DD, YYYY" )
             slug
             featuredImage {
