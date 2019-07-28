@@ -83,7 +83,7 @@ p {
 const FeaturedListContainer = styled.section `
         position:relative;
         padding-top:2rem;
-        badding-bottom:2rem;
+        padding-bottom:3rem;
         text-align:center;
         border-top:0.5rem solid #6e929e;
 
@@ -118,8 +118,10 @@ const FeaturedList = styled.div`
         @media only screen and (min-width:720px) {
             display:grid;
             grid-template-columns:1fr 1fr;
-            grid-gap:1rem;
-            margin:2rem;
+            grid-gap:3rem;
+            margin:auto;
+            margin-top:3rem;
+            max-width:1200px;
 
         }
         @media only screen and (min-width:1100px) {

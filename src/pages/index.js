@@ -70,10 +70,10 @@ const Post = styled.article`
           width:100%;
           border-radius:7px 7px 0px 0px;
           text-align:center;
+          margin:auto;
 
           @media only screen and (min-width:720px) {
             width:75%;
-            text-align:left;
           }
 
           @media only screen and (min-width:1100px) {
@@ -126,12 +126,13 @@ const PostsList = styled.div`
         position:relative;
         margin:auto;
         margin:0.5rem;
-        text-align:left;
+        max-width:1200px;
+      
         @media only screen and (min-width:720px) {
             display:grid;
             grid-template-columns:1fr 1fr;
-            grid-gap:1rem;
-            margin:2rem;
+            grid-gap:3rem;
+            margin:auto;
 
         }
         @media only screen and (min-width:1100px) {
@@ -146,6 +147,7 @@ const PostsList = styled.div`
         background-color: #d2a193;
         padding: 0;
         width:80%;
+        margin:auto;
         margin-top:.5rem;
         margin-bottom:.5rem;
   

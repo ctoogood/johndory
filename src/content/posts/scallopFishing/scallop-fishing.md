@@ -1,5 +1,5 @@
 ---
-title: Coastal Scallop Fishing, Shetland
+title: Scallop Fishing
 location: Shetland Islands
 slug: /scallop-fishing
 date: 2017-07-24T23:00:00.000Z

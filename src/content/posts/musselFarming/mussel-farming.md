@@ -1,5 +1,5 @@
 ---
-title: Mussel Farming in the Northern Isle of Yell
+title: Mussel Farming
 location: Shetland Islands
 slug: /mussel-farming
 date: 2017-05-03T23:00:00.000Z
