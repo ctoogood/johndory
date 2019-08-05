@@ -125,7 +125,7 @@ const Feature = ( ) => (
     query={graphql`
     query FeaturedImage {
         allMarkdownRemark(limit:1
-          skip:3
+          skip:0
         sort: {fields:frontmatter___date, order:DESC}
         filter: {fileAbsolutePath: {regex: "\/posts/"}}) {
           edges {

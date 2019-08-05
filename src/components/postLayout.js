@@ -10,7 +10,6 @@ const BlogPostMain = styled.main `
     
     .blog-content {
         h2 {
-            text-align:center;
         }
     }
 `
@@ -122,18 +121,36 @@ const BlogPostContent = styled.article`
     color:#333 ;
     max-width:1200px;
     margin:auto;
+    text-align:left;
+    
+
         @media only screen and (min-width:720px) {
             padding:2rem;
             }
 
+
+
     h2 {
         color:#6e929e;
+        font-size:2rem;
+        max-width:900px;
+        margin:auto;
+        padding-bottom:3rem;
+        line-height:1.2;
     }
 
     p {
         max-width:900px;
         margin:auto;
-        text-align:center;
+        padding-bottom:1rem;
+        line-height:1.5;
+        font-size:1.2rem;
+    }
+
+    blockquote {
+        color:#6e929e;
+        font:2rem playfair display;
+        font-weight:bold;
     }
 `
 
@@ -141,13 +158,14 @@ export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
       const post = this.props.data.markdownRemark
-      const image = post.frontmatter.featuredImage.childImageSharp
+      const ogImagePath = post.frontmatter.featuredImage.childImageSharp.fluid.src
+
 
     return (
       <Layout>
             <SEO
              title={markdownRemark.frontmatter.title} 
-             image={image}
+             image={ogImagePath}
              description={post.frontmatter.description}/>
             <BlogPostMain>
             <BlogPostHeaderImage>

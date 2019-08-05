@@ -22,7 +22,10 @@ One of the main changes that had been made to the bakery was the addition of fre
 ![bread dough ready for baking](/images/waas-bakery-scene-4.jpg)
 
 ```
+
+```grid|1
 ![Freshly scored bread dough](/images/waas-bakery-scene-1.jpg)
+```
 
 ```grid|2
 ![baker checking bread in the oven](/images/waas-bakery-scene-6.jpg)
@@ -46,7 +49,10 @@ Fresh doughnuts are now being made and the smell throughout the air becomes even
 ![Doughnut batter being prepared](/images/waas-bakery-scene-14.jpg)
 ![Doughnut batter being prepared](/images/waas-bakery-scene-16.jpg)
 ```
+
+```grid|1
 ![Doughnut batter being prepared](/images/waas-bakery-scene-17.jpg)
+```
 
 There is a rush as orders are assembled in the packing room and more fresh bread is supplied from the oven.  Once packaged, the products are placed in trays for the corresponding customer.  As orders are completed, the overfilled trays are stacked in the end room of the bakery and placed in the back of the delivery van.  The van doors are closed, and it pulls away.  The tempo lowers slightly but everyone swiftly moves on to their next task.
 
@@ -56,7 +62,10 @@ Throughout the rest of the morning the activity continues, as numerous tasks are
 ![](/images/waas-bakery-scene-15.jpg)
 ![](/images/waas-bakery-scene-13.jpg)
 ```
+
+```grid|
 ![](/images/waas-bakery-scene-5.jpg)
+```
 
 ```grid|2
 ![](/images/waas-bakery-scene-22.jpg)
@@ -72,7 +81,10 @@ Throughout the rest of the morning the activity continues, as numerous tasks are
 ![](/images/waas-bakery-scene-34.jpg)
 ![](/images/waas-bakery-scene-40.jpg)
 ```
+
+```grid|
 ![](/images/waas-bakery-scene-48.jpg)
+```
 
 ```grid|2
 ![](/images/waas-bakery-scene-49.jpg)

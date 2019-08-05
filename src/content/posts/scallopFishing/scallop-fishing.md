@@ -25,7 +25,9 @@ When back ashore the sacks of scallops will be collected by companies for proces
 ![Crew working with scallop dredges](/images/scallop-fishing-shetland-001.jpg)
 ```
 
+```grid|1
 ![Crew emptying scallop dredges](/images/scallop-fishing-shetland-002.jpg)
+```
 
 ```grid|2
 ![Collecting scallops from the deck](/images/scallop-fishing-shetland-003.jpg)
@@ -45,11 +47,17 @@ When back ashore the sacks of scallops will be collected by companies for proces
 ![Crew collecting scallops from the deck](/images/scallop-fishing-shetland-009.jpg)
 ```
 
+```grid|1
 ![scallop dredges being winched in](/images/scallop-fishing-shetland-010.jpg)
+```
 
+```grid|1
 ![scallops in baskets](/images/scallop-fishing-shetland-012.jpg)
+```
 
+```grid|1
 ![side of scallop boat](/images/scallop-fishing-shetland-013.jpg)
+```
 
 ```grid|2
 ![crew collecting scallops](/images/scallop-fishing-shetland-014.jpg)
@@ -63,4 +71,6 @@ When back ashore the sacks of scallops will be collected by companies for proces
 ![crew emptying scallop dredge](/images/scallop-fishing-shetland-019.jpg)
 ```
 
+```grid|1
 ![detailed view of scallop dredge](/images/scallop-fishing-shetland-020.jpg)
+```

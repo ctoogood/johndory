@@ -37,16 +37,18 @@ As the light faded Scombrus headed for Lerwick to land their catch.  The vessel 
 
 ![Mackerel on the lines](/images/long-lining-006.jpg)
 ```
-
+```grid|1
 ![Mackerel in a chute](/images/long-lining-004.jpg)
+```
 
 ```grid|2
 ![Crewman in the wheelhouse](/images/long-lining-009.jpg)
 
 ![Crewmen operating winches](/images/long-lining-008.jpg)
 ```
-
+```grid|1
 ![Long lining vessel at sea](/images/long-lining-007.jpg)
+```
 
 ```grid|2
 ![Crewman operating winches](/images/long-lining-010.jpg)

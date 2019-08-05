@@ -34,15 +34,18 @@ Much of this mackerel will be processed and packaged in tins for distribution to
 ![Crewman operating crane](/images/pelagic-fishing-003.jpg)
 ```
 
+```grid|1
 ![Fishing net in front of crew](/images/pelagic-fishing-004.jpg)
+```
 
 ```grid|2
 ![Trawler doors emerging from the sea](/images/pelagic-fishing-006.jpg)
 
 ![Fishing net emerging from the sea](/images/pelagic-fishing-007.jpg)
 ```
-
+```grid|1
 ![Pelagic boat on the horizon](/images/pelagic-fishing-008.jpg)
+```
 
 ```grid|2
 ![Crewman checking tanks](/images/pelagic-fishing-009.jpg)
@@ -50,7 +53,9 @@ Much of this mackerel will be processed and packaged in tins for distribution to
 ![mackerel](/images/pelagic-fishing-010.jpg)
 ```
 
+```grid|1
 ![Ship's bow](/images/pelagic-fishing-017.jpg)
+```
 
 ```grid|2
 ![tank overflowing with mackerel](/images/pelagic-fishing-011.jpg)
@@ -70,7 +75,9 @@ Much of this mackerel will be processed and packaged in tins for distribution to
 ![pelagic vessel at sea](/images/pelagic-fishing-016.jpg)
 ```
 
+```grid|1
 ![Vessel alongside in Denmark](/images/pelagic-fishing-018.jpg)
+```
 
 ```grid|2
 ![ship's bow alongside](/images/pelagic-fishing-020.jpg)
@@ -78,5 +85,6 @@ Much of this mackerel will be processed and packaged in tins for distribution to
 ![Mackerel is pumped into the back of large trailers](/images/pelagic-fishing-022.jpg)
 ```
 
+```grid|1
 ![Mackerel is pumped into the back of large trailers](/images/pelagic-fishing-021.jpg)
-
+```

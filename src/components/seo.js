@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, image, keywords, title }) {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
-        const metaDescription =
-          description || data.site.siteMetadata.description
+        const seoImage = `${data.site.siteMetadata.siteUrl}${image || data.file.childImageSharp.fluid.src}`;
+        const metaDescription = description || data.site.siteMetadata.description
         return (
           <Helmet
             htmlAttributes={{
@@ -23,6 +23,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                property:`og:url`,
+                content:"https://www.johndory.uk",
+              },
+              {
                 property: `og:title`,
                 content: title,
               },
@@ -31,12 +35,24 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                property:`og:image`,
+                content:seoImage,
+              },
+              {
+                property:`og:image:width`,
+                content:"1200"
+              },
+              {
+                property:`og:image:height`,
+                content:"630"
+              },
+              {
                 property: `og:type`,
                 content: `website`,
               },
               {
                 name: `twitter:card`,
-                content: `summary`,
+                content: `summary_large_image`,
               },
               {
                 name: `twitter:creator`,
@@ -49,6 +65,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription,
+              },
+              {
+                name: `twitter:image`,
+                content: seoImage,
               },
             ]
               .concat(
@@ -70,7 +90,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
+  keywords: ["food", "drink", "blog", "produce", "culinary"],
 }
 
 SEO.propTypes = {
@@ -84,13 +104,22 @@ SEO.propTypes = {
 export default SEO
 
 const detailsQuery = graphql`
-  query DefaultSEOQuery {
-    site {
-      siteMetadata {
-        title
-        description
-        author
+query DefaultSEOQuery {
+  site {
+    siteMetadata {
+      title
+      description
+      author
+      image
+      siteUrl
+    }
+  }
+  file(relativePath: { eq: "IMG_0315.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 2400) {
+        src
       }
     }
   }
+}
 `

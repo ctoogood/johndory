@@ -102,7 +102,7 @@ const PostsListContainer = styled.section `
         button {
           border: 1px solid #d2a193;
           padding: .1rem 1rem;
-          margin-top: 1rem;
+          margin-top: 2.5rem;
           color:#d2a193;
           text-decoration: none;
           background: none;

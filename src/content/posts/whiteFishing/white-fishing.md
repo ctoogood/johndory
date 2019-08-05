@@ -19,7 +19,9 @@ This series of images is the outcome of a succession of trips aboard local white
 ![Crew at bow](./images/white-fishing-003.jpg)
 ```
 
+```grid|1
 ![Net full of fish](./images/white-fishing-002.jpg)
+```
 
 ```grid|2
 ![Fisherman's legs on gunwhales](./images/white-fishing-006.jpg)
@@ -39,7 +41,9 @@ This series of images is the outcome of a succession of trips aboard local white
 ![Net being winched in](./images/white-fishing-011.jpg)
 ```
 
+```grid|1
 ![Stormy seas view from wheelhouse](./images/white-fishing-019.jpg)
+```
 
 ```grid|2
 ![Fishermen sorting net](./images/white-fishing-021.jpg)
@@ -47,7 +51,9 @@ This series of images is the outcome of a succession of trips aboard local white
 ![Fishing boat deck view](./images/white-fishing-023.jpg)
 ```
 
+```grid|1
 ![Tying the knot in the end of the net](./images/white-fishing-024.jpg)
+```
 
 ```grid|2
 ![Wheelhouse](./images/white-fishing-025.jpg)
@@ -55,7 +61,9 @@ This series of images is the outcome of a succession of trips aboard local white
 ![Net full of fish alongside boat](./images/white-fishing-028.jpg)
 ```
 
+```grid|1
 ![Fisherman operating crane](./images/white-fishing-027.jpg)
+```
 
 ```grid|2
 ![Boxes of fish being landed](./images/white-fishing-031.jpg)

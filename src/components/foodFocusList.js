@@ -90,7 +90,7 @@ const FeaturedListContainer = styled.section `
         button {
           border: 1px solid #d2a193;
           padding: .1rem 1rem;
-          margin-top: 1rem;
+          margin-top: 2.5rem;
           color:#d2a193;
           text-decoration: none;
           background: none;
@@ -182,7 +182,7 @@ const FoodFocusList = ( ) => (
               <Featured>
                 <Link classname="link" to={`/features${edge.node.frontmatter.slug}`}>
                 <div className="image-container">
-                  <Img fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
+                  <Img className="post-image" fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
                 </div>
                 </Link>
                 <div className="text-container">

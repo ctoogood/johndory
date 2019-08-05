@@ -23,7 +23,9 @@ The mussels are grown on a series of ropes whch hang down from large plastic flo
 ![Basta Voe landscape](/images/mussel-farming-14.jpg)
 ```
 
+```grid|1
 ![Workboat arriving at mussel floats](/images/mussel-farming-15.jpg)
+```
 
 ```grid|2
 ![Skipper at the boats wheel](/images/mussel-farming-3.jpg)
@@ -37,7 +39,9 @@ The mussels are grown on a series of ropes whch hang down from large plastic flo
 ![Mussels on a line](/images/mussel-farming-6.jpg)
 ```
 
+```grid|1
 ![Mussels in water](/images/mussel-farming-7.jpg)
+```
 
 ```grid|2
 ![Crew sorting mussels on deck](/images/mussel-farming-10.jpg)
@@ -47,8 +51,9 @@ The mussels are grown on a series of ropes whch hang down from large plastic flo
 
 The following day I attended the factory where the mussels are processed, in nearby Cullivoe. Here I met Chris and his team, and watched as they hand selected mussels which passed through on a conveyor and were then bagged, boxed, iced, and palletised for shipping.
 
-
+```grid|1
 ![Mussels being tipped onto the conveyor](/images/mussel-farming-24.jpg)
+``
 
 ```grid|2
 ![Mussels on conveyor in factory](/images/mussel-farming-20.jpg)
@@ -56,7 +61,9 @@ The following day I attended the factory where the mussels are processed, in nea
 ![Worker checking mussels](/images/mussel-farming-21.jpg)
 ```
 
+```grid|1
 ![Worker checking mussels](/images/mussel-farming-23.jpg)
+```
 
 ```grid|2
 ![Mussels being bagged](/images/mussel-farming-16.jpg)
