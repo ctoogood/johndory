@@ -88,13 +88,13 @@ export default class FoodFocusLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
       const post = this.props.data.markdownRemark
-      const image = post.frontmatter.featuredImage.childImageSharp
+      const ogImagePath = post.frontmatter.featuredImage.childImageSharp.fluid.src
 
     return (
       <Layout>
             <SEO
              title={markdownRemark.frontmatter.title} 
-             image={image}
+             image={ogImagePath}
              description={post.frontmatter.description}/>
             <BlogPostMain>
             <BlogPostHeaderImage>

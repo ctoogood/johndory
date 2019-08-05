@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 
+import twitter from '../content/images/twitter-logo-silhouette.svg'
+import instagram from '../content/images/instagram-logo.svg'
+
 const HeaderWrapper = styled.div`
   background:white;
   padding-bottom:.1rem;
@@ -30,6 +33,19 @@ const SubheaderText = styled.h4`
   font-family: Playfair Display;
 `
 
+const Social = styled.div `
+  position:absolute;
+  right:7rem;
+  bottom:1rem;
+
+
+
+  img {
+    width:20px;
+    margin:1rem;
+  }
+`
+
 const Header = ({ siteTitle, siteSubtitle }) => (
   <HeaderWrapper>
     <HeaderContainer>
@@ -44,6 +60,10 @@ const Header = ({ siteTitle, siteSubtitle }) => (
           <SubheaderText style={{color:`#ab4f34`}}><em>{siteSubtitle}</em></SubheaderText>
         </Link>
       </HeaderContainer>
+      <Social>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/thejohndoryuk"><img src={twitter} alt="twitter logo" /></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/johndoryuk/"><img src={instagram} alt="instagram logo" /></a>
+      </Social>
   </HeaderWrapper>
 )
 

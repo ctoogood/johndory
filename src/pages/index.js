@@ -172,7 +172,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <SEO title="Home" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
+        <SEO title="The John Dory" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
         <HeaderImage />
         <Feature />
         <PostsListContainer>
