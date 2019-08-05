@@ -5,6 +5,7 @@ slug: /butteries
 date: 2019-06-12
 featuredImage: ./images/butteries-001.jpg
 category: feature
+description: Butteries are a kind of bread roll, originating from North-East Scotland, with a flakey texture and salty taste.
 ---
 
 Butteries are a kind of bread roll, originating from North-East Scotland, with a flakey texture and salty taste.

@@ -5,6 +5,7 @@ slug: /oatcakes
 date: 2019-06-13
 featuredImage: ./images/oatcakes-009.jpg
 category: feature
+description: Oatcakes have been a Scottish staple for centuries(first documented in around AD43).  They were made as an alternative to bread that would last much longer without going stale.
 ---
 Oatcakes have been a Scottish staple for centuries(first documented in around AD43).  They were made as an alternative to bread that would last much longer without going stale.
 

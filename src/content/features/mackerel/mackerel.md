@@ -5,6 +5,7 @@ slug: /mackerel
 date: 2019-06-10
 featuredImage: ./images/mackerel-001.jpg
 category: feature
+description: Mackerel is a hugely popular, oily fish which has a distinctive shiny and striped body.  It can be caught in abundance during its migration as they travel in huge shoals. 
 ---
 Mackerel is a hugely popular, oily fish which has a distinctive shiny and striped body.  It can be caught in abundance during its migration as they travel in huge shoals. 
 

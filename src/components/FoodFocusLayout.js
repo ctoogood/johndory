@@ -127,6 +127,7 @@ export const query = graphql `
             location
             date(formatString: "MMMM DD, YYYY" )
             slug
+            description
             featuredImage {
                 childImageSharp {
                   fluid(maxWidth:1600) {
