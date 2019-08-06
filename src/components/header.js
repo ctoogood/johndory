@@ -31,12 +31,17 @@ const HeaderText = styled.h1`
 
 const SubheaderText = styled.h4`
   font-family: Playfair Display;
+  @media only screen and (max-width:720px) {
+  margin:0;
+  }
 `
 
 const Social = styled.div `
+@media only screen and (min-width:720px) {
   position:absolute;
   right:7rem;
   bottom:1rem;
+}
 
 
 
