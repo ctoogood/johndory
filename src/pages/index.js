@@ -44,6 +44,13 @@ const Post = styled.article`
             font-weight:normal;
             margin-bottom:10px;
         }
+
+        h5 {
+          margin-left:0.1rem;
+          font-family:playfair display;
+          margin-bottom:0;
+        }
+
         p {
             font-size:0.8rem;
         }
@@ -188,6 +195,7 @@ class Index extends React.Component {
           
           <div className="title-container">
             <h2>{node.frontmatter.title}</h2>
+            <h5><em>{node.frontmatter.location}</em></h5>
             <hr />
             <h3>{node.frontmatter.description}</h3>
           </div>

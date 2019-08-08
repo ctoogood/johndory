@@ -5,6 +5,9 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 import SEO from './seo'
 
+import twitterIcon from '../content/images/twitter.svg'
+import fbIcon from '../content/images/facebook.svg'
+
 
 const BlogPostMain = styled.main `
     
@@ -87,7 +90,7 @@ const BlogPostTitle = styled.div`
             color:#d2a193;
             opacity:0.9;
             font-size:.8rem;
-            font-family:montserrat;
+            font-family:playfair display;
             padding:0.5rem;
             position:relative;
             right:0;
@@ -102,7 +105,7 @@ const BlogPostTitle = styled.div`
         h4 {
             opacity:0.8;
             color:#d2a193;
-            font-family:montserrat;
+            font-family:playfair display;
             padding:1rem;
             padding-left:0;
             margin:0;
@@ -154,6 +157,34 @@ const BlogPostContent = styled.article`
     }
 `
 
+const ShareIcons = styled.section `
+    width:100%;
+    margin-bottom:2rem;
+
+    h3 {
+        text-align:center;
+        font-family:playfair display;
+        font-weight:400;
+        font-size:2rem;
+    }
+
+    ul {
+        margin:auto;
+        text-align:center;
+
+
+    }
+    li {
+        display:inline;
+    }
+    img {
+        max-width:50px;
+        margin-left:2rem;
+        margin-right:2rem;
+        margin-bottom:2rem;
+    }
+`
+
 export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
@@ -176,13 +207,28 @@ export default class postLayout extends Component {
                 <BlogPostTitle>
                     <h4>{ markdownRemark.frontmatter.date}</h4>
                     <h1>{ markdownRemark.frontmatter.title }</h1>
-                    <h2>{ markdownRemark.frontmatter.location}</h2>
+                    <h2><em>{ markdownRemark.frontmatter.location}</em></h2>
                 </BlogPostTitle>
             </BlogPostHeaderImage>
         <BlogPostHeader />
         <BlogPostContent className="blog-content" dangerouslySetInnerHTML = { {
             __html: markdownRemark.html
          } } />
+         <ShareIcons>
+            <h3>Share</h3>
+            <ul>
+                <li>
+                    <a href={`https://www.facebook.com/sharer/sharer.php?u=https://www.johndory.uk${post.frontmatter.slug}`} target="_blank" rel="noopener noreferrer">
+                        <img src={fbIcon} alt="facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href={`https://twitter.com/intent/tweet/?text=${post.frontmatter.title}&url=https://www.johndory.uk${post.frontmatter.slug}`} target="blank" rel="noopener noreferrer">
+                        <img src={twitterIcon} alt="twitter" />
+                    </a>
+                </li>
+            </ul>
+        </ShareIcons>
          </BlogPostMain>
       </Layout>
     )

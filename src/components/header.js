@@ -26,13 +26,19 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderText = styled.h1`
-  
+  font-size:1.5rem;
+  @media only screen and (min-width:720px) {
+    font-size:2rem;
+  }
 `
 
 const SubheaderText = styled.h4`
   font-family: Playfair Display;
-  @media only screen and (max-width:720px) {
+  font-size:1rem;
   margin:0;
+  @media only screen and (min-width:720px) {
+    font-size:1.2rem;
+    margin-bottom:1rem;
   }
 `
 
@@ -46,8 +52,12 @@ const Social = styled.div `
 
 
   img {
-    width:20px;
-    margin:1rem;
+    width:10px;
+    margin:0.5rem;
+    @media only screen and (min-width:720px) {
+      margin:1rem;
+      width:20px;
+    }
   }
 `
 

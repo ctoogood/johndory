@@ -22,7 +22,7 @@ const BlogPostHeaderImage = styled.section`
     border-bottom:.5rem solid #d2a193;
     
         @media only screen and (min-width:720px) {
-            height:80vh;
+            height:65vh;
             }
 
     Img {

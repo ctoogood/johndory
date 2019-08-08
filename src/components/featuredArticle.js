@@ -35,7 +35,7 @@ const FeaturedContainer = styled.div `
       text-align:left;
     }
 
-    h2, h3, h4 {
+    h2, h3, h4, h5 {
       font-family:playfair display;
     }
 
@@ -49,6 +49,7 @@ const FeaturedContainer = styled.div `
 
     h2 {
       margin-top:0.5rem;
+      margin-bottom:0;
       color:#565555;
       font-weight:bold;
 
@@ -63,6 +64,10 @@ const FeaturedContainer = styled.div `
       @media only screen and (min-width:1100px) {
         display:block;
       }
+    }
+
+    h5 {
+      margin-left:0.1rem;
     }
 
     button {
@@ -125,7 +130,7 @@ const Feature = ( ) => (
     query={graphql`
     query FeaturedImage {
         allMarkdownRemark(limit:1
-          skip:3
+          skip:0
         sort: {fields:frontmatter___date, order:DESC}
         filter: {fileAbsolutePath: {regex: "\/posts/"}}) {
           edges {
@@ -133,6 +138,7 @@ const Feature = ( ) => (
               frontmatter {
                 title
                 description
+                location
                 slug
                 featuredImage {
                   childImageSharp {
@@ -162,6 +168,7 @@ const Feature = ( ) => (
                   <hr />
                   <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}>
                   <h2>{edge.node.frontmatter.title}</h2>
+                  <h5><em>{edge.node.frontmatter.location}</em></h5>
                   </Link>
                   <h4>{edge.node.frontmatter.description}</h4>
                   <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}><button>View Post</button></Link>

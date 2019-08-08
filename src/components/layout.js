@@ -8,7 +8,6 @@ import './layout.css'
 import Footer from './footer'
 
 const Main = styled.main `
-  
 `
 
 

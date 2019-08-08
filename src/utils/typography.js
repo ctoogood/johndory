@@ -20,6 +20,8 @@ const typography = new Typography({
       styles: [
         '400',
         '400i',
+        '700',
+        '900',
       ],
     },
   ],
