@@ -218,12 +218,12 @@ export default class postLayout extends Component {
             <h3>Share</h3>
             <ul>
                 <li>
-                    <a href={`https://www.facebook.com/sharer/sharer.php?u=https://www.johndory.uk${post.frontmatter.slug}`} target="_blank" rel="noopener noreferrer">
+                    <a href={`https://www.facebook.com/sharer/sharer.php?u=https://www.johndory.uk/posts${post.frontmatter.slug}`} target="_blank" rel="noopener noreferrer">
                         <img src={fbIcon} alt="facebook" />
                     </a>
                 </li>
                 <li>
-                    <a href={`https://twitter.com/intent/tweet/?text=${post.frontmatter.title}&url=https://www.johndory.uk${post.frontmatter.slug}`} target="blank" rel="noopener noreferrer">
+                    <a href={`https://twitter.com/intent/tweet/?text=${post.frontmatter.title}&url=https://www.johndory.uk/posts${post.frontmatter.slug}`} target="blank" rel="noopener noreferrer">
                         <img src={twitterIcon} alt="twitter" />
                     </a>
                 </li>
