@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "react-helmet"
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import styled from 'styled-components'
@@ -179,6 +180,9 @@ class Index extends React.Component {
 
     return (
       <Layout>
+        <Helmet>
+          <meta name="p:domain_verify" content="292f8a827f24bff0a8377677d0604f66"/>
+        </Helmet>
         <SEO title="The John Dory" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
         <HeaderImage />
         <Feature />
