@@ -101,7 +101,7 @@ const Post = styled.article`
 
 const PostsListContainer = styled.section `
         position:relative;
-        padding-top:5rem;
+        padding-top:3rem;
         margin-top:1rem;
         margin-bottom:3rem;
         text-align:center;
@@ -110,7 +110,7 @@ const PostsListContainer = styled.section `
         button {
           border: 1px solid #d2a193;
           padding: .1rem 1rem;
-          margin-top: 2.5rem;
+          margin-top: 0;
           color:#d2a193;
           text-decoration: none;
           background: none;
@@ -141,6 +141,7 @@ const PostsList = styled.div`
             grid-template-columns:1fr 1fr;
             grid-gap:3rem;
             margin:auto;
+            padding:2rem;
 
         }
         @media only screen and (min-width:1100px) {
@@ -165,7 +166,6 @@ const PostsList = styled.div`
 
 const FoodFocusSection = styled.section `
       border-top: 0.5rem solid #d2a193;
-      border-bottom: 0.5rem solid #6e929e;
 
 `
 
@@ -226,7 +226,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
+      limit: 6
       skip: 0
       filter: {fileAbsolutePath: {regex: "\/posts/"}}
     ) {

@@ -159,8 +159,8 @@ const BlogPostContent = styled.article`
 
 const ShareIcons = styled.section `
     width:100%;
-    margin-bottom:2rem;
-
+    padding-bottom:2rem;
+    
     h3 {
         text-align:center;
         font-family:playfair display;

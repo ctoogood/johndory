@@ -8,6 +8,13 @@ import './layout.css'
 import Footer from './footer'
 
 const Main = styled.main `
+  
+`
+
+const Content = styled.section `
+  max-width:1200px;
+  margin:auto;
+  box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
 `
 
 
@@ -28,7 +35,7 @@ const Layout = ({ children }) => (
       <>
         <Main>
         <Header siteTitle={data.site.siteMetadata.title} siteSubtitle={data.site.siteMetadata.subtitle} />
-        <div
+        <Content
           style={{
             margin: `0 auto`,
             paddingTop: 0,
@@ -38,8 +45,9 @@ const Layout = ({ children }) => (
           
           
     
-          <Footer />
-        </div>
+        </Content>
+        <Footer />
+
         </Main>
       </>
     )}

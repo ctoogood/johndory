@@ -90,7 +90,7 @@ const FeaturedListContainer = styled.section `
         button {
           border: 1px solid #d2a193;
           padding: .1rem 1rem;
-          margin-top: 2.5rem;
+          margin-top: 0;
           color:#d2a193;
           text-decoration: none;
           background: none;
@@ -122,6 +122,7 @@ const FeaturedList = styled.div`
             margin:auto;
             margin-top:3rem;
             max-width:1200px;
+            padding:2rem;
 
         }
         @media only screen and (min-width:1100px) {
