@@ -51,6 +51,13 @@ module.exports = {
         name:'features'
       },
     },
+
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: '<form action="https://gmail.us3.list-manage.com/subscribe/post?u=c56f20fb1d3467f23805562a0&amp;id=ef1881d279" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>', // add your MC list endpoint here; see instructions below
+      },
+    },
     
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
@@ -72,6 +79,18 @@ module.exports = {
                 margin: "20px auto",
             },
         },
+
+        {
+          resolve: "gatsby-remark-embed-video",
+          options: {
+            width: 1000,
+            ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+            related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+            noIframeBorder: true //Optional: Disable insertion of <style> border: 0
+          }
+        },
+        
+        `gatsby-remark-responsive-iframe`,
    
           {
             resolve: `gatsby-remark-images`,

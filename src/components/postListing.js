@@ -68,6 +68,13 @@ const Post = styled.article`
             font-weight:normal;
             margin-bottom:10px;
         }
+
+        h5 {
+          margin-left:0.1rem;
+          font-family:playfair display;
+          margin-bottom:0;
+        }
+        
         p {
             font-size:0.8rem;
         }
@@ -135,6 +142,7 @@ const PostListing = () => (
           
           <div className="title-container">
             <h2>{edges.node.frontmatter.title}</h2>
+            <h5><em>{edges.node.frontmatter.location}</em></h5>
             <hr />
             <h3>{edges.node.frontmatter.description}</h3>
           </div>
@@ -168,6 +176,7 @@ query PostListingQuery {
           title
           date(formatString: "MMMM DD, YYYY" )
           slug
+          location
           description
           featuredImage {
             childImageSharp {
