@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import SEO from './seo'
-import Email from './email'
 
 import twitterIcon from '../content/images/twitter.svg'
 import fbIcon from '../content/images/facebook.svg'
@@ -268,7 +267,6 @@ export default class postLayout extends Component {
                 </li>
             </ul>
         </ShareIcons>
-        <Email />
          </BlogPostMain>
       </Layout>
     )
