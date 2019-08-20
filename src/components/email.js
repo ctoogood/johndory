@@ -68,7 +68,7 @@ border-top: 0.5rem solid #6e929e;
 const Email = () => (
     <FormContainer >
         <h3>New Stories Direct To Your Inbox</h3>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="/formSuccess">
         <p>
             <label>Your Email:<br /> <input type="email" name="email" /></label>
         </p>
