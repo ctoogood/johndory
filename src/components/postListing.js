@@ -2,6 +2,7 @@ import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 import styled from 'styled-components'
 import Img from "gatsby-image"
+import Email from './email'
 
 const PostGrid = styled.section `
 position:relative;
@@ -151,6 +152,7 @@ const PostListing = () => (
       
         ))}
         </PostGrid>
+        <Email />
         </PostList>
       </>
     )}
