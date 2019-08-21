@@ -69,6 +69,7 @@ const Email = () => (
     <FormContainer >
         <h3>New Stories Direct To Your Inbox</h3>
         <form name="contact" method="POST" data-netlify="true" action="/formSuccess">
+        <input type="hidden" name="bot-field" />
         <p>
             <label>Your Email:<br /> <input type="email" name="email" /></label>
         </p>
