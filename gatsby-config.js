@@ -4,7 +4,7 @@ module.exports = {
     subtitle: `Culinary Tales`,
     description: `Stories about great local food and drink - Photography, Videos, Food Journalism`,
     author: `Calum Toogood`,
-    siteUrl: 'https://wonderful-booth-7f5bf9.netlify.com/',
+    siteUrl: 'https://www.johndory.uk',
     image: "https://res.cloudinary.com/dhat0b0ey/image/upload/v1544373582/johndory/General/IMG_0315.jpg",
     twitterUsername:"@thejohndoryuk",
     keywords: "food, drink, blog, produce, culinary"
