@@ -7,8 +7,6 @@ import SEO from '../components/seo'
 import Feature from '../components/featuredArticle'
 import Img from 'gatsby-image'
 import HeaderImage from '../components/headerImage'
-import FoodFocusList from '../components/foodFocusList'
-import FoodFocusFeature from "../components/FoodFocusFeature";
 import Email from '../components/email'
 
 
@@ -211,10 +209,7 @@ class Index extends React.Component {
         <Link to="/posts"><button>View All</button></Link>
         </PostsListContainer>
         <Email />
-        <FoodFocusSection>
-          <FoodFocusFeature />
-          <FoodFocusList />
-        </FoodFocusSection>
+        
         
         
   </Layout>
