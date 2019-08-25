@@ -142,7 +142,7 @@ const Feature = ( ) => (
                 slug
                 featuredImage {
                   childImageSharp {
-                    fluid(maxWidth:1400) {
+                    fluid(maxWidth:800) {
                       ...GatsbyImageSharpFluid
                     } 
                   }

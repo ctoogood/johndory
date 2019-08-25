@@ -182,7 +182,7 @@ query PostListingQuery {
           description
           featuredImage {
             childImageSharp {
-              fluid(maxWidth:800) {
+              fluid(maxWidth:400) {
                 ...GatsbyImageSharpFluid
               }
             }

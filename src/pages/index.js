@@ -162,11 +162,6 @@ const PostsList = styled.div`
       }
 `
 
-const FoodFocusSection = styled.section `
-      border-top: 0.5rem solid #d2a193;
-
-`
-
 
 class Index extends React.Component {
 
@@ -236,7 +231,7 @@ export const pageQuery = graphql`
             slug
             featuredImage {
               childImageSharp {
-                fluid(maxWidth:1600) {
+                fluid(maxWidth:400) {
                   ...GatsbyImageSharpFluid
               }
             }

@@ -62,7 +62,7 @@ const HeaderImage = () => (
         query {
          headerImage: file(relativePath: { eq: "IMG_0315.jpg" }) {
             childImageSharp {
-              fluid(maxWidth: 2400) {
+              fluid(maxWidth: 1200) {
                 ...GatsbyImageSharpFluid
               }
             }
