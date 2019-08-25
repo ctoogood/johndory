@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The John Dory`,
     subtitle: `Culinary Tales`,
-    description: `Stories about great local food and drink - Photography, Videos, Food Journalism`,
+    description: `Stories about great local food and drink - Photography & Food Journalism`,
     author: `Calum Toogood`,
     siteUrl: 'https://www.johndory.uk',
     image: "https://res.cloudinary.com/dhat0b0ey/image/upload/v1544373582/johndory/General/IMG_0315.jpg",
