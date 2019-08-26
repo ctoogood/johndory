@@ -4,7 +4,9 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import SEO from './seo'
-import Email from './email';
+import Email from './email'
+import { DiscussionEmbed } from 'disqus-react'
+
 
 
 import twitterIcon from '../content/images/twitter.svg'
@@ -222,13 +224,23 @@ const FeaturedContainer = styled.div `
     color:inherit;
   }
 `
+const Comments = styled.section `
+    padding:1rem;
+`
 
 export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
       const post = this.props.data.markdownRemark
       const ogImagePath = post.frontmatter.featuredImage.childImageSharp.fluid.src
+      const title = post.frontmatter.title;
+      const slug = post.frontmatter.slug;
 
+      const disqusShortname = 'the-john-dory';
+      const disqusConfig = { 
+        shortname: 'the-john-dory',
+        config: { identifier: slug, title: title },
+       }
 
     return (
       <Layout>
@@ -270,6 +282,9 @@ export default class postLayout extends Component {
             </ul>
         </ShareIcons>
         <Email />
+        <Comments id="comments">
+            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+        </Comments>
          </BlogPostMain>
       </Layout>
     )
