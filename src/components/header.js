@@ -13,7 +13,7 @@ const HeaderWrapper = styled.div`
   position:sticky;
   left:0;
   top:0;
-  z-index:2;
+  z-index:100;
   box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
 
 `;
