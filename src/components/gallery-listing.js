@@ -287,7 +287,7 @@ class GalleryListing extends React.Component {
             <Link className="listingList" to="gallery/category/in-action"><em>In Action</em></Link>
           </button>
           <button>
-            <Link className="listingList" to="gallery/category/for-sale"><em>On Display</em></Link>
+            <Link className="listingList" to="gallery/category/on-display"><em>On Display</em></Link>
           </button>
           <button>
             <Link className="listingList" to="gallery/category/on-the-table"><em>On The Table</em></Link>

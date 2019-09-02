@@ -53,7 +53,7 @@ padding-top:2rem;
 
             @media only screen and (min-width:720px) {
                 position:absolute;
-                top:-18px;
+                top:-17px;
                 right:0;
               }
               

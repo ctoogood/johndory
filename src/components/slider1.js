@@ -41,6 +41,8 @@ const ContentSlider = styled.section `
     z-index:10;
     background-color:black;
     height:75vh;
+    min-height:400px;
+
 
 
 
@@ -49,6 +51,7 @@ const ContentSlider = styled.section `
     Img {
       filter:opacity(0.8);
       height:75vh;
+      min-height:400px;
       overflow:visible;
 
       border-bottom: 0.5rem solid #d2a193;
@@ -133,6 +136,7 @@ const SimpleSlider = () => (
         <ContentSlider>
         <Slider {...settings} className="SliderContainer" style={{
             height:`75vh`,
+            minHeight:`400px`,
         }}>
         {allMarkdownRemark.edges.map(edges => (
         <div className="content" key={edges.node.frontmatter.slug}>
