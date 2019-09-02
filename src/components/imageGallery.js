@@ -166,7 +166,7 @@ const ImageGallery = () => (
         {allMarkdownRemark.edges.map(edges => (
           
           <Post key={edges.node.frontmatter.slug}>
-          <Link to={`/posts${edges.node.frontmatter.slug}`}>
+          <Link to={`/gallery${edges.node.frontmatter.slug}`}>
 
           <div className="image-container">
               <Img className="post-image" fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid} />

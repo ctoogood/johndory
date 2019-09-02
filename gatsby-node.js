@@ -75,7 +75,7 @@ exports.createPages = ( { graphql, actions} ) => {
 
               features.forEach(({node}) => {
                 createPage({
-                    path: `/features${node.frontmatter.slug}`,
+                    path: `/posts${node.frontmatter.slug}`,
                     component: path.resolve('./src/components/featureLayout.js'),
                     context: {
                         slug:node.frontmatter.slug,
@@ -105,7 +105,7 @@ exports.createPages = ( { graphql, actions} ) => {
                 const next = arr[index + 1]
           
                 createPage({
-                  path: `/posts${post.node.frontmatter.slug}`,
+                  path: `/gallery${post.node.frontmatter.slug}`,
                   component: path.resolve('./src/components/postLayout.js'),
                   context: {
                     slug: post.node.frontmatter.slug,

@@ -244,7 +244,7 @@ class GalleryListing extends React.Component {
           {posts.map(({ node }) => {
             return (
             <Post key={node.frontmatter.slug} >
-                <Link to={`/posts${node.frontmatter.slug}`}>
+                <Link to={`/gallery${node.frontmatter.slug}`}>
 
                 <div className="image-container">
                     <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />

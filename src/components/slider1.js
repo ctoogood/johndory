@@ -144,10 +144,10 @@ const SimpleSlider = () => (
           fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid}
         />
         <div className="textContainer">
-        <Link to={`features/${edges.node.frontmatter.slug}`}>
+        <Link to={`posts/${edges.node.frontmatter.slug}`}>
           <h2><em>{edges.node.frontmatter.title}</em></h2>
           </Link>
-          <Link to={`features/${edges.node.frontmatter.slug}`}>
+          <Link to={`posts/${edges.node.frontmatter.slug}`}>
           <button className="viewPost">VIEW POST</button>
           </Link>
 

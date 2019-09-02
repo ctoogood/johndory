@@ -271,13 +271,13 @@ export default class postLayout extends Component {
                   <h5><em>{markdownRemark.frontmatter.location}</em></h5>
                   <hr />
                   {prev && (
-                  <Link className="navButtons prev" to={`/posts${prev.node.frontmatter.slug}`}>
+                  <Link className="navButtons prev" to={`/gallery${prev.node.frontmatter.slug}`}>
                     {"<"} <em>Previous</em>
                   </Link>
                 )}
 
                 {next && (
-                  <Link className="navButtons next" to={`/posts${next.node.frontmatter.slug}`}>
+                  <Link className="navButtons next" to={`/gallery${next.node.frontmatter.slug}`}>
                     <em>Next</em> {">"}
                   </Link>
                 )}
