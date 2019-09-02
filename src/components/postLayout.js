@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import Layout from './layout'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import SEO from './seo'
-import Email from './email'
 import { DiscussionEmbed } from 'disqus-react'
 
 
@@ -104,7 +103,7 @@ const FeaturedContainer = styled.div `
   border-bottom: 0.5rem solid #d2a193;
   position:relative;
 
-  @media only screen and (min-width:800px) {
+  @media only screen and (min-width:900px) {
     display:grid;
     grid-template-columns:3fr 2fr;
   }
@@ -128,8 +127,19 @@ const FeaturedContainer = styled.div `
     background-color:#F8F8F8;
     width:100%;
 
-    @media only screen and (min-width:800px) {
+    @media only screen and (min-width:900px) {
       text-align:left;
+      overflow-y:scroll;
+    }
+
+    .navButtons {
+      font:1.2rem playfair display;
+      color:#6B8090;
+    }
+
+    .next {
+      margin:3rem;
+
     }
 
     h2, h3, h4, h5 {
@@ -203,14 +213,14 @@ const FeaturedContainer = styled.div `
       padding: 0;
       width:50%;
 
-      @media only screen and (min-width:800px) {
+      @media only screen and (min-width:900px) {
         margin:0;
       }
     }
     
     span {
       margin:1rem;
-      @media only screen and (min-width:800px) {
+      @media only screen and (min-width:900px) {
         position:absolute;
         top:50%;
         left:0;
@@ -235,6 +245,7 @@ export default class postLayout extends Component {
       const ogImagePath = post.frontmatter.featuredImage.childImageSharp.fluid.src
       const title = post.frontmatter.title;
       const slug = post.frontmatter.slug;
+      const { prev, next } = this.props.pageContext
 
       const disqusShortname = 'the-john-dory';
       const disqusConfig = { 
@@ -256,11 +267,24 @@ export default class postLayout extends Component {
                 <div className="text-container">
                   <span>
                   <h5><em>{markdownRemark.frontmatter.date}</em></h5>
-                  <h2>{markdownRemark.frontmatter.title}</h2>
-                  <h3><em>{markdownRemark.frontmatter.location}</em></h3>
+                  <h3>{markdownRemark.frontmatter.caption}</h3>
+                  <h5><em>{markdownRemark.frontmatter.location}</em></h5>
                   <hr />
+                  {prev && (
+                  <Link className="navButtons prev" to={`/posts${prev.node.frontmatter.slug}`}>
+                    {"<"} <em>Previous</em>
+                  </Link>
+                )}
+
+                {next && (
+                  <Link className="navButtons next" to={`/posts${next.node.frontmatter.slug}`}>
+                    <em>Next</em> {">"}
+                  </Link>
+                )}
                   </span>
+                  
                 </div>
+                
               </FeaturedContainer>
         <BlogPostHeader />
         <BlogPostContent className="blog-content" dangerouslySetInnerHTML = { {
@@ -281,7 +305,6 @@ export default class postLayout extends Component {
                 </li>
             </ul>
         </ShareIcons>
-        <Email />
         <Comments id="comments">
             <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         </Comments>
@@ -304,7 +327,7 @@ export const query = graphql `
             date(formatString: "MMMM DD, YYYY" )
             slug
             location
-            description
+            caption
             featuredImage {
                 childImageSharp {
                   fluid(maxWidth:1200) {

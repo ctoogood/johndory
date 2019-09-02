@@ -8,13 +8,12 @@ import './layout.css'
 import Footer from './footer'
 
 const Main = styled.main `
-  
+  margin:auto;
 `
 
 const Content = styled.section `
-  max-width:1200px;
   margin:auto;
-  box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
+  margin-bottom:0;
 `
 
 

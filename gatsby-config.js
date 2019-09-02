@@ -77,15 +77,7 @@ module.exports = {
       },
     },
 
-    {
-      resolve: `gatsby-plugin-pinterest`,
-      options: {
-        // Set to true to display a bigger button
-        tall: false, // default
-        // Set to true to hide the text and display only a round P button
-        round: true // default
-      }
-    },
+
 
     {
       resolve: `gatsby-source-filesystem`,
@@ -106,8 +98,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/content/features`,
-        name:'features'
+        path: `${__dirname}/src/content/gallery`,
+        name:'gallery'
       },
     },
 

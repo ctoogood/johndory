@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
+import Menu from './menu'
 
 import twitter from '../content/images/twitter-logo-silhouette.svg'
 import instagram from '../content/images/instagram-logo.svg'
@@ -10,11 +11,10 @@ const HeaderWrapper = styled.div`
   background:white;
   padding-bottom:.1rem;
   text-align:center;
-  position:sticky;
+  position:relative;
   left:0;
   top:0;
   z-index:100;
-  box-shadow: 0px 3px 10px rgba(25, 17, 34, 0.2);
 
 `;
 
@@ -74,6 +74,8 @@ const Header = ({ siteTitle, siteSubtitle }) => (
           <HeaderText style={{ margin: 0 }}>{siteTitle}</HeaderText>
           <SubheaderText style={{color:`#ab4f34`}}><em>{siteSubtitle}</em></SubheaderText>
         </Link>
+        <Menu />
+
       </HeaderContainer>
       <Social>
         <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/thejohndoryuk"><img src={twitter} alt="twitter logo" /></a>

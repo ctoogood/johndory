@@ -2,6 +2,7 @@ import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 import styled from 'styled-components'
 import Img from "gatsby-image"
+import Layout from "./layout";
 
 const PostGrid = styled.section `
 position:relative;
@@ -117,6 +118,7 @@ const Post = styled.article`
 `
 
 const FeatureListing = () => (
+  <Layout>
   <StaticQuery
     query={FEATURE_LISTING_QUERY}
     render={({allMarkdownRemark}) => (
@@ -147,6 +149,7 @@ const FeatureListing = () => (
       </>
     )}
   />
+  </Layout>
 )
 
 
@@ -160,7 +163,7 @@ query FeatureListingQuery {
     
   }
   filter: {
-    frontmatter: {category: {eq: "feature"}}
+    frontmatter: {category: {eq: "post"}}
   }) {
     edges {
       node {

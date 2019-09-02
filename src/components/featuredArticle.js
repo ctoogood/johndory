@@ -167,7 +167,7 @@ const Feature = ( ) => (
                   <h3>Featured Story</h3> 
                   <hr />
                   <Link classname="link" to={`/posts${edge.node.frontmatter.slug}`}>
-                  <h2>{edge.node.frontmatter.title}</h2>
+                  <h2><em>{edge.node.frontmatter.title}</em></h2>
                   <h5><em>{edge.node.frontmatter.location}</em></h5>
                   </Link>
                   <h4>{edge.node.frontmatter.description}</h4>

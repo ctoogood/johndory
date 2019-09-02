@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Email from '../components/email'
+
 
 const FooterContainer = styled.div`
 height:auto;
@@ -23,6 +25,7 @@ border-top: 0.5rem solid #6e929e;
 
 const Footer = () => (
     <FooterContainer >
+        <Email />
         <p>thejohndoryuk@gmail.com<br /><br />© {new Date().getFullYear()}</p>
     </FooterContainer>
   )

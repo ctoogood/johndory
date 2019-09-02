@@ -4,162 +4,126 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import styled from 'styled-components'
 import SEO from '../components/seo'
-import Feature from '../components/featuredArticle'
-import Img from 'gatsby-image'
-import HeaderImage from '../components/headerImage'
-import Email from '../components/email'
+import SimpleSlider from '../components/slider1'
+import ImageGallery from '../components/imageGallery'
 
 
 
-const Post = styled.article`
-        position:relative;
-        overflow:hidden;
-        transition:all .2s ease-in-out;
-        font-family: Playfair Display;
-        margin:1rem;
-        margin-bottom:8rem;
 
-        @media only screen and (min-width:720px) {
-          margin:0;
-        }
-        
-        a {
-            color:#115974;
-            text-decoration:none;
-        }
-        h2 {
-            margin-bottom:0;
-            margin-top:1rem;
-            font-weight:bold;
-            color:#507f90;
-        }
-        h3 {
-          margin-bottom:5px;
-          color:#7c7c7c;
-          font-size:.9rem;
-        }
-        h4 {
-            color:#507f90;
-            font-weight:normal;
-            margin-bottom:10px;
-        }
+const AboutText = styled.section `
+    border-top:0.5rem solid #6e929e;
+    margin-top:1rem;
+    text-align:center;
+    padding:2rem;
 
-        h5 {
-          margin-left:0.1rem;
-          font-family:playfair display;
-          margin-bottom:0;
-        }
+    h2 {
+      font:3rem playfair display;
+      font-weight:bold;
+      margin-top:10rem;
+      color:#5A5A5A;
+      @media only screen and (min-width:480px) {
+        font-size:4rem;
+      }
+    }
 
-        p {
-            font-size:0.8rem;
-        }
-        .read-more {
-            text-decoration:underline;
-            font-size:0.8rem;
-            color:#c96649;
-        }
-
-        .post-image {
-          min-height:250px;
-          position:relative;
-          transition:all 2s linear;
-          filter:opacity(80%);
-        }
-
-        .image-container {
-          background-color:#6e929e;
-          transition:all 0.3s linear;
-        }
-
-        .title-container {
-          background-color:white;
-          width:100%;
-          border-radius:7px 7px 0px 0px;
-          text-align:center;
-          margin:auto;
-
-          @media only screen and (min-width:720px) {
-            width:75%;
-          }
-
-          @media only screen and (min-width:1100px) {
-            width:75%;
-          }
-        }
-
-        &:hover {
-
-          .image-container {
-            background-color:white;
-          }
-    
-          }
-        }
+    h4 {
+      font:1.5rem playfair display;
+      margin-top:2rem;
+      width:60%;
+      margin:auto;
+      margin-bottom:10rem;
+      color:#7C7C7C;
+      @media only screen and (min-width:480px) {
+        font-size:2rem;
+      }
+    }
 `
 
-const PostsListContainer = styled.section `
-        position:relative;
-        padding-top:3rem;
-        margin-top:1rem;
-        margin-bottom:3rem;
-        text-align:center;
-        border-top:0.5rem solid #6e929e;
+const SubjectList = styled.section `
+    text-align:center;
+    max-width:1200px;
+    margin:auto;
 
-        button {
-          border: 1px solid #d2a193;
-          padding: .1rem 1rem;
-          margin-top: 0;
-          color:#d2a193;
-          text-decoration: none;
-          background: none;
-          font-size: 1rem;
-          cursor: pointer;
-          text-align: center;
-          box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
-          font-family:montserrat;
-          margin-bottom:1rem;
-          transition:all 0.3s ease-in-out;
+    h2 {
+      font:playfair display;
+      font-weight:bold;
+      color:#5A5A5A;
+     
+    }
 
-          &:hover {
-            color:white;
-            border:1px solid white;
-            background-color: #d2a193
-          }
-        }
-`
+    h2 {
+      overflow: hidden;
+      text-align: center;
+      margin:1rem;
+      padding-bottom:1rem;
+  }
+  h2:before,
+  h2:after {
+      background-color: #000;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+  }
+  h2:before {
+      right: 0.5em;
+      margin-left: -50%;
+  }
+  h2:after {
+      left: 0.5em;
+      margin-right: -50%;
+  }
 
-const PostsList = styled.div`
-        position:relative;
-        margin:auto;
-        margin:0.5rem;
-        max-width:1200px;
-      
-        @media only screen and (min-width:720px) {
-            display:grid;
-            grid-template-columns:1fr 1fr;
-            grid-gap:3rem;
-            margin:auto;
-            padding:2rem;
+  .listingList {
+    padding:1rem;
+    text-decoration:none;
+    color:inherit;
+  }
 
-        }
-        @media only screen and (min-width:1100px) {
-          grid-template-columns:1fr 1fr 1fr;
-      }
+  button {
+    border: none;
+    border-radius:15px;
+    padding: .1rem 1rem;
+    margin: 1rem;
+    color:white;
+    text-decoration: none;
+    background: #E8C593;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+    font-family:montserrat;
 
-      hr {
-        display: block;
-        height: 0px;
-        border: 0;
-        border-top: 1px solid #d2a193;
-        background-color: #d2a193;
-        padding: 0;
-        width:80%;
-        margin:auto;
-        margin-top:.5rem;
-        margin-bottom:.5rem;
-  
-        
-      }
+    &:nth-child(2) {
+      background:#d2a193;
+    }
+
+    &:nth-child(3) {
+      background:#B8B0BF;
+    }
+
+    &:nth-child(4) {
+      background:#BDC7C6
+    }
+  }
+
+  button:hover,
+  button:focus {
+    background: none;
+    color:#d2a193;
+  }
+
+  button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+  }
+
+  button:active {
+    transform: scale(0.99);
+  }
+
 `
 
 
@@ -168,42 +132,36 @@ class Index extends React.Component {
   
   render( ) {
 
-    const posts = this.props.data.allMarkdownRemark.edges
-
-
     return (
       <Layout>
         <Helmet>
           <meta name="p:domain_verify" content="292f8a827f24bff0a8377677d0604f66"/>
         </Helmet>
-        <SEO title="The John Dory" keywords={[`blog`, `food`, `drink`, `documentary`, `shetland`, `scotland`, `food & drink`, `produce`]}/>
-        <HeaderImage />
-        <Feature />
-        <PostsListContainer>
-          <PostsList>
-        {posts.map(({ node }) => {
-          return (
-          <Post key={node.frontmatter.slug}>
-          <Link to={`/posts${node.frontmatter.slug}`}>
-
-          <div className="image-container">
-              <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
-          </div>
-          
-          <div className="title-container">
-            <h2>{node.frontmatter.title}</h2>
-            <h5><em>{node.frontmatter.location}</em></h5>
-            <hr />
-            <h3>{node.frontmatter.description}</h3>
-          </div>
-          </Link>
-      </Post>
-          )
-        })}
-        </PostsList>
-        <Link to="/posts"><button>View All</button></Link>
-        </PostsListContainer>
-        <Email />
+        <SEO title="Home" keywords={[`blog`, `food`, `drink`, `documentary`, `photography`, `travel`, `food & drink`, `produce`]}/>
+        <SimpleSlider />
+        <AboutText>
+          <h2><em>Food Culture Through The Lens</em></h2>
+          <h4><em>Providing an insight into the processes behind the dishes & the people that make it happen.</em></h4>
+        </AboutText>
+        <SubjectList>
+          <h2>Food Photography</h2>
+          <section className="categoryButtons">
+          <button>
+            <Link className="listingList" to="gallery/category/in-the-field"><em>In The Field</em></Link>
+          </button>
+          <button>
+            <Link className="listingList" to="gallery/category/in-action"><em>In Action</em></Link>
+          </button>
+          <button>
+            <Link className="listingList" to="gallery/category/for-sale"><em>On Display</em></Link>
+          </button>
+          <button>
+            <Link className="listingList" to="gallery/category/on-the-table"><em>On The Table</em></Link>
+          </button>
+          </section>
+        </SubjectList>
+        <ImageGallery />
+        
         
         
         

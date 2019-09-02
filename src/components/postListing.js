@@ -2,7 +2,6 @@ import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 import styled from 'styled-components'
 import Img from "gatsby-image"
-import Email from './email'
 
 const PostGrid = styled.section `
 position:relative;
@@ -53,12 +52,14 @@ const Post = styled.article`
             color:#115974;
             text-decoration:none;
         }
+        
         h2 {
             margin-bottom:0;
             margin-top:1rem;
             font-weight:bold;
             color:#507f90;
         }
+
         h3 {
           margin-bottom:5px;
           color:#7c7c7c;
@@ -152,7 +153,6 @@ const PostListing = () => (
       
         ))}
         </PostGrid>
-        <Email />
         </PostList>
       </>
     )}
@@ -170,7 +170,7 @@ query PostListingQuery {
     
   }
   filter: {
-    frontmatter: {category: {eq: "post"}}
+    frontmatter: {category: {eq: "gallery"}}
   }) {
     edges {
       node {
@@ -193,3 +193,4 @@ query PostListingQuery {
   }
 }
 `
+

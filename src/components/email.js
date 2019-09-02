@@ -6,8 +6,7 @@ height:auto;
 width:100%;
 color:#9baeb4;
 margin:0;
-padding:2rem;
-border-top: 0.5rem solid #6e929e;
+padding-top:2rem;
 
 
     p {
@@ -24,7 +23,7 @@ border-top: 0.5rem solid #6e929e;
         font:2rem playfair display;
         text-align:center;
         padding-top:1rem;
-        color:#115974;
+        color:white;
     }
 
     form {
@@ -50,6 +49,17 @@ border-top: 0.5rem solid #6e929e;
             font-family:montserrat;
             margin-bottom:1rem;
             transition:all 0.3s ease-in-out;
+            border-radius:20px;
+
+            @media only screen and (min-width:720px) {
+                position:absolute;
+                top:-18px;
+                right:0;
+              }
+              
+            
+
+
 
             &:hover {
                 color:#9baeb4;
@@ -59,22 +69,36 @@ border-top: 0.5rem solid #6e929e;
             }
         }
 
+
         input {
-            border-radius:4px;
+            border-radius:20px;
+            width:100%;
+
+        }
+
+        .emailInput {
+            position:relative;
+            max-width:400px;
+            margin:auto;
         }
     }
 `
 
 const Email = () => (
     <FormContainer >
-        <h3>New Stories Direct To Your Inbox</h3>
+        <h3><em>New Content Direct To Your Inbox</em></h3>
         <form name="contact" method="POST" data-netlify="true" action="/formSuccess">
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact"  />
             <p>
-                <label>Your Email:<br /> <input type="email" name="email" /></label>
+                <label>
+                    <div className="emailInput">
+                    <input type="email" name="email" placeholder=" Your Email" />
+                    <button type="submit">Subscribe</button>
+                    </div>
+                </label>
             </p>
             <p>
-                <button type="submit">Subscribe</button>
+                
             </p>
         </form>
     </FormContainer>
