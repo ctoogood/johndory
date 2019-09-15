@@ -5,7 +5,7 @@ slug: /evasorganics
 date: 2019-07-21
 featuredImage: ./images/evasorganics031.jpg
 description: Eva's Organics is a family-run organic farm with an ethos based around sustainability. They have been providing fresh, organic fruit and veg to the community for years and in recent years they've begun production of apple juice using apples from their orchard.
-category: post
+category: Producers & Vendors
 ---
 ## Eva's Organics is a family-run organic farm with an ethos based around sustainability. They have been providing fresh, organic fruit and veg to the community for over a decade and in recent years they've begun production of apple juice using apples from their orchard.
 

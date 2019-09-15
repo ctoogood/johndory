@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
 import SEO from './seo'
 import { DiscussionEmbed } from 'disqus-react'
 
@@ -13,16 +12,22 @@ import fbIcon from '../content/images/facebook.svg'
 
 
 const BlogPostMain = styled.main `
-    
-    .blog-content {
-        h2 {
-        }
-    }
-`
+.image-container {
+  padding:0;
+  display:block;
+  max-height:80vh;
+  max-width:1200px;
+  margin:auto;
+  margin-top:3rem;
+  
 
-const BlogPostHeader = styled.section`
-    border-bottom:.5rem solid #6e929e;
-    height:2rem;
+
+  Img {
+    padding:0;
+    display:block;
+    max-height:80vh;
+  }
+}
 `
 
 const BlogPostContent = styled.article`
@@ -49,13 +54,16 @@ const BlogPostContent = styled.article`
 
     h2, h3 {
         color:#115974;
-        font:2rem Playfair Display;
-        font-weight:700;
+        font:1.5rem Playfair Display;
         font-style:italic;
         max-width:900px;
         margin:auto;
-        padding:2rem;
+        padding-bottom:2rem;
         line-height:1.4;
+    }
+
+    h3 {
+      margin-top:2rem;
     }
 
 
@@ -100,37 +108,29 @@ const ShareIcons = styled.section `
 `
 
 const FeaturedContainer = styled.div `
-  border-bottom: 0.5rem solid #d2a193;
   position:relative;
+  border-bottom: 0.2rem solid #d2a193;
+  border-top: 0.2rem solid #6e929e;
+  margin:2rem;
+  max-width:900px;
+  margin-top:3rem;
+  margin:2rem;
 
   @media only screen and (min-width:900px) {
-    display:grid;
-    grid-template-columns:3fr 2fr;
-  }
+    margin:auto;
+    margin-top:3rem;
 
-  .image-container {
-    padding:0;
-    display:block;
-    max-height:80vh;
-
-
-    Img {
-      padding:0;
-      display:block;
-      max-height:80vh;
-    }
   }
 
   .text-container {
     position:relative;
     text-align:center;
-    background-color:#F8F8F8;
-    width:100%;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    
 
-    @media only screen and (min-width:900px) {
-      text-align:left;
-      overflow-y:scroll;
-    }
+    
+
 
     h2, h3, h4, h5 {
       font-family:playfair display;
@@ -146,13 +146,11 @@ const FeaturedContainer = styled.div `
 
     h2 {
       margin-top:0.5rem;
-      margin-bottom:0;
+      margin-bottom:0.5rem;
       color:#565555;
       font-weight:bold;
-
-      @media only screen and (min-width:480px) {
-        font-size:3rem;
-      }
+      font-size:3rem;
+ 
     }
 
     h4 {
@@ -167,7 +165,7 @@ const FeaturedContainer = styled.div `
       margin-left:0.1rem;
       color:#6B8090;
       @media only screen and (min-width:480px) {
-        font-size:2rem;
+        font-size:1.8rem;
       }
     }
 
@@ -197,25 +195,16 @@ const FeaturedContainer = styled.div `
       display: block;
       height: 0px;
       border: 0;
-      border-top: 1px solid #d2a193;
       background-color: #d2a193;
       margin: auto;
       padding: 0;
       width:50%;
 
-      @media only screen and (min-width:900px) {
-        margin:0;
-      }
     }
     
     span {
       margin:1rem;
-      @media only screen and (min-width:900px) {
-        position:absolute;
-        top:50%;
-        left:0;
-        transform:translate(0, -50%);
-      }
+      
     }
   }
 
@@ -250,19 +239,15 @@ export default class postLayout extends Component {
              description={post.frontmatter.description}/>
             <BlogPostMain>
             <FeaturedContainer>
-                <div className="image-container">
-                  <Img fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
-                </div>
                 <div className="text-container">
                   <span>
                   <h5><em>{markdownRemark.frontmatter.date}</em></h5>
-                  <h2>{markdownRemark.frontmatter.title}</h2>
+                  <h2><em>{markdownRemark.frontmatter.title}</em></h2>
                   <h3><em>{markdownRemark.frontmatter.location}</em></h3>
-                  <hr />
                   </span>
                 </div>
               </FeaturedContainer>
-        <BlogPostHeader />
+
         <BlogPostContent className="blog-content" dangerouslySetInnerHTML = { {
             __html: markdownRemark.html
          } } />

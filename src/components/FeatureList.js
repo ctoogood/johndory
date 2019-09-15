@@ -163,7 +163,7 @@ query FeatureListingQuery {
     
   }
   filter: {
-    frontmatter: {category: {eq: "post"}}
+    fileAbsolutePath: {regex: "/posts/"}
   }) {
     edges {
       node {

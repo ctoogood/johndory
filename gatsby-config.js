@@ -167,6 +167,13 @@ module.exports = {
     },
 
     {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/utils/cms.js`,
+      },
+    },
+
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,

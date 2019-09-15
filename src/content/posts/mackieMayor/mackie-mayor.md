@@ -5,7 +5,7 @@ slug: /mackiemayor
 date: 2019-08-12
 featuredImage: ./images/mackieMayor.png
 description: Originally a meat market, the once abandoned building in Manchester's Northern Quarter now houses an array of exciting food & drink sellers. Coffee, cake, pizza, steak, fish, beer, wine, and much more!
-category: post
+category: Producers & Vendors
 ---
 ## Originally a meat market, the once abandoned building in Manchester's Northern Quarter now houses an array of exciting food & drink sellers. Coffee, cake, pizza, steak, fish, beer, wine, and much more!
 

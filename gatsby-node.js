@@ -8,48 +8,21 @@ exports.createPages = ( { graphql, actions} ) => {
     return new Promise( ( resolve, reject ) => {
         graphql(`
         {
-            posts: allMarkdownRemark(
-                sort: { fields: [frontmatter___date], order: DESC }
-                filter: {
-                  frontmatter: {category: {eq: "post"}}
-                }
-                limit: 1000
-            ){
-              edges {
-                node {
-                  frontmatter {
-                    date(formatString: "MMMM DD, YYYY")
-                    title
-                    slug
-                  }
+          posts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}, sort: {fields: frontmatter___date, order: DESC}, limit: 1000) {
+            edges {
+              node {
+                frontmatter {
+                  slug
+                  date
+                  title
                 }
               }
             }
-            gallery: allMarkdownRemark(sort:{
-              order: ASC,
-              fields:[frontmatter___slug]
-              
-            }
-            filter: {
-              frontmatter: {category: {eq: "gallery"}}
-            }) {
-                        edges {
-                          node {
-                            frontmatter {
-                              date(formatString: "MMMM DD, YYYY")
-                              caption
-                              category
-                              slug
-                              tags
-                              subject
-                            }
-                          }
-                        }
-                      }
           }
+        }
         `).then(results => {
 
-            const posts = results.data.gallery.edges
+            const posts = results.data.posts.edges
             const postsPerPage = 16;
             const numPages = Math.ceil(posts.length / postsPerPage);
             const categories = []
@@ -99,7 +72,6 @@ exports.createPages = ( { graphql, actions} ) => {
             
               posts.forEach((post, index, arr) => {
                 categories.push(post.node.frontmatter.subject)
-                post.node.frontmatter.tags.forEach(tag => tags.push(tag))
 
                 const prev = arr[index - 1]
                 const next = arr[index + 1]
@@ -139,35 +111,6 @@ exports.createPages = ( { graphql, actions} ) => {
                       skip: i * postsPerPage,
                       currentPage: i + 1,
                       numPages: Math.ceil(countCategories[cat] / postsPerPage),
-                    },
-                  })
-                })
-              })
-
-              ///Create Tags Pages
-
-              const countTags = tags.reduce((prev, curr) => {
-                prev[curr] = (prev[curr] || 0) + 1
-                return prev
-              }, {})
-              const allTags = Object.keys(countTags)
-          
-              allTags.forEach((tag, i) => {
-                const link = `/gallery/tags/${kebabCase(tag)}`
-          
-                Array.from({
-                  length: Math.ceil(countTags[tag] / postsPerPage),
-                }).forEach((_, i) => {
-                  createPage({
-                    path: i === 0 ? link : `${link}/${i + 1}`,
-                    component: path.resolve("./src/components/tags-listing.js"),
-                    context: {
-                      allTags: allTags,
-                      tag: tag,
-                      limit: postsPerPage,
-                      skip: i * postsPerPage,
-                      currentPage: i + 1,
-                      numPages: Math.ceil(countTags[tag] / postsPerPage),
                     },
                   })
                 })

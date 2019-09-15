@@ -5,7 +5,7 @@ slug: /greatnorthpieco
 date: 2019-08-20
 featuredImage: ./images/greatNorthPieCo-023.jpg
 description: Comforting pies which the creator, Neil Broomfield, hopes will highlight the local produce that North-West England has to offer.  Initially just selling the pies at farmers’ markets, now the Great North Pie Co is resident at Altrincham’s Market House and has more recently opened a café in Ambleside. 
-category: post
+category: Producers & Vendors
 ---
 ## Comforting pies which the creator, Neil Broomfield, hopes will highlight the local produce that North-West England has to offer.  Initially just selling the pies at farmers’ markets, now the Great North Pie Co is also resident at Altrincham’s Market House and has more recently opened a café in Ambleside. 
 

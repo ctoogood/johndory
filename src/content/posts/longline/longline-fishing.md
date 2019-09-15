@@ -5,7 +5,7 @@ slug: /longlining
 date: 2011-09-16T14:15:53.721Z
 featuredImage: ./images/long-lining-001.jpg
 description: A day spent observing a Norwegian longlining vessel fish for mackerel off the eastern coast of the Shetland Islands.
-category: post
+category: Producers & Vendors
 ---
 ## A day spent observing a Norwegian longlining vessel fish for mackerel off the eastern coast of the Shetland Islands.
 

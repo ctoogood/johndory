@@ -5,7 +5,7 @@ slug: /white-fishing-shetland
 date: 2013-09-19T11:01:23.835Z
 description: This series of images is the outcome of a succession of trips aboard local white fishing vessels in the waters around Shetland.
 featuredImage: ./images/white-fishing-028.jpg
-category: post
+category: Producers & Vendors
 
 ---
 ## The waters surrounding Shetland have been fished by many for centuries, providing a source of food and income.  The Shetland seafood industry is worth around £300 million annually, far more than any other industry in the isles.

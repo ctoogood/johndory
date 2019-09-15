@@ -1,11 +1,11 @@
 import React from "react"
 import Helmet from "react-helmet"
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import styled from 'styled-components'
 import SEO from '../components/seo'
 import SimpleSlider from '../components/slider1'
-import ImageGallery from '../components/imageGallery'
+import PostIndex from '../components/postList'
 
 
 
@@ -39,93 +39,6 @@ const AboutText = styled.section `
     }
 `
 
-const SubjectList = styled.section `
-    text-align:center;
-    max-width:1200px;
-    margin:auto;
-
-    h2 {
-      font:playfair display;
-      font-weight:bold;
-      color:#5A5A5A;
-     
-    }
-
-    h2 {
-      overflow: hidden;
-      text-align: center;
-      margin:1rem;
-      padding-bottom:1rem;
-  }
-  h2:before,
-  h2:after {
-      background-color: #000;
-      content: "";
-      display: inline-block;
-      height: 1px;
-      position: relative;
-      vertical-align: middle;
-      width: 50%;
-  }
-  h2:before {
-      right: 0.5em;
-      margin-left: -50%;
-  }
-  h2:after {
-      left: 0.5em;
-      margin-right: -50%;
-  }
-
-  .listingList {
-    padding:1rem;
-    text-decoration:none;
-    color:inherit;
-  }
-
-  button {
-    border: none;
-    border-radius:15px;
-    padding: .1rem 1rem;
-    margin: 1rem;
-    color:white;
-    text-decoration: none;
-    background: #E8C593;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
-    font-family:montserrat;
-
-    &:nth-child(2) {
-      background:#d2a193;
-    }
-
-    &:nth-child(3) {
-      background:#B8B0BF;
-    }
-
-    &:nth-child(4) {
-      background:#BDC7C6
-    }
-  }
-
-  button:hover,
-  button:focus {
-    background: none;
-    color:#d2a193;
-  }
-
-  button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-  }
-
-  button:active {
-    transform: scale(0.99);
-  }
-
-`
-
 
 class Index extends React.Component {
 
@@ -143,25 +56,7 @@ class Index extends React.Component {
           <h2><em>Food Culture Through The Lens</em></h2>
           <h4><em>Providing an insight into the processes behind the dishes & the people that make it happen.</em></h4>
         </AboutText>
-        <SubjectList>
-          <h2>Food Photography</h2>
-          <section className="categoryButtons">
-          <button>
-            <Link className="listingList" to="gallery/category/in-the-field"><em>In The Field</em></Link>
-          </button>
-          <button>
-            <Link className="listingList" to="gallery/category/in-action"><em>In Action</em></Link>
-          </button>
-          <button>
-            <Link className="listingList" to="gallery/category/on-display"><em>On Display</em></Link>
-          </button>
-          <button>
-            <Link className="listingList" to="gallery/category/on-the-table"><em>On The Table</em></Link>
-          </button>
-          </section>
-        </SubjectList>
-        <ImageGallery />
-        
+        <PostIndex />
         
         
         

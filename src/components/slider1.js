@@ -13,6 +13,8 @@ const ContentSlider = styled.section `
 
  .SliderContainer {
     position:relative;
+    max-height:80vh;
+
  }
 
  .slick-next {
@@ -20,6 +22,7 @@ const ContentSlider = styled.section `
      top:50%;
      right:0;
      margin-right:1rem;
+     
  }
 
  .slick-prev {
@@ -39,52 +42,138 @@ const ContentSlider = styled.section `
     position:relative;
     width:100%;
     z-index:10;
-    background-color:black;
-    height:75vh;
+    height:80vh;
     min-height:400px;
+    border-bottom: 0.5rem solid #d2a193;
+    overflow:hidden;
+    background-color:black;
+
+    @media only screen and (min-width:800px) {
+      background-color:white;
+    }
 
 
+    .grid {
+      @media only screen and (min-width:800px) {
+        display:grid;
+        grid-template-columns:3fr 2fr;
+      }
+    }
+
+    .image-container {
+      position:relative;
+      height:80vh;
+      width:100%;
+      filter:opacity(0.7);
+
+      @media only screen and (min-width:800px) {
+        filter:none;
+      }
+    }
 
 
 
 
     Img {
-      filter:opacity(0.8);
-      height:75vh;
       min-height:400px;
-      overflow:visible;
-
-      border-bottom: 0.5rem solid #d2a193;
-
+      overflow:hidden
+      
     }
 
     .textContainer {
         position:absolute;
         top:50%;
-        left:50%;
-        transform:translate(-50%,-50%);
-      
-      h2 {
-        margin-bottom:0;
-        margin-top:1rem;
-        font-weight:bold;
-        color:white;
+        left:0;
+        transform:translateY(-30%);
+        margin-top:3rem;
+        height:80vh;
         text-align:center;
-        font-size:3rem;
+        width:100%;
+        color:white;
 
-        @media only screen and (min-width:900px) {
-          font-size:4rem;
+        @media only screen and (min-width:800px) {
+          position:relative;
+          top:0;
+          transform:translate(0);
+          text-align:left;
+          padding:1rem;
+          margin-top:3rem;
+          color:#565555;
         }
+
+        h2, h3, h4, h5 {
+          font-family:playfair display;
+        }
+      
+        h2 {
+          color:white;
+          font-weight:bold;
+          font-size:2.5rem;
+
+          @media only screen and (min-width:800px) {
+            margin:0.5rem;
+            margin-left:0;
+            color:#565555;
+            font-size:3rem;
+
+          }
+        }
+
+        h3 {
+          color:white;
+          opacity:0.8;
+          margin-bottom:0.5rem;
+          font-size:2rem;
+          @media only screen and (min-width:800px) {
+            font-size:2.5rem;
+            color:#6B8090;
+
+          }
+        }
+
+
+        h4 {
+          display:none;
+          @media only screen and (min-width:900px) {
+            display:block;
+
+          }
+        }
+        
+        h5 {
+          @media only screen and (min-width:900px) {
+            margin-left:0.1rem;
+          }
+
+        }
+
+        hr {
+          display: none;
+          height: 0px;
+          border: 0;
+          border-top: 1px solid #d2a193;
+          background-color: #d2a193;
+          margin: auto;
+          padding: 0;
+          width:50%;
+    
+          @media only screen and (min-width:800px) {
+            margin:0;
+            display:block;
+          }
+        }
+
+        div {
 
         }
 
     }
 
     .viewPost {
-      border: 1px solid white;
+      border: 1px solid #d2a193;;
       padding: .5rem 2rem;
-      margin-top: 1rem;
-      color:white;
+      margin-top: 0;
+      color:#d2a193;
       text-decoration: none;
       background: none;
       font:1rem Montserrat;
@@ -96,13 +185,13 @@ const ContentSlider = styled.section `
       width: auto;
       margin: auto;
       position: relative;
-      transform: translateX(-50%);
-      left: 50%;
+      left: 0;
       margin-top: 4rem;
 
       &:hover {
-        color:black;
-        background-color: white
+        color:white;
+        border:1px solid white;
+        background-color: #d2a193
       }
     }
   }
@@ -125,6 +214,7 @@ var settings = {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
 
   };
 
@@ -135,22 +225,32 @@ const SimpleSlider = () => (
       <>
         <ContentSlider>
         <Slider {...settings} className="SliderContainer" style={{
-            height:`75vh`,
+            height:`80vh`,
             minHeight:`400px`,
         }}>
         {allMarkdownRemark.edges.map(edges => (
         <div className="content" key={edges.node.frontmatter.slug}>
-        <Img
-          fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid}
-        />
+          <div className="grid">
+            <div className="image-container">
+          <Img
+            fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid}
+          />
+          </div>
         <div className="textContainer">
-        <Link to={`posts/${edges.node.frontmatter.slug}`}>
+          <div>
+          <h3>Featured</h3> 
+          <hr />
+          <Link to={`posts/${edges.node.frontmatter.slug}`}>
           <h2><em>{edges.node.frontmatter.title}</em></h2>
           </Link>
+          <h5><em>{edges.node.frontmatter.location}</em></h5>
+          <h4>{edges.node.frontmatter.description}</h4>
           <Link to={`posts/${edges.node.frontmatter.slug}`}>
           <button className="viewPost">VIEW POST</button>
           </Link>
+          </div>
 
+        </div>
         </div>
       </div>
 
@@ -174,7 +274,7 @@ query SlideQuery {
   }
   limit:4
   filter: {
-    frontmatter: {category: {eq: "post"}}
+    fileAbsolutePath: {regex: "/posts/"}
   }) {
     edges {
       node {

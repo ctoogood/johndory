@@ -15,6 +15,7 @@ const HeaderWrapper = styled.div`
   left:0;
   top:0;
   z-index:100;
+  box-shadow:0px 2px 2px rgba(0,0,0,0.1);
 
 `;
 
@@ -28,7 +29,6 @@ const HeaderContainer = styled.div`
 const HeaderText = styled.h1`
   font-size:1.5rem;
   @media only screen and (min-width:720px) {
-    font-size:2rem;
   }
 `
 
@@ -37,8 +37,7 @@ const SubheaderText = styled.h4`
   font-size:1rem;
   margin:0;
   @media only screen and (min-width:720px) {
-    font-size:1.2rem;
-    margin-bottom:1rem;
+    margin-bottom:.5rem;
   }
 `
 
@@ -46,7 +45,7 @@ const Social = styled.div `
 @media only screen and (min-width:720px) {
   position:absolute;
   right:7rem;
-  bottom:1rem;
+  bottom:0rem;
 }
 
 
