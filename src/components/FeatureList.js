@@ -78,15 +78,18 @@ const Post = styled.article`
         }
 
         .post-image {
-          min-height:250px;
           position:relative;
+          width:100%;
+          height:100%;
+          margin:0;
           transition:all 2s linear;
-          filter:opacity(80%);
+=          object-fit:cover;
         }
 
         .image-container {
-          background-color:#6e929e;
           transition:all 0.3s linear;
+          min-height:250px;
+          margin:0;
         }
 
         .title-container {
@@ -131,7 +134,7 @@ const FeatureListing = () => (
           <Link to={`/posts${edges.node.frontmatter.slug}`}>
 
           <div className="image-container">
-              <img className="post-image" src={edges.node.frontmatter.featuredImage.publicURL}
+              <img className="post-image" src={edges.node.frontmatter.featuredImage}
               alt={edges.node.frontmatter.title} />
           </div>
           
@@ -173,9 +176,7 @@ query FeatureListingQuery {
           date(formatString: "MMMM DD, YYYY" )
           slug
           description
-          featuredImage {
-            publicURL
-          }
+          featuredImage
         }
       }
     }

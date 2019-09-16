@@ -4,7 +4,7 @@ location: Shetland Islands
 slug: /white-fishing-shetland
 date: 2013-09-19T11:01:23.835Z
 description: This series of images is the outcome of a succession of trips aboard local white fishing vessels in the waters around Shetland.
-featuredImage: ./images/white-fishing-028.jpg
+featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568614687/posts/whitefishing/white-fishing-028_ud6xqr.jpg
 category: Producers & Vendors
 
 ---

@@ -232,7 +232,7 @@ const SimpleSlider = () => (
           <div className="grid">
             <div className="image-container">
           <img
-            src={edges.node.frontmatter.featuredImage.publicURL}
+            src={edges.node.frontmatter.featuredImage}
             alt={edges.node.frontmatter.title}
           />
           </div>
@@ -284,9 +284,7 @@ query SlideQuery {
           slug
           location
           description
-          featuredImage {
-            publicURL
-          }
+          featuredImage
         }
       }
     }

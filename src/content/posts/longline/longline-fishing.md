@@ -3,7 +3,7 @@ title: Longline Fishing
 location: North Sea
 slug: /longlining
 date: 2011-09-16T14:15:53.721Z
-featuredImage: ./images/long-lining-001.jpg
+featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568614647/posts/longlinefishing/long-lining-001_vytovf.jpg
 description: A day spent observing a Norwegian longlining vessel fish for mackerel off the eastern coast of the Shetland Islands.
 category: Producers & Vendors
 ---

@@ -289,7 +289,7 @@ class GalleryListing extends React.Component {
                 <Link to={`/gallery${node.frontmatter.slug}`}>
 
                 <div className="image-container">
-                    <Img className="post-image" fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
+                    <img className="post-image" src={node.frontmatter.featuredImage} />
                 </div>
               
                 </Link>
@@ -346,9 +346,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
-      filter: {
-        frontmatter: {subject: { in: [$category] }}
-      }
+      
     ) {
       edges {
         node {
@@ -357,13 +355,7 @@ export const pageQuery = graphql`
             title
             location
             slug
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth:1600) {
-                  ...GatsbyImageSharpFluid
-              }
-            }
-          }
+            featuredImage
           }
         }
       }

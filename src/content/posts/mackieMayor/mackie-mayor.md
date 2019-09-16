@@ -3,7 +3,7 @@ title: Mackie Mayor
 location: Manchester
 slug: /mackiemayor
 date: 2019-08-12
-featuredImage: ./images/mackieMayor.png
+featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568614444/posts/mackiemayor/mackieMayor_p7ylxw.png
 description: Originally a meat market, the once abandoned building in Manchester's Northern Quarter now houses an array of exciting food & drink sellers. Coffee, cake, pizza, steak, fish, beer, wine, and much more!
 category: Producers & Vendors
 ---

@@ -82,13 +82,7 @@ export const pageQuery = graphql`
             location
             description
             slug
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth:400) {
-                  ...GatsbyImageSharpFluid
-              }
-            }
-          }
+            featuredImage
           }
         }
       }

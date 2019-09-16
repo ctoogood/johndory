@@ -4,7 +4,7 @@ location: Shetland Islands
 slug: /mussel-farming
 date: 2017-05-03T23:00:00.000Z
 description: Over recent years Shetland has developed a reputation for supplying high-quality mussels.  Many mussel farms can be found throughout the isles, creating around 70% of Scotland's total mussel production
-featuredImage: ./images/mussel-farming-5.jpg
+featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568614559/posts/musselfarming/mussel-farming-5_r6pd9f.jpg
 category: Producers & Vendors
 
 ---

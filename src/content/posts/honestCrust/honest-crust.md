@@ -3,7 +3,7 @@ title: Honest Crust Sourdough Pizza
 location: Manchester
 slug: /honestcrust
 date: 2019-08-25
-featuredImage: ./images/honestCrust-061.jpg
+featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568569341/posts/honestcrust/honestCrust-061_cclhtz.jpg
 description: Bases cooked to perfection & high quality toppings melded into exceptional creations. With permanent stalls at Altrincham’s Market House & Manchester’s Mackie Mayor, the Honest Crust’s sourdough pizzas have become one of Manchester’s food highlights.
 category: Producers & Vendors
 ---

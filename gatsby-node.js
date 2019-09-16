@@ -56,37 +56,6 @@ exports.createPages = ( { graphql, actions} ) => {
                 });
             })
 
-
-              Array.from({ length: numPages }).forEach((_, i) => {
-              createPage({
-                  path: i === 0 ? `/gallerylisting` : `/gallerylisting/${i + 1}`,
-                  component: path.resolve("./src/components/gallery-listing.js"),
-                  context: {     
-                      limit: postsPerPage,      
-                      skip: i * postsPerPage,
-                      numPages,      
-                      currentPage: i + 1,   
-                    }  
-                  });
-              });
-            
-              posts.forEach((post, index, arr) => {
-                categories.push(post.node.frontmatter.subject)
-
-                const prev = arr[index - 1]
-                const next = arr[index + 1]
-          
-                createPage({
-                  path: `/gallery${post.node.frontmatter.slug}`,
-                  component: path.resolve('./src/components/postLayout.js'),
-                  context: {
-                    slug: post.node.frontmatter.slug,
-                    prev: prev,
-                    next: next,
-                  },
-                })
-              })
-
               ///Create Category Pages
 
               const countCategories = categories.reduce((prev, curr) => {

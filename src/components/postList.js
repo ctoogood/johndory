@@ -168,7 +168,7 @@ const PostIndex = () => (
           <Link className="post-link" to={`posts/${edges.node.frontmatter.slug}`}>
           <section className="archive__list-item">
           <section className="image-container">
-            <img className="post-image" src={edges.node.frontmatter.featuredImage.publicURL}
+            <img className="post-image" src={edges.node.frontmatter.featuredImage}
             alt={edges.node.frontmatter.title} />
           </section>
           <section className="text-container">
@@ -213,9 +213,7 @@ query postQuery {
           category
           date(formatString: "MMMM DD, YYYY" )
           slug
-          featuredImage {
-            publicURL
-          }
+          featuredImage
         }
       }
     }

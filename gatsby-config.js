@@ -96,14 +96,6 @@ module.exports = {
     },
 
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/content/gallery`,
-        name:'gallery'
-      },
-    },
-
-    {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
           endpoint: '<form action="https://gmail.us3.list-manage.com/subscribe/post?u=c56f20fb1d3467f23805562a0&amp;id=ef1881d279" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>', // add your MC list endpoint here; see instructions below

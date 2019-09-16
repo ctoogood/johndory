@@ -221,7 +221,7 @@ export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
       const post = this.props.data.markdownRemark
-      const ogImagePath = post.frontmatter.featuredImage.childImageSharp.fluid.src
+      const ogImagePath = post.frontmatter.featuredImage
       const title = post.frontmatter.title;
       const slug = post.frontmatter.slug;
 
@@ -288,13 +288,8 @@ export const query = graphql `
             date(formatString: "MMMM DD, YYYY" )
             slug
             location
-            featuredImage {
-                childImageSharp {
-                  fluid(maxWidth:1200) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+            featuredImage
+              
         }
         }
     }
