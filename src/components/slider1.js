@@ -13,7 +13,6 @@ const ContentSlider = styled.section `
 
  .SliderContainer {
     position:relative;
-    max-height:80vh;
 
  }
 
@@ -42,7 +41,7 @@ const ContentSlider = styled.section `
     position:relative;
     width:100%;
     z-index:10;
-    height:80vh;
+    max-height:80vh;
     min-height:400px;
     border-bottom: 0.5rem solid #d2a193;
     overflow:hidden;
@@ -62,7 +61,7 @@ const ContentSlider = styled.section `
 
     .image-container {
       position:relative;
-      height:80vh;
+      max-height:80vh;
       width:100%;
       filter:opacity(0.7);
 
@@ -84,9 +83,9 @@ const ContentSlider = styled.section `
         position:absolute;
         top:50%;
         left:0;
-        transform:translateY(-30%);
+        transform:translateY(-50%);
         margin-top:3rem;
-        height:80vh;
+        max-height:80vh;
         text-align:center;
         width:100%;
         color:white;
@@ -186,7 +185,7 @@ const ContentSlider = styled.section `
       margin: auto;
       position: relative;
       left: 0;
-      margin-top: 4rem;
+      margin-top: 1rem;
 
       &:hover {
         color:white;
@@ -209,6 +208,7 @@ const ContentSlider = styled.section `
 var settings = {
     dots: true,
     autoplay: true,
+    autoplaySpeed: 4000,
     lazyLoad: true,
     infinite: true,
     speed: 500,
@@ -225,7 +225,7 @@ const SimpleSlider = () => (
       <>
         <ContentSlider>
         <Slider {...settings} className="SliderContainer" style={{
-            height:`80vh`,
+            maxHeight:`80vh`,
             minHeight:`400px`,
         }}>
         {allMarkdownRemark.edges.map(edges => (

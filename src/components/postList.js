@@ -5,7 +5,6 @@ import Img from "gatsby-image"
 
 const ArchiveList = styled.main `
   margin-bottom:5rem;
-  padding:2rem;
 
   p {
     color:#6E929E;
@@ -14,7 +13,7 @@ const ArchiveList = styled.main `
     margin-bottom:0;
     height:100%;
 
-    @media only screen and (min-width:640px) {
+    @media only screen and (min-width:720px) {
       writing-mode: vertical-rl;
       text-orientation:sideways;
       position:absolute;
@@ -100,9 +99,13 @@ const ArchiveList = styled.main `
   .post-image {
     position:relative;
     width:100%;
-    height:60vh;
     border-radius:3px;
     transition: transform 10s cubic-bezier(.35,.9,.5,1);
+
+    @media only screen and (min-width:720px) {
+      height:55vh;
+
+    }
 
   }
 
