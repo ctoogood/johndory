@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 import styled from 'styled-components'
-import Img from "gatsby-image"
 import Layout from "./layout";
 
 const PostGrid = styled.section `
@@ -132,7 +131,8 @@ const FeatureListing = () => (
           <Link to={`/posts${edges.node.frontmatter.slug}`}>
 
           <div className="image-container">
-              <Img className="post-image" fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid} />
+              <img className="post-image" src={edges.node.frontmatter.featuredImage.publicURL}
+              alt={edges.node.frontmatter.title} />
           </div>
           
           <div className="title-container">
@@ -174,11 +174,7 @@ query FeatureListingQuery {
           slug
           description
           featuredImage {
-            childImageSharp {
-              fluid(maxWidth:800) {
-                ...GatsbyImageSharpFluid
-              }
-            }
+            publicURL
           }
         }
       }

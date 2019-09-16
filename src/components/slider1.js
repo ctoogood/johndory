@@ -2,7 +2,6 @@ import React from "react"
 import Slider from "react-slick";
 import { StaticQuery, graphql, Link } from "gatsby"
 import styled from 'styled-components'
-import Img from "gatsby-image"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -232,8 +231,9 @@ const SimpleSlider = () => (
         <div className="content" key={edges.node.frontmatter.slug}>
           <div className="grid">
             <div className="image-container">
-          <Img
-            fluid={edges.node.frontmatter.featuredImage.childImageSharp.fluid}
+          <img
+            src={edges.node.frontmatter.featuredImage.publicURL}
+            alt={edges.node.frontmatter.title}
           />
           </div>
         <div className="textContainer">
@@ -285,11 +285,7 @@ query SlideQuery {
           location
           description
           featuredImage {
-            childImageSharp {
-              fluid(maxWidth:1200) {
-                ...GatsbyImageSharpFluid
-              }
-            }
+            publicURL
           }
         }
       }

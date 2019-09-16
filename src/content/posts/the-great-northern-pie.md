@@ -4,8 +4,7 @@ location: NW England
 category: FoodFocus
 slug: /greatnorthernpie
 date: 2019-09-16T06:44:28.929Z
-featuredImage: >-
-  https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614378/posts/greatnorthpieco/greatNorthPieCo-018_imnhqp.jpg
+featuredImage: https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614378/posts/greatnorthpieco/greatNorthPieCo-018_imnhqp.jpg
 ---
 ![pie](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614378/posts/greatnorthpieco/greatNorthPieCo-018_imnhqp.jpg "pie")
 
