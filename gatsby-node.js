@@ -55,35 +55,6 @@ exports.createPages = ( { graphql, actions} ) => {
                     }
                 });
             })
-
-              ///Create Category Pages
-
-              const countCategories = categories.reduce((prev, curr) => {
-                prev[curr] = (prev[curr] || 0) + 1
-                return prev
-              }, {})
-              const allCategories = Object.keys(countCategories)
-          
-              allCategories.forEach((cat, i) => {
-                const link = `/gallery/category/${kebabCase(cat)}`
-          
-                Array.from({
-                  length: Math.ceil(countCategories[cat] / postsPerPage),
-                }).forEach((_, i) => {
-                  createPage({
-                    path: i === 0 ? link : `${link}/${i + 1}`,
-                    component: path.resolve("./src/components/category-listing.js"),
-                    context: {
-                      allCategories: allCategories,
-                      category: cat,
-                      limit: postsPerPage,
-                      skip: i * postsPerPage,
-                      currentPage: i + 1,
-                      numPages: Math.ceil(countCategories[cat] / postsPerPage),
-                    },
-                  })
-                })
-              })
           
 
             resolve( );
