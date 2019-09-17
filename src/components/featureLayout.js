@@ -33,9 +33,8 @@ const BlogPostMain = styled.main `
 const BlogPostContent = styled.article`
     padding:1rem;
     color:#333 ;
-    max-width:1200px;
+    max-width:900px;
     margin:auto;
-    text-align:center;
     font-size:1.2rem;
 
     blockquote {
@@ -56,7 +55,7 @@ const BlogPostContent = styled.article`
         color:#115974;
         font:1.5rem Playfair Display;
         font-style:italic;
-        max-width:900px;
+        max-width:700px;
         margin:auto;
         padding-bottom:2rem;
         line-height:1.4;
@@ -68,7 +67,7 @@ const BlogPostContent = styled.article`
 
 
     p {
-        max-width:900px;
+        max-width:700px;
         margin:auto;
         padding-bottom:1rem;
         line-height:1.5;
@@ -112,7 +111,7 @@ const FeaturedContainer = styled.div `
   border-bottom: 0.2rem solid #d2a193;
   border-top: 0.2rem solid #6e929e;
   margin:2rem;
-  max-width:900px;
+  max-width:700px;
   margin-top:3rem;
   margin:2rem;
 
@@ -125,8 +124,8 @@ const FeaturedContainer = styled.div `
   .text-container {
     position:relative;
     text-align:center;
-    padding-top:2rem;
-    padding-bottom:2rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
     
 
     
