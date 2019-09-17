@@ -7,7 +7,13 @@ date: 2019-07-21T12:14:11.338Z
 featuredImage: >-
   https://res.cloudinary.com/johndory/image/upload/q_auto/c_limit,q_80,w_2000/v1568614472/posts/evasorganics/evasorganics028_hxgmez.jpg
 ---
+![]()
+
 ## Eva's Organics is a family-run organic farm with an ethos based around sustainability. They have been providing fresh, organic fruit and veg to the community for over a decade and in recent years they've begun production of apple juice using apples from their orchard.
+
+```grid|1
+![Tomatoes on the vine](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614472/posts/evasorganics/evasorganics028_hxgmez.jpg)
+```
 
 Low Luckens, where the farm is situated, is found down a labyrinth of country lanes in an agricultural area north-east of Carlisle.  Eva's Organics is owned by Mike and Debbie, who started the company around 20 years ago.   
 
@@ -48,9 +54,9 @@ After the batch has been made I go for a look around the rest of the farm.  As I
 > “A lot of it has been learning through trial and error.  Seeing what works, seeing what doesn’t.  Trying different crops and honing in on what works.  So none of this happened overnight.”
 
 ```grid|2
-![Seedlings](./images/evasorganics022.jpg)
+![seedlings](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614467/posts/evasorganics/evasorganics022_gds39w.jpg)
 
-![Blackberries being picked](./images/evasorganics024.jpg)
+![berries being picked](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614469/posts/evasorganics/evasorganics024_qidgjl.jpg)
 ```
 
 ```grid|1
@@ -60,10 +66,6 @@ After the batch has been made I go for a look around the rest of the farm.  As I
 The production of organic fruit and veg doesn’t use any artificial fertilisers or pesticides.  These chemicals can cause damage to the natural world and require the use of fossil fuels in their manufacture.  Here they don’t use any artificial chemicals or heavy machinery, they do everything on a smaller scale and with great concern for the environment.  
 
 > “The very nature of growing organically is more balanced and in tune with looking after nature”
-
-```grid|1
-![Tomatoes on the vine](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614472/posts/evasorganics/evasorganics028_hxgmez.jpg)
-```
 
 Without the use of such chemicals or heavy machinery, the workload is much more intensive in relation to the yield.  However, the extra cost which consumers pay for organic produce is at the benefit of the planet.
 
