@@ -58,12 +58,8 @@ As the light faded Scombrus headed for Lerwick to land their catch.  The vessel 
 ![Long lining vessel at sea](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614646/posts/longlinefishing/long-lining-007_ja2jae.jpg)
 ```
 
+```grid|2
 ![Crewman operating the winches](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614648/posts/longlinefishing/long-lining-010_ligt8k.jpg)
 
 ![Early morning view](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614647/posts/longlinefishing/long-lining-001_vytovf.jpg)
-
-```grid|2
-![Crewman operating winches](/images/long-lining-010.jpg)
-
-![early morning sky and view of the deck](/images/long-lining-001.jpg)
 ```
