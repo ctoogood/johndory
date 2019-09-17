@@ -98,14 +98,12 @@ const ArchiveList = styled.main `
   .post-image {
     position:relative;
     width:100%;
+    height:100%;
     border-radius:3px;
     transition: transform 10s cubic-bezier(.35,.9,.5,1);
     object-fit:cover;
 
-    @media only screen and (min-width:720px) {
-      height:55vh;
 
-    }
 
   }
 
@@ -113,6 +111,11 @@ const ArchiveList = styled.main `
     width:100%;
     height:100%;
     overflow:hidden;
+
+    @media only screen and (min-width:720px) {
+      height:55vh;
+
+    }
     }
 
     

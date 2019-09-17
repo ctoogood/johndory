@@ -217,6 +217,7 @@ const Comments = styled.section `
     padding:1rem;
 `
 
+
 export default class postLayout extends Component {
   render() {
       const { markdownRemark } = this.props.data;
@@ -247,6 +248,7 @@ export default class postLayout extends Component {
                   </span>
                 </div>
               </FeaturedContainer>
+
 
         <BlogPostContent className="blog-content" dangerouslySetInnerHTML = { {
             __html: markdownRemark.html

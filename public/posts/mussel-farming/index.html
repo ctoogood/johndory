@@ -1,0 +1,458 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.666 'Montserrat';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Montserrat';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}ul{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;font-size:0.85rem;line-height:1.666rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;font-size:1rem;line-height:1.666rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}blockquote{margin-left:1.666rem;margin-right:1.666rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.666rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.666rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.666rem;margin-bottom:calc(1.666rem / 2);margin-top:calc(1.666rem / 2);}li > ul{margin-left:1.666rem;margin-bottom:calc(1.666rem / 2);margin-top:calc(1.666rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.666rem / 2);}code{font-size:0.85rem;line-height:1.666rem;}kbd{font-size:0.85rem;line-height:1.666rem;}samp{font-size:0.85rem;line-height:1.666rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.11067rem;padding-right:1.11067rem;padding-top:0.833rem;padding-bottom:calc(0.833rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-styled="ioCBRP eKjZYp bAdRTz cowOco fZnBly bThrJy bxsYkR cPssay hKkEDM hYUueF dKiBGq bEFWfz sQelg cIubBB qFpNt" data-styled-version="4.3.2">
+/* sc-component-id: menu__Nav-ldryeq-0 */
+.bThrJy .navbar-menu{position:fixed;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;background-color:white;width:100%;color:#6B8090;z-index:10;height:100%;top:-5px;left:-100%;} .bThrJy .is-active{-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);} .bThrJy .clicked-menu .line:nth-child(2){opacity:0;} .bThrJy .clicked-menu .line:nth-child(1){-webkit-transform:translateY(9px) rotate(45deg);-ms-transform:translateY(9px) rotate(45deg);transform:translateY(9px) rotate(45deg);background-color:#6B8090;} .bThrJy .clicked-menu .line:nth-child(3){-webkit-transform:translateY(-9px) rotate(-45deg);-ms-transform:translateY(-9px) rotate(-45deg);transform:translateY(-9px) rotate(-45deg);background-color:#6B8090;} .bThrJy .menu-button{border:none;background-color:white;border-radius:0px 0px 12px 0px;position:fixed;top:0;left:0;z-index:12;padding:1rem;cursor:pointer;} .bThrJy .menu-button p{font-size:1.5rem;-webkit-transition:opacity 0.3s linear;transition:opacity 0.3s linear;} .bThrJy .clicked-menu{border-radius:0px 0px 0px 0px;} .bThrJy .clicked-menu p{opacity:0;} .bThrJy .line{width:2rem;height:2.5px;display:block;margin:6px auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-radius:20px;background-color:#6B8090;} .bThrJy ul{list-style-type:none;text-align:left;padding-top:4rem;margin-right:1rem;} .bThrJy li{cursor:pointer;} .bThrJy .navbar-link{color:#6B8090;-webkit-text-decoration:none;text-decoration:none;font-size:2rem;font-family:montserrat;display:block;line-height:1.5;} .bThrJy .navbar-link .blog-tag{display:none;font-size:.8rem;color:white;-webkit-text-decoration:none;text-decoration:none;padding-left:2rem;} .bThrJy .navbar-link .clicked-place,.bThrJy .navbar-link .clicked-activity{display:block;}
+/* sc-component-id: header__HeaderWrapper-sc-31ozxh-0 */
+.eKjZYp{background:white;padding-bottom:.1rem;text-align:center;position:relative;left:0;top:0;z-index:100;box-shadow:0px 2px 2px rgba(0,0,0,0.1);}
+/* sc-component-id: header__HeaderContainer-sc-31ozxh-1 */
+.bAdRTz{margin:0 auto;max-width:960;padding:0.5rem;padding-bottom:0;}
+/* sc-component-id: header__HeaderText-sc-31ozxh-2 */
+.cowOco{font-size:1.5rem;} @media only screen and (min-width:720px){}
+/* sc-component-id: header__SubheaderText-sc-31ozxh-3 */
+.fZnBly{font-family:Playfair Display;font-size:1rem;margin:0;} @media only screen and (min-width:720px){.fZnBly{margin-bottom:.5rem;}}
+/* sc-component-id: header__Social-sc-31ozxh-4 */
+@media only screen and (min-width:720px){.bxsYkR{position:absolute;right:7rem;bottom:0rem;}} .bxsYkR img{width:10px;margin:0.5rem;} @media only screen and (min-width:720px){.bxsYkR img{margin:1rem;width:20px;}}
+/* sc-component-id: email__FormContainer-sc-8wfbjn-0 */
+.qFpNt{height:auto;width:100%;color:#9baeb4;margin:0;padding-top:2rem;} .qFpNt p{padding:2rem;text-align:center;margin-bottom:0;} .qFpNt a{color:white;} .qFpNt h3{font:2rem playfair display;text-align:center;padding-top:1rem;color:white;} .qFpNt form{margin-bottom:0;} .qFpNt form p{margin:0.5rem;padding:0;margin-bottom:0;} .qFpNt form button{padding:.1rem 1rem;margin-top:1rem;color:white;border:1px solid white;background-color:#d2a193;-webkit-text-decoration:none;text-decoration:none;font-size:1rem;cursor:pointer;text-align:center;box-shadow:0px 2px 2px rgba(0,0,0,0.1);font-family:montserrat;margin-bottom:1rem;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-radius:20px;} @media only screen and (min-width:720px){.qFpNt form button{position:absolute;top:-17px;right:0;}} .qFpNt form button:hover{color:#9baeb4;border:1px solid #9baeb4;background:none;} .qFpNt form input{border-radius:20px;width:100%;} .qFpNt form .emailInput{position:relative;max-width:400px;margin:auto;}
+/* sc-component-id: footer__FooterContainer-r54yyk-0 */
+.cIubBB{height:auto;background-color:#406f7d;width:100%;color:white;margin:0;border-top:0.5rem solid #6e929e;} .cIubBB p{padding:2rem;text-align:center;margin-bottom:0;} .cIubBB a{color:white;}
+/* sc-component-id: layout__Main-ii2kc2-0 */
+.ioCBRP{margin:auto;}
+/* sc-component-id: layout__Content-ii2kc2-1 */
+.cPssay{margin:auto;margin-bottom:0;}
+/* sc-component-id: featureLayout__BlogPostMain-awzc2p-0 */
+.hKkEDM .image-container{padding:0;display:block;max-height:80vh;max-width:1200px;margin:auto;margin-top:3rem;} .hKkEDM .image-container Img{padding:0;display:block;max-height:80vh;}
+/* sc-component-id: featureLayout__BlogPostContent-awzc2p-1 */
+.dKiBGq{padding:1rem;color:#333;max-width:1200px;margin:auto;text-align:center;font-size:1.2rem;} .dKiBGq blockquote{color:#6e929e;font:1.5rem playfair display;font-weight:bold;} @media only screen and (min-width:720px){.dKiBGq{padding:2rem;}} .dKiBGq h2,.dKiBGq h3{color:#115974;font:1.5rem Playfair Display;font-style:italic;max-width:900px;margin:auto;padding-bottom:2rem;line-height:1.4;} .dKiBGq h3{margin-top:2rem;} .dKiBGq p{max-width:900px;margin:auto;padding-bottom:1rem;line-height:1.5;}
+/* sc-component-id: featureLayout__ShareIcons-awzc2p-2 */
+.bEFWfz{width:100%;padding-bottom:2rem;} .bEFWfz h3{text-align:center;font-family:playfair display;font-weight:400;font-size:2rem;} .bEFWfz ul{margin:auto;text-align:center;} .bEFWfz li{display:inline;} .bEFWfz img{max-width:50px;margin-left:2rem;margin-right:2rem;margin-bottom:2rem;}
+/* sc-component-id: featureLayout__FeaturedContainer-awzc2p-3 */
+.hYUueF{position:relative;border-bottom:0.2rem solid #d2a193;border-top:0.2rem solid #6e929e;margin:2rem;max-width:900px;margin-top:3rem;margin:2rem;} @media only screen and (min-width:900px){.hYUueF{margin:auto;margin-top:3rem;}} .hYUueF .text-container{position:relative;text-align:center;padding-top:2rem;padding-bottom:2rem;} .hYUueF .text-container h2,.hYUueF .text-container h3,.hYUueF .text-container h4,.hYUueF .text-container h5{font-family:playfair display;} .hYUueF .text-container h5{color:#d2a193;margin-bottom:0.5rem;} .hYUueF .text-container h2{margin-top:0.5rem;margin-bottom:0.5rem;color:#565555;font-weight:bold;font-size:3rem;} .hYUueF .text-container h4{color:#565555;display:none;} @media only screen and (min-width:1100px){.hYUueF .text-container h4{display:block;}} .hYUueF .text-container h3{margin-left:0.1rem;color:#6B8090;} @media only screen and (min-width:480px){.hYUueF .text-container h3{font-size:1.8rem;}} .hYUueF .text-container button{border:1px solid #d2a193;padding:.1rem 1rem;margin-top:1rem;color:#d2a193;-webkit-text-decoration:none;text-decoration:none;background:none;font-size:1rem;cursor:pointer;text-align:center;box-shadow:0px 2px 2px rgba(0,0,0,0.1);font-family:montserrat;margin-bottom:1rem;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;} .hYUueF .text-container button:hover{color:white;border:1px solid white;background-color:#d2a193;} .hYUueF .text-container hr{display:block;height:0px;border:0;background-color:#d2a193;margin:auto;padding:0;width:50%;} .hYUueF .text-container span{margin:1rem;} .hYUueF a{-webkit-text-decoration:none;text-decoration:none;color:inherit;}
+/* sc-component-id: featureLayout__Comments-awzc2p-4 */
+.sQelg{padding:1rem;}</style><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><title data-react-helmet="true">Mussel Farming | The John Dory</title><meta data-react-helmet="true" name="description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" property="og:url" content="https://www.johndory.uk"/><meta data-react-helmet="true" property="og:title" content="Mussel Farming"/><meta data-react-helmet="true" property="og:description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" property="og:image" content="https://www.johndory.uk/static/5a8d1d06ea840c41522be0e6eb84489a/81ef8/mussel-farming-5.jpg"/><meta data-react-helmet="true" property="og:image:width" content="1200"/><meta data-react-helmet="true" property="og:image:height" content="630"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="Calum Toogood"/><meta data-react-helmet="true" name="twitter:title" content="Mussel Farming"/><meta data-react-helmet="true" name="twitter:description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" name="twitter:image" content="https://www.johndory.uk/static/5a8d1d06ea840c41522be0e6eb84489a/81ef8/mussel-farming-5.jpg"/><meta data-react-helmet="true" name="keywords" content="food, drink, blog, produce, culinary"/><meta name="generator" content="Gatsby 2.15.14"/><style type="text/css">
+        .markdown-grid {
+          margin: 20px auto;
+        }
+
+        .markdown-grid-grid {
+          display: grid;
+          min-height: 0;
+          min-width: 0;
+          grid-gap: 20px;
+        }
+
+        .markdown-grid-figcaption {
+          text-align: center;
+        }
+      </style><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><style data-href="/commons.5921514d047312145b8b.css">html{//font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{//font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);//font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{//font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h6{//font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;//font-family:"SFMono-Regular",Consolas,"Roboto Mono","Droid Sans Mono","Liberation Mono",Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}.gatsby-resp-image-wrapper{width:100%}</style><link href="//fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display:400,400i,700,900" rel="stylesheet" type="text/css"/><link as="script" rel="preload" href="/app-63e3114736a6bbd73350.js"/><link as="script" rel="preload" href="/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js"/><link as="script" rel="preload" href="/commons-12c480c907c3e5fc5bdc.js"/><link as="script" rel="preload" href="/webpack-runtime-6e2461f555a4f107593c.js"/><link as="fetch" rel="preload" href="/page-data\posts\mussel-farming\page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><main class="layout__Main-ii2kc2-0 ioCBRP"><div class="header__HeaderWrapper-sc-31ozxh-0 eKjZYp"><div class="header__HeaderContainer-sc-31ozxh-1 bAdRTz"><a style="color:#115974;text-decoration:none" href="/"><h1 style="margin:0" class="header__HeaderText-sc-31ozxh-2 cowOco">The John Dory</h1><h4 style="color:#ab4f34" class="header__SubheaderText-sc-31ozxh-3 fZnBly"><em>Culinary Tales</em></h4></a><nav class="navbar menu__Nav-ldryeq-0 bThrJy"><div class="menu-button "><span class="line"></span><span class="line"></span><span class="line"></span></div><div class="navbar-menu "><div><div><ul><li><a class="navbar-link" href="/"><em>Home</em></a><hr/><a class="navbar-link" href="/featurelisting"><em>Features</em></a><hr/></li></ul></div></div></div></nav></div><div class="header__Social-sc-31ozxh-4 bxsYkR"><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/thejohndoryuk"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDYxMiA2MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIGNsYXNzPSIiPjxnPjxnPgoJPGc+CgkJPHBhdGggZD0iTTYxMiwxMTYuMjU4Yy0yMi41MjUsOS45ODEtNDYuNjk0LDE2Ljc1LTcyLjA4OCwxOS43NzJjMjUuOTI5LTE1LjUyNyw0NS43NzctNDAuMTU1LDU1LjE4NC02OS40MTEgICAgYy0yNC4zMjIsMTQuMzc5LTUxLjE2OSwyNC44Mi03OS43NzUsMzAuNDhjLTIyLjkwNy0yNC40MzctNTUuNDktMzkuNjU4LTkxLjYzLTM5LjY1OGMtNjkuMzM0LDAtMTI1LjU1MSw1Ni4yMTctMTI1LjU1MSwxMjUuNTEzICAgIGMwLDkuODI4LDEuMTA5LDE5LjQyNywzLjI1MSwyOC42MDZDMTk3LjA2NSwyMDYuMzIsMTA0LjU1NiwxNTYuMzM3LDQyLjY0MSw4MC4zODZjLTEwLjgyMywxOC41MS0xNi45OCw0MC4wNzgtMTYuOTgsNjMuMTAxICAgIGMwLDQzLjU1OSwyMi4xODEsODEuOTkzLDU1LjgzNSwxMDQuNDc5Yy0yMC41NzUtMC42ODgtMzkuOTI2LTYuMzQ4LTU2Ljg2Ny0xNS43NTZ2MS41NjhjMCw2MC44MDYsNDMuMjkxLDExMS41NTQsMTAwLjY5MywxMjMuMTA0ICAgIGMtMTAuNTE3LDIuODMtMjEuNjA3LDQuMzk4LTMzLjA4LDQuMzk4Yy04LjEwNywwLTE1Ljk0Ny0wLjgwMy0yMy42MzQtMi4zMzNjMTUuOTg1LDQ5LjkwNyw2Mi4zMzYsODYuMTk5LDExNy4yNTMsODcuMTk0ICAgIGMtNDIuOTQ3LDMzLjY1NC05Ny4wOTksNTMuNjU1LTE1NS45MTYsNTMuNjU1Yy0xMC4xMzQsMC0yMC4xMTYtMC42MTItMjkuOTQ0LTEuNzIxYzU1LjU2NywzNS42ODEsMTIxLjUzNiw1Ni40ODUsMTkyLjQzOCw1Ni40ODUgICAgYzIzMC45NDgsMCwzNTcuMTg4LTE5MS4yOTEsMzU3LjE4OC0zNTcuMTg4bC0wLjQyMS0xNi4yNTNDNTczLjg3MiwxNjMuNTI2LDU5NS4yMTEsMTQxLjQyMiw2MTIsMTE2LjI1OHoiIGRhdGEtb3JpZ2luYWw9IiMwMTAwMDIiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMTAwMDIiIGZpbGw9IiMxMTU5NzQiLz4KCTwvZz4KPC9nPjwvZz4gPC9zdmc+Cg==" alt="twitter logo"/></a><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/johndoryuk/"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDE2OS4wNjMgMTY5LjA2MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTY5LjA2MyAxNjkuMDYzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8cGF0aCBkPSJNMTIyLjQwNiwwSDQ2LjY1NEMyMC45MjksMCwwLDIwLjkzLDAsNDYuNjU1djc1Ljc1MmMwLDI1LjcyNiwyMC45MjksNDYuNjU1LDQ2LjY1NCw0Ni42NTVoNzUuNzUyICAgYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcgICBjMCwxNy40NTUtMTQuMjAxLDMxLjY1NS0zMS42NTYsMzEuNjU1SDQ2LjY1NEMyOS4yLDE1NC4wNjMsMTUsMTM5Ljg2MiwxNSwxMjIuNDA3VjQ2LjY1NUMxNSwyOS4yMDEsMjkuMiwxNSw0Ni42NTQsMTVoNzUuNzUyICAgYzE3LjQ1NSwwLDMxLjY1NiwxNC4yMDEsMzEuNjU2LDMxLjY1NVYxMjIuNDA3eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgZmlsbD0iIzExNTk3NCIvPgoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MSAgIEMxMjguMDk0LDYwLjUxMiwxMDguNTUyLDQwLjk3LDg0LjUzMSw0MC45N3ogTTg0LjUzMSwxMTMuMDkzYy0xNS43NDksMC0yOC41NjMtMTIuODEyLTI4LjU2My0yOC41NjEgICBjMC0xNS43NSwxMi44MTMtMjguNTYzLDI4LjU2My0yOC41NjNzMjguNTYzLDEyLjgxMywyOC41NjMsMjguNTYzQzExMy4wOTQsMTAwLjI4MSwxMDAuMjgsMTEzLjA5Myw4NC41MzEsMTEzLjA5M3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMxMTU5NzQiLz4KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4ICAgYzIuMDQsMi4wNCw0Ljg4LDMuMjIsNy43NywzLjIyYzIuOSwwLDUuNzMtMS4xOCw3Ljc4LTMuMjJjMi4wNS0yLjA1LDMuMjItNC44OSwzLjIyLTcuNzhjMC0yLjktMS4xNy01Ljc0LTMuMjItNy43OCAgIEMxMzUuNjYxLDI5LjQyMSwxMzIuODIxLDI4LjI1MSwxMjkuOTIxLDI4LjI1MXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMxMTU5NzQiLz4KPC9nPjwvZz4gPC9zdmc+Cg==" alt="instagram logo"/></a></div></div><section style="margin:0 auto;padding-top:0" class="layout__Content-ii2kc2-1 cPssay"><main class="featureLayout__BlogPostMain-awzc2p-0 hKkEDM"><div class="featureLayout__FeaturedContainer-awzc2p-3 hYUueF"><div class="text-container"><span><h5><em>May 03, 2017</em></h5><h2><em>Mussel Farming</em></h2><h3><em>Shetland Islands</em></h3></span></div></div><article class="blog-content featureLayout__BlogPostContent-awzc2p-1 dKiBGq"><h2>Over recent years Shetland has developed a reputation for supplying high-quality mussels.  Many mussel farms can be found throughout the isles, creating around 70% of Scotland's total mussel production</h2>
+<p>Shetland Select is a mussel supplier with their main mussel farms located in the northern isle of Yell, Shetland.  The mussel farms are operated by the Thomason brothers - Chris &#x26; Marvin - who I went to visit to create some images for the company.  Personally I was also intrigued to see the process which goes in to the harvesting of farmed mussels.</p>
+<p>I was greeted on the pier at Basta Voe by Marvin and two crew members who would be working on the vessel.  First we would be taking an environmental officer out to take samples from one of the mussel sites - a weekly occurrence to check the toxin levels.  Once the sample mussels had been collected and the officer returned to shore, the vessel once again headed out to the sites to begin harvesting.</p>
+<p>The mussels are grown on a series of ropes whch hang down from large plastic floats in the water.  The vessel approached a row of these floats and one of the crew threw a hook to catch one of the lines.  The line is then winched up to working height and connected to a machine on the vessel's deck.  This machine pulls the line through itself and strips the mussels off.  The mussels are then carried along a conveyor, washed and deposited into a large bin.  As the line is drawn into the machine one of the crew cuts off excess seaweed.</p>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWpSw+SxP/xAAaEAEAAwADAAAAAAAAAAAAAAACAAEDEBET/9oACAEBAAEFAisots7PrnC77Su+P//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMAAwAAAAAAAAAAAAAAAAAQMQEyQf/aAAgBAQAGPwLfBTqq/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAERMUFRgf/aAAgBAQABPyFJhFUrhYie4eHALbRZ/9oADAMBAAIAAwAAABCgH//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxCMf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCtr//EAB8QAQEAAQIHAAAAAAAAAAAAAAERACFRMUFhcZGx0f/aAAgBAQABPxAQvgfmVsrRK5xFezfrJpNHTAmyLZyu/fFVVz//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="workboat at a pier"
+        title="workboat at a pier"
+        src="/static/556c1461892433e4a552c686af1f1873/c35de/mussel-farming-1.jpg"
+        srcset="/static/556c1461892433e4a552c686af1f1873/afcd2/mussel-farming-1.jpg 300w,
+/static/556c1461892433e4a552c686af1f1873/82472/mussel-farming-1.jpg 600w,
+/static/556c1461892433e4a552c686af1f1873/c35de/mussel-farming-1.jpg 1200w,
+/static/556c1461892433e4a552c686af1f1873/98235/mussel-farming-1.jpg 1800w,
+/static/556c1461892433e4a552c686af1f1873/36a65/mussel-farming-1.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGlsxyonLP/xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIDERIT/9oACAEBAAEFAlWajQr5HRMxBn//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQMBAT8Byj//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGn/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAGSAhAhMeH/2gAIAQEABj8Cv0ynI1VI/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMSGBQVFh/9oACAEBAAE/IfZE10MmiJlTsc57lwH/2gAMAwEAAgADAAAAEGsf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxAv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAECAQE/ENq//8QAHxAAAgEEAgMAAAAAAAAAAAAAAAERITFhgUFRscHR/9oACAEBAAE/EIUo3jophg58OXTtIfkuX2EeiZRbfD//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Basta Voe landscape"
+        title="Basta Voe landscape"
+        src="/static/aa88f25b498608f53bcb96d7b793e0b1/c35de/mussel-farming-14.jpg"
+        srcset="/static/aa88f25b498608f53bcb96d7b793e0b1/afcd2/mussel-farming-14.jpg 300w,
+/static/aa88f25b498608f53bcb96d7b793e0b1/82472/mussel-farming-14.jpg 600w,
+/static/aa88f25b498608f53bcb96d7b793e0b1/c35de/mussel-farming-14.jpg 1200w,
+/static/aa88f25b498608f53bcb96d7b793e0b1/98235/mussel-farming-14.jpg 1800w,
+/static/aa88f25b498608f53bcb96d7b793e0b1/36a65/mussel-farming-14.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAG1bjltZf/EABoQAAEFAQAAAAAAAAAAAAAAAAIAAQMRIRL/2gAIAQEAAQUCCWZP0SKG3EsrSJ7/AP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGI/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgAQEZEhMUL/2gAIAQEABj8CyJUtnS6pplv/xAAgEAACAQIHAQAAAAAAAAAAAAAAASERQTFRYXGBkeHw/9oACAEBAAE/IWlA2N1y+hlWX3UyQmTVZtYVxro//9oADAMBAAIAAwAAABDEz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QL//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ECH/xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhUTFBcZGhsf/aAAgBAQABPxDwZ+vcRYV9KfkPENujFga3XKwLLsyOxFIQf//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Workboat arriving at mussel floats"
+        title="Workboat arriving at mussel floats"
+        src="/static/09424a5a3160b8845ad4a75c9664658e/c35de/mussel-farming-15.jpg"
+        srcset="/static/09424a5a3160b8845ad4a75c9664658e/afcd2/mussel-farming-15.jpg 300w,
+/static/09424a5a3160b8845ad4a75c9664658e/82472/mussel-farming-15.jpg 600w,
+/static/09424a5a3160b8845ad4a75c9664658e/c35de/mussel-farming-15.jpg 1200w,
+/static/09424a5a3160b8845ad4a75c9664658e/98235/mussel-farming-15.jpg 1800w,
+/static/09424a5a3160b8845ad4a75c9664658e/36a65/mussel-farming-15.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHBmWyNcVI//8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIDEgAR/9oACAEBAAEFAmY636BOZDMeDanOSuv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIRIxI0Fh/9oACAEBAAY/Ak8niux8lE79kZa0TZ//xAAaEAACAwEBAAAAAAAAAAAAAAABIQARQTFR/9oACAEBAAE/IUJkgID8MCDuujcAIWalhUmKc5PgM//aAAwDAQACAAMAAAAQs/8A/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABcRAAMBAAAAAAAAAAAAAAAAAAABEUH/2gAIAQIBAT8QR6U//8QAHBABAQADAQADAAAAAAAAAAAAAREAITFRQXGh/9oACAEBAAE/EKdOlTZ80DBWOQlKvurCn7kNaqJfbLBk8XL1EuCrPOY3RtHDrP/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Skipper at the boats wheel"
+        title="Skipper at the boats wheel"
+        src="/static/4a4240551b9ab5a8ffba367b2d6dfe1f/c35de/mussel-farming-3.jpg"
+        srcset="/static/4a4240551b9ab5a8ffba367b2d6dfe1f/afcd2/mussel-farming-3.jpg 300w,
+/static/4a4240551b9ab5a8ffba367b2d6dfe1f/82472/mussel-farming-3.jpg 600w,
+/static/4a4240551b9ab5a8ffba367b2d6dfe1f/c35de/mussel-farming-3.jpg 1200w,
+/static/4a4240551b9ab5a8ffba367b2d6dfe1f/98235/mussel-farming-3.jpg 1800w,
+/static/4a4240551b9ab5a8ffba367b2d6dfe1f/36a65/mussel-farming-3.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABx6ZxS0TSn//EABkQAAMBAQEAAAAAAAAAAAAAAAECAxESAP/aAAgBAQABBQIVebGrY1n3ohS7Z0ff/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFxEAAwEAAAAAAAAAAAAAAAAAARAhMf/aAAgBAgEBPwEZV//EABoQAAEFAQAAAAAAAAAAAAAAAAABAhExMhD/2gAIAQEABj8ChuZLNDRVmuf/xAAdEAACAgEFAAAAAAAAAAAAAAAAARFBYSExgdHh/9oACAEBAAE/Id+zTbV4IlqPB4k0lfY882BJZ//aAAwDAQACAAMAAAAQ3x//xAAWEQEBAQAAAAAAAAAAAAAAAAAAIQH/2gAIAQMBAT8Quq//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8Qehml/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITFBUWGR/9oACAEBAAE/EDpixQ5cLgQNjSbJZ5fEL0Si4eqR1AYFu2txyufk/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Crew member throwing a hook"
+        title="Crew member throwing a hook"
+        src="/static/56e16930da35906c02f43135e6052b4f/c35de/mussel-farming-4.jpg"
+        srcset="/static/56e16930da35906c02f43135e6052b4f/afcd2/mussel-farming-4.jpg 300w,
+/static/56e16930da35906c02f43135e6052b4f/82472/mussel-farming-4.jpg 600w,
+/static/56e16930da35906c02f43135e6052b4f/c35de/mussel-farming-4.jpg 1200w,
+/static/56e16930da35906c02f43135e6052b4f/98235/mussel-farming-4.jpg 1800w,
+/static/56e16930da35906c02f43135e6052b4f/36a65/mussel-farming-4.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFdEziYZwn/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEiBBESFDH/2gAIAQEAAQUCcjuFQWGyuIXgYS//xAAWEQEBAQAAAAAAAAAAAAAAAAAAITH/2gAIAQMBAT8BxH//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAECESExkYH/2gAIAQEABj8ClH0z03LpEarA6Z//xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMUFxgaHB/9oACAEBAAE/IVApa0mWKhiKPwi7veU9Q8FZ14nBB1P/2gAMAwEAAgADAAAAEPT/AP/EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAwEBPxCAv//EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8QS4kU/8QAHRABAAIDAAMBAAAAAAAAAAAAAQARITFBcYGx4f/aAAgBAQABPxAnHYhrjT632F3lgpXmbOLn6TRLK16KlKFQR28vsoACdEf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Crew cutting seaweed from lines"
+        title="Crew cutting seaweed from lines"
+        src="/static/5a8d1d06ea840c41522be0e6eb84489a/c35de/mussel-farming-5.jpg"
+        srcset="/static/5a8d1d06ea840c41522be0e6eb84489a/afcd2/mussel-farming-5.jpg 300w,
+/static/5a8d1d06ea840c41522be0e6eb84489a/82472/mussel-farming-5.jpg 600w,
+/static/5a8d1d06ea840c41522be0e6eb84489a/c35de/mussel-farming-5.jpg 1200w,
+/static/5a8d1d06ea840c41522be0e6eb84489a/98235/mussel-farming-5.jpg 1800w,
+/static/5a8d1d06ea840c41522be0e6eb84489a/36a65/mussel-farming-5.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABYBAQEBAAAAAAAAAAAAAAAAAAIAA//aAAwDAQACEAMQAAABqlaI2ghoP//EABoQAQABBQAAAAAAAAAAAAAAAAECEBETITH/2gAIAQEAAQUCzytKY16u3//EABcRAQADAAAAAAAAAAAAAAAAAAABETL/2gAIAQMBAT8BzC3/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREy/9oACAECAQE/AdSp/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAERECExMpH/2gAIAQEABj8CwKdi8cEiaf/EABwQAQACAgMBAAAAAAAAAAAAAAEAESFBMVGRYf/aAAgBAQABPyEtIF+EyrsNcezDkWe4viAsz5LXvSM3NYn/2gAMAwEAAgADAAAAECTf/8QAGBEAAwEBAAAAAAAAAAAAAAAAABEhATH/2gAIAQMBAT8QXSj7Wf/EABgRAAMBAQAAAAAAAAAAAAAAAAABESFx/9oACAECAQE/EG+RCyH/xAAdEAEAAgEFAQAAAAAAAAAAAAABABEhMUFhcaFR/9oACAEBAAE/EGEsYMr7GG7mVSHXhpOz2iU4W4kL8bVdwWEADej4eSiU6MT/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Mussels on a line"
+        title="Mussels on a line"
+        src="/static/e89a715ee453126bf917c73550290ee0/c35de/mussel-farming-6.jpg"
+        srcset="/static/e89a715ee453126bf917c73550290ee0/afcd2/mussel-farming-6.jpg 300w,
+/static/e89a715ee453126bf917c73550290ee0/82472/mussel-farming-6.jpg 600w,
+/static/e89a715ee453126bf917c73550290ee0/c35de/mussel-farming-6.jpg 1200w,
+/static/e89a715ee453126bf917c73550290ee0/98235/mussel-farming-6.jpg 1800w,
+/static/e89a715ee453126bf917c73550290ee0/36a65/mussel-farming-6.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABerjytMjEf//EABwQAAIBBQEAAAAAAAAAAAAAAAACARAREhMjQ//aAAgBAQABBQLmptJWHp6Z2P/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAIBBQEAAAAAAAAAAAAAAAABEQIQEiEyUf/aAAgBAQAGPwLrI8JVaIIe7f/EABsQAQADAQADAAAAAAAAAAAAAAEAESExQWGx/9oACAEBAAE/IQrymXs2nyVG4ep4otCdi66CtilU/9oADAMBAAIAAwAAABCAH//EABcRAQADAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QXGP/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhUf/aAAgBAgEBPxCZGR9P/8QAHBABAQACAgMAAAAAAAAAAAAAAREAIUFhMdHx/9oACAEBAAE/EKt8MhOTuY7gGoBKB07x5kBWDfOnEQSgBWKhcVjg0jevmPxYPXrP/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Mussels in water"
+        title="Mussels in water"
+        src="/static/0c47902ddabb86b997de241392cdade0/c35de/mussel-farming-7.jpg"
+        srcset="/static/0c47902ddabb86b997de241392cdade0/afcd2/mussel-farming-7.jpg 300w,
+/static/0c47902ddabb86b997de241392cdade0/82472/mussel-farming-7.jpg 600w,
+/static/0c47902ddabb86b997de241392cdade0/c35de/mussel-farming-7.jpg 1200w,
+/static/0c47902ddabb86b997de241392cdade0/98235/mussel-farming-7.jpg 1800w,
+/static/0c47902ddabb86b997de241392cdade0/36a65/mussel-farming-7.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAYpg2acFQv/EABsQAQACAgMAAAAAAAAAAAAAAAECAwASERMi/9oACAEBAAEFAm1S+STq30T11ciZ/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/ARF//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EAB4QAAEDBAMAAAAAAAAAAAAAAAABESECEjFBIoGR/9oACAEBAAY/AmlOxtaE5elqE1YMn//EABsQAQEBAAIDAAAAAAAAAAAAABEBACFBMVFh/9oACAEBAAE/IU4PUGkYnhNSwj1LdFwOR1Ch0kwUXw3/2gAMAwEAAgADAAAAEKTv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/EHqTb//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAgEBPxDSv//EAB0QAQEAAgEFAAAAAAAAAAAAAAERACExYXGh0fH/2gAIAQEAAT8QTbWILST3imXccjZiHspUg98WQZR7W/cVTB1Bq+HriFowhSE4z//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Crew sorting mussels on deck"
+        title="Crew sorting mussels on deck"
+        src="/static/147c43a9bbe9a1cf4b3cc1fdd6be370f/c35de/mussel-farming-10.jpg"
+        srcset="/static/147c43a9bbe9a1cf4b3cc1fdd6be370f/afcd2/mussel-farming-10.jpg 300w,
+/static/147c43a9bbe9a1cf4b3cc1fdd6be370f/82472/mussel-farming-10.jpg 600w,
+/static/147c43a9bbe9a1cf4b3cc1fdd6be370f/c35de/mussel-farming-10.jpg 1200w,
+/static/147c43a9bbe9a1cf4b3cc1fdd6be370f/98235/mussel-farming-10.jpg 1800w,
+/static/147c43a9bbe9a1cf4b3cc1fdd6be370f/36a65/mussel-farming-10.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAD/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABS0C2RCKk/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAECEQMSIiH/2gAIAQEAAQUC5geU9R9F1B5Gf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABECERMTL/2gAIAQEABj8Cto2jpFowo//EAB0QAAICAQUAAAAAAAAAAAAAAAAhARFBMWFxgcH/2gAIAQEAAT8hQl2PZXI31KwjATi0bFrQ/9oADAMBAAIAAwAAABBI7//EABYRAQEBAAAAAAAAAAAAAAAAAAAhEf/aAAgBAwEBPxCYj//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8Q1cv/xAAdEAEBAAIBBQAAAAAAAAAAAAABEQAhMUFxgaHR/9oACAEBAAE/EBC2eBG8UQo6xhva9uLfhU3jgZIB5HnKuvr5n//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Workboat alongside mussel lines"
+        title="Workboat alongside mussel lines"
+        src="/static/feb5ffcd60e888d64a3197a931c7bd14/c35de/mussel-farming-11.jpg"
+        srcset="/static/feb5ffcd60e888d64a3197a931c7bd14/afcd2/mussel-farming-11.jpg 300w,
+/static/feb5ffcd60e888d64a3197a931c7bd14/82472/mussel-farming-11.jpg 600w,
+/static/feb5ffcd60e888d64a3197a931c7bd14/c35de/mussel-farming-11.jpg 1200w,
+/static/feb5ffcd60e888d64a3197a931c7bd14/98235/mussel-farming-11.jpg 1800w,
+/static/feb5ffcd60e888d64a3197a931c7bd14/36a65/mussel-farming-11.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<p>The following day I attended the factory where the mussels are processed, in nearby Cullivoe. Here I met Chris and his team, and watched as they hand selected mussels which passed through on a conveyor and were then bagged, boxed, iced, and palletised for shipping.</p>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHRJ1iIpD//xAAcEAACAgIDAAAAAAAAAAAAAAABAwACBBESEzL/2gAIAQEAAQUCWzdshotOMWT2s9ioM//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEGH/2gAIAQIBAT8BNX//xAAbEAACAQUAAAAAAAAAAAAAAAAAARAREjFxkf/aAAgBAQAGPwJqnC1YhbHH/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMSFB/9oACAEBAAE/IbgPMgS20dE9jF5uQZFLkLVHa2f/2gAMAwEAAgADAAAAEB8//8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EADk/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EEpkf//EAB0QAQEAAgEFAAAAAAAAAAAAAAERADFBIVFhccH/2gAIAQEAAT8QHai8zGZRiFoK37JgDu4VjSBO4s+4pA+GYV4zpYyHjn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Mussels being tipped onto the conveyor"
+        title="Mussels being tipped onto the conveyor"
+        src="/static/3065aef057970a1626711262dcb129a8/c35de/mussel-farming-24.jpg"
+        srcset="/static/3065aef057970a1626711262dcb129a8/afcd2/mussel-farming-24.jpg 300w,
+/static/3065aef057970a1626711262dcb129a8/82472/mussel-farming-24.jpg 600w,
+/static/3065aef057970a1626711262dcb129a8/c35de/mussel-farming-24.jpg 1200w,
+/static/3065aef057970a1626711262dcb129a8/98235/mussel-farming-24.jpg 1800w,
+/static/3065aef057970a1626711262dcb129a8/36a65/mussel-farming-24.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAXiqMCw//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERIQL/2gAIAQEAAQUCuXHKuioZ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRABAAIDAAAAAAAAAAAAAAAAEQAQARIx/9oACAEBAAY/Ahhs4vlf/8QAGRABAQEBAQEAAAAAAAAAAAAAAQAxESFh/9oACAEBAAE/ITUuToQX2R8x9uGRC5f/2gAMAwEAAgADAAAAEJsf/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAwEBPxCDV//EABYRAQEBAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPxAUyf/EAB4QAQEAAQMFAAAAAAAAAAAAAAERACFB0TFxgZHh/9oACAEBAAE/EL2sm+V2gUL2wKgVLp9wAbdGqcYIsPJxilr2cZ//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Worker checking mussels"
+        title="Worker checking mussels"
+        src="/static/ce698c188b0d2fb46355fd1f8a333f25/c35de/mussel-farming-23.jpg"
+        srcset="/static/ce698c188b0d2fb46355fd1f8a333f25/afcd2/mussel-farming-23.jpg 300w,
+/static/ce698c188b0d2fb46355fd1f8a333f25/82472/mussel-farming-23.jpg 600w,
+/static/ce698c188b0d2fb46355fd1f8a333f25/c35de/mussel-farming-23.jpg 1200w,
+/static/ce698c188b0d2fb46355fd1f8a333f25/98235/mussel-farming-23.jpg 1800w,
+/static/ce698c188b0d2fb46355fd1f8a333f25/36a65/mussel-farming-23.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABZo7IV55oMf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMRBBL/2gAIAQEAAQUCTGjt4GrvPpNtRjVLP//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwFRNJ//xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAgBAgEBPwFua5If/8QAHBAAAgICAwAAAAAAAAAAAAAAAAECEiExMkHB/9oACAEBAAY/AmpPZSz9MxNnM7P/xAAdEAEAAwABBQAAAAAAAAAAAAABABEhoTFBYXHR/9oACAEBAAE/IdwJxZ2IeOEWVh6JdK8yZkQV0qWPqf/aAAwDAQACAAMAAAAQBO//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQMBAT8QFBmzf//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxCoKf/EABwQAQACAwEBAQAAAAAAAAAAAAEAESExQVFhsf/aAAgBAQABPxBnTZQ6HSPIjoCq2tY08PsbGroLMGuzz8I5pezdkCuP7KUEUUvT7P/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Mussels being bagged"
+        title="Mussels being bagged"
+        src="/static/ec0fcdb89aa49d4fb194317569be233a/c35de/mussel-farming-16.jpg"
+        srcset="/static/ec0fcdb89aa49d4fb194317569be233a/afcd2/mussel-farming-16.jpg 300w,
+/static/ec0fcdb89aa49d4fb194317569be233a/82472/mussel-farming-16.jpg 600w,
+/static/ec0fcdb89aa49d4fb194317569be233a/c35de/mussel-farming-16.jpg 1200w,
+/static/ec0fcdb89aa49d4fb194317569be233a/98235/mussel-farming-16.jpg 1800w,
+/static/ec0fcdb89aa49d4fb194317569be233a/36a65/mussel-farming-16.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABz2tIfJEGP//EABgQAQEBAQEAAAAAAAAAAAAAAAECEQMS/9oACAEBAAEFAuO5cK9DLPOX1SLVr//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAIAQMBAT8Bm8Gf/8QAFxEBAAMAAAAAAAAAAAAAAAAAARASMf/aAAgBAgEBPwGq7H//xAAZEAADAAMAAAAAAAAAAAAAAAAAARESIlH/2gAIAQEABj8C2QmcLiUdP//EABsQAQADAQADAAAAAAAAAAAAAAEAESFRMUFh/9oACAEBAAE/IeU5cFqIequ4TFPwypaZdLkzgDhkdvKf/9oADAMBAAIAAwAAABAk7//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEUH/2gAIAQMBAT8QDnZKrf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8QXPEAGX//xAAdEAEAAgEFAQAAAAAAAAAAAAABABEhMUFRcYGh/9oACAEBAAE/ECq2RpGrisrwUsPkN+8heBTlNE4I2HQb2MWKdQqf/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Mussels being packed"
+        title="Mussels being packed"
+        src="/static/ed39e0c1b1e637295c41e316964b262d/c35de/mussel-farming-26.jpg"
+        srcset="/static/ed39e0c1b1e637295c41e316964b262d/afcd2/mussel-farming-26.jpg 300w,
+/static/ed39e0c1b1e637295c41e316964b262d/82472/mussel-farming-26.jpg 600w,
+/static/ed39e0c1b1e637295c41e316964b262d/c35de/mussel-farming-26.jpg 1200w,
+/static/ed39e0c1b1e637295c41e316964b262d/98235/mussel-farming-26.jpg 1800w,
+/static/ed39e0c1b1e637295c41e316964b262d/36a65/mussel-farming-26.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAdbNGWRYb//EABkQAQADAQEAAAAAAAAAAAAAAAEAAgMSEf/aAAgBAQABBQIEmPOqgTms8rWroz//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIhECISMTL/2gAIAQEABj8C1lQ+a2RUUeeyorH/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMXFBUf/aAAgBAQABPyE8eBjIpXV7ilUpnMOosJ0+Esez/9oADAMBAAIAAwAAABBMD//EABYRAQEBAAAAAAAAAAAAAAAAAAAhMf/aAAgBAwEBPxCYr//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFB/9oACAECAQE/EMllH//EAB4QAAICAQUBAAAAAAAAAAAAAAERACFRMUFhgZHB/9oACAEBAAE/EBwd7F1lwkVS9PEe2TgRFvZ2N6uHqYFTA7EicFfJ/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Mussels being iced"
+        title="Mussels being iced"
+        src="/static/4576609782f06e863468f067c292842c/c35de/mussel-farming-19.jpg"
+        srcset="/static/4576609782f06e863468f067c292842c/afcd2/mussel-farming-19.jpg 300w,
+/static/4576609782f06e863468f067c292842c/82472/mussel-farming-19.jpg 600w,
+/static/4576609782f06e863468f067c292842c/c35de/mussel-farming-19.jpg 1200w,
+/static/4576609782f06e863468f067c292842c/98235/mussel-farming-19.jpg 1800w,
+/static/4576609782f06e863468f067c292842c/36a65/mussel-farming-19.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFvjSkiwaB//8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMEEgERIjH/2gAIAQEAAQUCEC1IYNRVYceSlDZXC//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFlf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwFsf//EAB0QAQABAwUAAAAAAAAAAAAAAAEAAhEhEjEyQXH/2gAIAQEABj8C5YOoOrMEr3nspsWvAGf/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQTFx/9oACAEBAAE/IbpfgWyrhnIwqnQShjqMrEtQ9gUSif/aAAwDAQACAAMAAAAQiw//xAAYEQEBAAMAAAAAAAAAAAAAAAABACExQf/aAAgBAwEBPxAOG5LF/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAMf/aAAgBAgEBPxCkrzDFN//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExcUFR4f/aAAgBAQABPxAzJKreFefZfkOAAvdcdQ8/WKphxKUVM3iX8P5ztN57C69s/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Boxes of mussels being placed on a pallet"
+        title="Boxes of mussels being placed on a pallet"
+        src="/static/69085f7ad7c332e71eb597f7e928289f/c35de/mussel-farming-18.jpg"
+        srcset="/static/69085f7ad7c332e71eb597f7e928289f/afcd2/mussel-farming-18.jpg 300w,
+/static/69085f7ad7c332e71eb597f7e928289f/82472/mussel-farming-18.jpg 600w,
+/static/69085f7ad7c332e71eb597f7e928289f/c35de/mussel-farming-18.jpg 1200w,
+/static/69085f7ad7c332e71eb597f7e928289f/98235/mussel-farming-18.jpg 1800w,
+/static/69085f7ad7c332e71eb597f7e928289f/36a65/mussel-farming-18.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure></article><section class="featureLayout__ShareIcons-awzc2p-2 bEFWfz"><h3>Share</h3><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.johndory.uk/posts/mussel-farming" target="_blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDExMi4xOTYgMTEyLjE5NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEyLjE5NiAxMTIuMTk2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMzQjU5OTg7IiBjeD0iNTYuMDk4IiBjeT0iNTYuMDk4IiByPSI1Ni4wOTgiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTcwLjIwMSw1OC4yOTRoLTEwLjAxdjM2LjY3Mkg0NS4wMjVWNTguMjk0aC03LjIxM1Y0NS40MDZoNy4yMTN2LTguMzQNCgkJYzAtNS45NjQsMi44MzMtMTUuMzAzLDE1LjMwMS0xNS4zMDNMNzEuNTYsMjEuODF2MTIuNTFoLTguMTUxYy0xLjMzNywwLTMuMjE3LDAuNjY4LTMuMjE3LDMuNTEzdjcuNTg1aDExLjMzNEw3MC4yMDEsNTguMjk0eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="facebook"/></a></li><li><a href="https://twitter.com/intent/tweet/?text=Mussel Farming&amp;url=https://www.johndory.uk/posts/mussel-farming" target="blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDExMi4xOTcgMTEyLjE5NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEyLjE5NyAxMTIuMTk3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiM1NUFDRUU7IiBjeD0iNTYuMDk5IiBjeT0iNTYuMDk4IiByPSI1Ni4wOTgiLz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6I0YxRjJGMjsiIGQ9Ik05MC40NjEsNDAuMzE2Yy0yLjQwNCwxLjA2Ni00Ljk5LDEuNzg3LTcuNzAyLDIuMTA5YzIuNzY5LTEuNjU5LDQuODk0LTQuMjg0LDUuODk3LTcuNDE3DQoJCQljLTIuNTkxLDEuNTM3LTUuNDYyLDIuNjUyLTguNTE1LDMuMjUzYy0yLjQ0Ni0yLjYwNS01LjkzMS00LjIzMy05Ljc5LTQuMjMzYy03LjQwNCwwLTEzLjQwOSw2LjAwNS0xMy40MDksMTMuNDA5DQoJCQljMCwxLjA1MSwwLjExOSwyLjA3NCwwLjM0OSwzLjA1NmMtMTEuMTQ0LTAuNTU5LTIxLjAyNS01Ljg5Ny0yNy42MzktMTQuMDEyYy0xLjE1NCwxLjk4LTEuODE2LDQuMjg1LTEuODE2LDYuNzQyDQoJCQljMCw0LjY1MSwyLjM2OSw4Ljc1Nyw1Ljk2NSwxMS4xNjFjLTIuMTk3LTAuMDY5LTQuMjY2LTAuNjcyLTYuMDczLTEuNjc5Yy0wLjAwMSwwLjA1Ny0wLjAwMSwwLjExNC0wLjAwMSwwLjE3DQoJCQljMCw2LjQ5Nyw0LjYyNCwxMS45MTYsMTAuNzU3LDEzLjE0N2MtMS4xMjQsMC4zMDgtMi4zMTEsMC40NzEtMy41MzIsMC40NzFjLTAuODY2LDAtMS43MDUtMC4wODMtMi41MjMtMC4yMzkNCgkJCWMxLjcwNiw1LjMyNiw2LjY1Nyw5LjIwMywxMi41MjYsOS4zMTJjLTQuNTksMy41OTctMTAuMzcxLDUuNzQtMTYuNjU1LDUuNzRjLTEuMDgsMC0yLjE1LTAuMDYzLTMuMTk3LTAuMTg4DQoJCQljNS45MzEsMy44MDYsMTIuOTgxLDYuMDI1LDIwLjU1Myw2LjAyNWMyNC42NjQsMCwzOC4xNTItMjAuNDMyLDM4LjE1Mi0zOC4xNTNjMC0wLjU4MS0wLjAxMy0xLjE2LTAuMDM5LTEuNzM0DQoJCQlDODYuMzkxLDQ1LjM2Niw4OC42NjQsNDMuMDA1LDkwLjQ2MSw0MC4zMTZMOTAuNDYxLDQwLjMxNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" alt="twitter"/></a></li></ul></section><section id="comments" class="featureLayout__Comments-awzc2p-4 sQelg"><div id="disqus_thread"></div></section></main></section><div class="footer__FooterContainer-r54yyk-0 cIubBB"><div class="email__FormContainer-sc-8wfbjn-0 qFpNt"><h3><em>New Content Direct To Your Inbox</em></h3><form name="contact" method="POST" data-netlify="true" action="/formSuccess"><input type="hidden" name="form-name" value="contact"/><p><label><div class="emailInput"><input type="email" name="email" placeholder=" Your Email"/><button type="submit">Subscribe</button></div></label></p><p></p></form></div><p>thejohndoryuk@gmail.com<br/><br/>© <!-- -->2019</p></div></main></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-143662307-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/mussel-farming";window.webpackCompilationHash="39a26b99a46753e4a855";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-63e3114736a6bbd73350.js"],"component---src-components-feature-list-js":["/component---src-components-feature-list-js-bd32487f179324f3ccbf.js"],"component---src-components-feature-layout-js":["/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js"],"component---src-components-gallery-listing-js":["/component---src-components-gallery-listing-js-63f616d1cc71051c7f1c.js"],"component---src-components-post-layout-js":["/component---src-components-post-layout-js-db2a8a91fc1b7d485453.js"],"component---src-components-category-listing-js":["/component---src-components-category-listing-js-36969de663171ee4ebed.js"],"component---src-pages-404-js":["/component---src-pages-404-js-da85e1f270da44b19447.js"],"component---src-pages-features-js":["/component---src-pages-features-js-412cff7043c5224f71cd.js"],"component---src-pages-form-success-js":["/component---src-pages-form-success-js-862499294d5b03de51b9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bf11b036728227b8bdd4.js"],"component---src-pages-posts-js":["/component---src-pages-posts-js-cfbe8e0b5f75113b7f27.js"]};/*]]>*/</script><script src="/webpack-runtime-6e2461f555a4f107593c.js" async=""></script><script src="/commons-12c480c907c3e5fc5bdc.js" async=""></script><script src="/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js" async=""></script><script src="/app-63e3114736a6bbd73350.js" async=""></script></body></html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.666 'Montserrat';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Montserrat';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}ul{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;font-size:0.85rem;line-height:1.666rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;font-size:1rem;line-height:1.666rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}blockquote{margin-left:1.666rem;margin-right:1.666rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.666rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.666rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.666rem;margin-bottom:calc(1.666rem / 2);margin-top:calc(1.666rem / 2);}li > ul{margin-left:1.666rem;margin-bottom:calc(1.666rem / 2);margin-top:calc(1.666rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.666rem / 2);}code{font-size:0.85rem;line-height:1.666rem;}kbd{font-size:0.85rem;line-height:1.666rem;}samp{font-size:0.85rem;line-height:1.666rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.11067rem;padding-right:1.11067rem;padding-top:0.833rem;padding-bottom:calc(0.833rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-styled="ioCBRP eKjZYp bAdRTz cowOco fZnBly bThrJy bxsYkR cPssay hKkEDM hYUueF dKiBGq bEFWfz sQelg cIubBB qFpNt" data-styled-version="4.3.2">
+/* sc-component-id: menu__Nav-ldryeq-0 */
+.bThrJy .navbar-menu{position:fixed;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;background-color:white;width:100%;color:#6B8090;z-index:10;height:100%;top:-5px;left:-100%;} .bThrJy .is-active{-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);} .bThrJy .clicked-menu .line:nth-child(2){opacity:0;} .bThrJy .clicked-menu .line:nth-child(1){-webkit-transform:translateY(9px) rotate(45deg);-ms-transform:translateY(9px) rotate(45deg);transform:translateY(9px) rotate(45deg);background-color:#6B8090;} .bThrJy .clicked-menu .line:nth-child(3){-webkit-transform:translateY(-9px) rotate(-45deg);-ms-transform:translateY(-9px) rotate(-45deg);transform:translateY(-9px) rotate(-45deg);background-color:#6B8090;} .bThrJy .menu-button{border:none;background-color:white;border-radius:0px 0px 12px 0px;position:fixed;top:0;left:0;z-index:12;padding:1rem;cursor:pointer;} .bThrJy .menu-button p{font-size:1.5rem;-webkit-transition:opacity 0.3s linear;transition:opacity 0.3s linear;} .bThrJy .clicked-menu{border-radius:0px 0px 0px 0px;} .bThrJy .clicked-menu p{opacity:0;} .bThrJy .line{width:2rem;height:2.5px;display:block;margin:6px auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-radius:20px;background-color:#6B8090;} .bThrJy ul{list-style-type:none;text-align:left;padding-top:4rem;margin-right:1rem;} .bThrJy li{cursor:pointer;} .bThrJy .navbar-link{color:#6B8090;-webkit-text-decoration:none;text-decoration:none;font-size:2rem;font-family:montserrat;display:block;line-height:1.5;} .bThrJy .navbar-link .blog-tag{display:none;font-size:.8rem;color:white;-webkit-text-decoration:none;text-decoration:none;padding-left:2rem;} .bThrJy .navbar-link .clicked-place,.bThrJy .navbar-link .clicked-activity{display:block;}
+/* sc-component-id: header__HeaderWrapper-sc-31ozxh-0 */
+.eKjZYp{background:white;padding-bottom:.1rem;text-align:center;position:relative;left:0;top:0;z-index:100;box-shadow:0px 2px 2px rgba(0,0,0,0.1);}
+/* sc-component-id: header__HeaderContainer-sc-31ozxh-1 */
+.bAdRTz{margin:0 auto;max-width:960;padding:0.5rem;padding-bottom:0;}
+/* sc-component-id: header__HeaderText-sc-31ozxh-2 */
+.cowOco{font-size:1.5rem;} @media only screen and (min-width:720px){}
+/* sc-component-id: header__SubheaderText-sc-31ozxh-3 */
+.fZnBly{font-family:Playfair Display;font-size:1rem;margin:0;} @media only screen and (min-width:720px){.fZnBly{margin-bottom:.5rem;}}
+/* sc-component-id: header__Social-sc-31ozxh-4 */
+@media only screen and (min-width:720px){.bxsYkR{position:absolute;right:7rem;bottom:0rem;}} .bxsYkR img{width:10px;margin:0.5rem;} @media only screen and (min-width:720px){.bxsYkR img{margin:1rem;width:20px;}}
+/* sc-component-id: email__FormContainer-sc-8wfbjn-0 */
+.qFpNt{height:auto;width:100%;color:#9baeb4;margin:0;padding-top:2rem;} .qFpNt p{padding:2rem;text-align:center;margin-bottom:0;} .qFpNt a{color:white;} .qFpNt h3{font:2rem playfair display;text-align:center;padding-top:1rem;color:white;} .qFpNt form{margin-bottom:0;} .qFpNt form p{margin:0.5rem;padding:0;margin-bottom:0;} .qFpNt form button{padding:.1rem 1rem;margin-top:1rem;color:white;border:1px solid white;background-color:#d2a193;-webkit-text-decoration:none;text-decoration:none;font-size:1rem;cursor:pointer;text-align:center;box-shadow:0px 2px 2px rgba(0,0,0,0.1);font-family:montserrat;margin-bottom:1rem;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-radius:20px;} @media only screen and (min-width:720px){.qFpNt form button{position:absolute;top:-17px;right:0;}} .qFpNt form button:hover{color:#9baeb4;border:1px solid #9baeb4;background:none;} .qFpNt form input{border-radius:20px;width:100%;} .qFpNt form .emailInput{position:relative;max-width:400px;margin:auto;}
+/* sc-component-id: footer__FooterContainer-r54yyk-0 */
+.cIubBB{height:auto;background-color:#406f7d;width:100%;color:white;margin:0;border-top:0.5rem solid #6e929e;} .cIubBB p{padding:2rem;text-align:center;margin-bottom:0;} .cIubBB a{color:white;}
+/* sc-component-id: layout__Main-ii2kc2-0 */
+.ioCBRP{margin:auto;}
+/* sc-component-id: layout__Content-ii2kc2-1 */
+.cPssay{margin:auto;margin-bottom:0;}
+/* sc-component-id: featureLayout__BlogPostMain-awzc2p-0 */
+.hKkEDM .image-container{padding:0;display:block;max-height:80vh;max-width:1200px;margin:auto;margin-top:3rem;} .hKkEDM .image-container Img{padding:0;display:block;max-height:80vh;}
+/* sc-component-id: featureLayout__BlogPostContent-awzc2p-1 */
+.dKiBGq{padding:1rem;color:#333;max-width:1200px;margin:auto;text-align:center;font-size:1.2rem;} .dKiBGq blockquote{color:#6e929e;font:1.5rem playfair display;font-weight:bold;} @media only screen and (min-width:720px){.dKiBGq{padding:2rem;}} .dKiBGq h2,.dKiBGq h3{color:#115974;font:1.5rem Playfair Display;font-style:italic;max-width:900px;margin:auto;padding-bottom:2rem;line-height:1.4;} .dKiBGq h3{margin-top:2rem;} .dKiBGq p{max-width:900px;margin:auto;padding-bottom:1rem;line-height:1.5;}
+/* sc-component-id: featureLayout__ShareIcons-awzc2p-2 */
+.bEFWfz{width:100%;padding-bottom:2rem;} .bEFWfz h3{text-align:center;font-family:playfair display;font-weight:400;font-size:2rem;} .bEFWfz ul{margin:auto;text-align:center;} .bEFWfz li{display:inline;} .bEFWfz img{max-width:50px;margin-left:2rem;margin-right:2rem;margin-bottom:2rem;}
+/* sc-component-id: featureLayout__FeaturedContainer-awzc2p-3 */
+.hYUueF{position:relative;border-bottom:0.2rem solid #d2a193;border-top:0.2rem solid #6e929e;margin:2rem;max-width:900px;margin-top:3rem;margin:2rem;} @media only screen and (min-width:900px){.hYUueF{margin:auto;margin-top:3rem;}} .hYUueF .text-container{position:relative;text-align:center;padding-top:2rem;padding-bottom:2rem;} .hYUueF .text-container h2,.hYUueF .text-container h3,.hYUueF .text-container h4,.hYUueF .text-container h5{font-family:playfair display;} .hYUueF .text-container h5{color:#d2a193;margin-bottom:0.5rem;} .hYUueF .text-container h2{margin-top:0.5rem;margin-bottom:0.5rem;color:#565555;font-weight:bold;font-size:3rem;} .hYUueF .text-container h4{color:#565555;display:none;} @media only screen and (min-width:1100px){.hYUueF .text-container h4{display:block;}} .hYUueF .text-container h3{margin-left:0.1rem;color:#6B8090;} @media only screen and (min-width:480px){.hYUueF .text-container h3{font-size:1.8rem;}} .hYUueF .text-container button{border:1px solid #d2a193;padding:.1rem 1rem;margin-top:1rem;color:#d2a193;-webkit-text-decoration:none;text-decoration:none;background:none;font-size:1rem;cursor:pointer;text-align:center;box-shadow:0px 2px 2px rgba(0,0,0,0.1);font-family:montserrat;margin-bottom:1rem;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;} .hYUueF .text-container button:hover{color:white;border:1px solid white;background-color:#d2a193;} .hYUueF .text-container hr{display:block;height:0px;border:0;background-color:#d2a193;margin:auto;padding:0;width:50%;} .hYUueF .text-container span{margin:1rem;} .hYUueF a{-webkit-text-decoration:none;text-decoration:none;color:inherit;}
+/* sc-component-id: featureLayout__Comments-awzc2p-4 */
+.sQelg{padding:1rem;}</style><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><title data-react-helmet="true">Eva&#x27;s Organics | The John Dory</title><meta data-react-helmet="true" name="description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" property="og:url" content="https://www.johndory.uk"/><meta data-react-helmet="true" property="og:title" content="Eva&#x27;s Organics"/><meta data-react-helmet="true" property="og:description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" property="og:image" content="https://www.johndory.uk/static/41bb721c63815631a0811e283f13e3e6/81ef8/evasorganics031.jpg"/><meta data-react-helmet="true" property="og:image:width" content="1200"/><meta data-react-helmet="true" property="og:image:height" content="630"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="Calum Toogood"/><meta data-react-helmet="true" name="twitter:title" content="Eva&#x27;s Organics"/><meta data-react-helmet="true" name="twitter:description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" name="twitter:image" content="https://www.johndory.uk/static/41bb721c63815631a0811e283f13e3e6/81ef8/evasorganics031.jpg"/><meta data-react-helmet="true" name="keywords" content="food, drink, blog, produce, culinary"/><meta name="generator" content="Gatsby 2.15.14"/><style type="text/css">
+        .markdown-grid {
+          margin: 20px auto;
+        }
+
+        .markdown-grid-grid {
+          display: grid;
+          min-height: 0;
+          min-width: 0;
+          grid-gap: 20px;
+        }
+
+        .markdown-grid-figcaption {
+          text-align: center;
+        }
+      </style><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><style data-href="/commons.5921514d047312145b8b.css">html{//font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{//font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);//font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{//font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h6{//font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;//font-family:"SFMono-Regular",Consolas,"Roboto Mono","Droid Sans Mono","Liberation Mono",Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}.gatsby-resp-image-wrapper{width:100%}</style><link href="//fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display:400,400i,700,900" rel="stylesheet" type="text/css"/><link as="script" rel="preload" href="/app-63e3114736a6bbd73350.js"/><link as="script" rel="preload" href="/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js"/><link as="script" rel="preload" href="/commons-12c480c907c3e5fc5bdc.js"/><link as="script" rel="preload" href="/webpack-runtime-6e2461f555a4f107593c.js"/><link as="fetch" rel="preload" href="/page-data\posts\evasorganics\page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><main class="layout__Main-ii2kc2-0 ioCBRP"><div class="header__HeaderWrapper-sc-31ozxh-0 eKjZYp"><div class="header__HeaderContainer-sc-31ozxh-1 bAdRTz"><a style="color:#115974;text-decoration:none" href="/"><h1 style="margin:0" class="header__HeaderText-sc-31ozxh-2 cowOco">The John Dory</h1><h4 style="color:#ab4f34" class="header__SubheaderText-sc-31ozxh-3 fZnBly"><em>Culinary Tales</em></h4></a><nav class="navbar menu__Nav-ldryeq-0 bThrJy"><div class="menu-button "><span class="line"></span><span class="line"></span><span class="line"></span></div><div class="navbar-menu "><div><div><ul><li><a class="navbar-link" href="/"><em>Home</em></a><hr/><a class="navbar-link" href="/featurelisting"><em>Features</em></a><hr/></li></ul></div></div></div></nav></div><div class="header__Social-sc-31ozxh-4 bxsYkR"><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/thejohndoryuk"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDYxMiA2MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIGNsYXNzPSIiPjxnPjxnPgoJPGc+CgkJPHBhdGggZD0iTTYxMiwxMTYuMjU4Yy0yMi41MjUsOS45ODEtNDYuNjk0LDE2Ljc1LTcyLjA4OCwxOS43NzJjMjUuOTI5LTE1LjUyNyw0NS43NzctNDAuMTU1LDU1LjE4NC02OS40MTEgICAgYy0yNC4zMjIsMTQuMzc5LTUxLjE2OSwyNC44Mi03OS43NzUsMzAuNDhjLTIyLjkwNy0yNC40MzctNTUuNDktMzkuNjU4LTkxLjYzLTM5LjY1OGMtNjkuMzM0LDAtMTI1LjU1MSw1Ni4yMTctMTI1LjU1MSwxMjUuNTEzICAgIGMwLDkuODI4LDEuMTA5LDE5LjQyNywzLjI1MSwyOC42MDZDMTk3LjA2NSwyMDYuMzIsMTA0LjU1NiwxNTYuMzM3LDQyLjY0MSw4MC4zODZjLTEwLjgyMywxOC41MS0xNi45OCw0MC4wNzgtMTYuOTgsNjMuMTAxICAgIGMwLDQzLjU1OSwyMi4xODEsODEuOTkzLDU1LjgzNSwxMDQuNDc5Yy0yMC41NzUtMC42ODgtMzkuOTI2LTYuMzQ4LTU2Ljg2Ny0xNS43NTZ2MS41NjhjMCw2MC44MDYsNDMuMjkxLDExMS41NTQsMTAwLjY5MywxMjMuMTA0ICAgIGMtMTAuNTE3LDIuODMtMjEuNjA3LDQuMzk4LTMzLjA4LDQuMzk4Yy04LjEwNywwLTE1Ljk0Ny0wLjgwMy0yMy42MzQtMi4zMzNjMTUuOTg1LDQ5LjkwNyw2Mi4zMzYsODYuMTk5LDExNy4yNTMsODcuMTk0ICAgIGMtNDIuOTQ3LDMzLjY1NC05Ny4wOTksNTMuNjU1LTE1NS45MTYsNTMuNjU1Yy0xMC4xMzQsMC0yMC4xMTYtMC42MTItMjkuOTQ0LTEuNzIxYzU1LjU2NywzNS42ODEsMTIxLjUzNiw1Ni40ODUsMTkyLjQzOCw1Ni40ODUgICAgYzIzMC45NDgsMCwzNTcuMTg4LTE5MS4yOTEsMzU3LjE4OC0zNTcuMTg4bC0wLjQyMS0xNi4yNTNDNTczLjg3MiwxNjMuNTI2LDU5NS4yMTEsMTQxLjQyMiw2MTIsMTE2LjI1OHoiIGRhdGEtb3JpZ2luYWw9IiMwMTAwMDIiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMTAwMDIiIGZpbGw9IiMxMTU5NzQiLz4KCTwvZz4KPC9nPjwvZz4gPC9zdmc+Cg==" alt="twitter logo"/></a><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/johndoryuk/"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDE2OS4wNjMgMTY5LjA2MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTY5LjA2MyAxNjkuMDYzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8cGF0aCBkPSJNMTIyLjQwNiwwSDQ2LjY1NEMyMC45MjksMCwwLDIwLjkzLDAsNDYuNjU1djc1Ljc1MmMwLDI1LjcyNiwyMC45MjksNDYuNjU1LDQ2LjY1NCw0Ni42NTVoNzUuNzUyICAgYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcgICBjMCwxNy40NTUtMTQuMjAxLDMxLjY1NS0zMS42NTYsMzEuNjU1SDQ2LjY1NEMyOS4yLDE1NC4wNjMsMTUsMTM5Ljg2MiwxNSwxMjIuNDA3VjQ2LjY1NUMxNSwyOS4yMDEsMjkuMiwxNSw0Ni42NTQsMTVoNzUuNzUyICAgYzE3LjQ1NSwwLDMxLjY1NiwxNC4yMDEsMzEuNjU2LDMxLjY1NVYxMjIuNDA3eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgZmlsbD0iIzExNTk3NCIvPgoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MSAgIEMxMjguMDk0LDYwLjUxMiwxMDguNTUyLDQwLjk3LDg0LjUzMSw0MC45N3ogTTg0LjUzMSwxMTMuMDkzYy0xNS43NDksMC0yOC41NjMtMTIuODEyLTI4LjU2My0yOC41NjEgICBjMC0xNS43NSwxMi44MTMtMjguNTYzLDI4LjU2My0yOC41NjNzMjguNTYzLDEyLjgxMywyOC41NjMsMjguNTYzQzExMy4wOTQsMTAwLjI4MSwxMDAuMjgsMTEzLjA5Myw4NC41MzEsMTEzLjA5M3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMxMTU5NzQiLz4KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4ICAgYzIuMDQsMi4wNCw0Ljg4LDMuMjIsNy43NywzLjIyYzIuOSwwLDUuNzMtMS4xOCw3Ljc4LTMuMjJjMi4wNS0yLjA1LDMuMjItNC44OSwzLjIyLTcuNzhjMC0yLjktMS4xNy01Ljc0LTMuMjItNy43OCAgIEMxMzUuNjYxLDI5LjQyMSwxMzIuODIxLDI4LjI1MSwxMjkuOTIxLDI4LjI1MXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMxMTU5NzQiLz4KPC9nPjwvZz4gPC9zdmc+Cg==" alt="instagram logo"/></a></div></div><section style="margin:0 auto;padding-top:0" class="layout__Content-ii2kc2-1 cPssay"><main class="featureLayout__BlogPostMain-awzc2p-0 hKkEDM"><div class="featureLayout__FeaturedContainer-awzc2p-3 hYUueF"><div class="text-container"><span><h5><em>July 21, 2019</em></h5><h2><em>Eva&#x27;s Organics</em></h2><h3><em>Cumbria</em></h3></span></div></div><article class="blog-content featureLayout__BlogPostContent-awzc2p-1 dKiBGq"><h2>Eva's Organics is a family-run organic farm with an ethos based around sustainability. They have been providing fresh, organic fruit and veg to the community for over a decade and in recent years they've begun production of apple juice using apples from their orchard.</h2>
+<p>Low Luckens, where the farm is situated, is found down a labyrinth of country lanes in an agricultural area north-east of Carlisle.  Eva's Organics is owned by Mike and Debbie, who started the company around 20 years ago.   </p>
+<p>Upon arriving I met Robert, the son of Mike and Debbie, who started working on the farm several years ago.  Robert was carrying boxes of apples, as the first job of the day was making a batch of apple juice.</p>
+<p>To provide fruit for the veg boxes, Mike &#x26; Debbie had planted an orchard near Carlisle in 2008.  From the surplus of apples produced they decided to create apple juice.  It started as a trial in 2016, but after such a warm response they decided to begin producing the juice commercially.</p>
+<p>I observed as Robert made the batch of apple juice, amazed that he could carry out such an operation on his own.  There is an array of machinery to help with the process, but a great deal of physical strength, timeliness and attention is required during the production.  Robert stresses the importance of keeping the time to a minimum between the apples being crushed to when they’re bottled.  This is what helps to ensure that they have a great tasting, fresh product.</p>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAGTchRmESf/xAAaEAEBAAIDAAAAAAAAAAAAAAABAgARAyEi/9oACAEBAAEFAjkV2zl+2NSVfaq//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/Aciv/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAECAQE/Aax//8QAHRAAAgIBBQAAAAAAAAAAAAAAAAERIQIQIjFBgf/aAAgBAQAGPwKtyMqXgnHRESjhVp//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMUFRgf/aAAgBAQABPyFCZOmJAbFouZsPtAClKW4r5GRgrP/aAAwDAQACAAMAAAAQvx//xAAYEQACAwAAAAAAAAAAAAAAAAAAESFRYf/aAAgBAwEBPxCHRKP/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QV5IG/8QAGxABAQACAwEAAAAAAAAAAAAAAREAMSFBUXH/2gAIAQEAAT8QngyihOfO8AR6E89uIJrBNg8xvxgu37iXgEiamss1XP/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Apples being washed"
+        title="Apples being washed"
+        src="/static/534109eaac6624876e525eee60914cad/c35de/evasorganics003.jpg"
+        srcset="/static/534109eaac6624876e525eee60914cad/afcd2/evasorganics003.jpg 300w,
+/static/534109eaac6624876e525eee60914cad/82472/evasorganics003.jpg 600w,
+/static/534109eaac6624876e525eee60914cad/c35de/evasorganics003.jpg 1200w,
+/static/534109eaac6624876e525eee60914cad/98235/evasorganics003.jpg 1800w,
+/static/534109eaac6624876e525eee60914cad/d7d8f/evasorganics003.jpg 2400w,
+/static/534109eaac6624876e525eee60914cad/1ac66/evasorganics003.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIDBP/aAAwDAQACEAMQAAABnpQjPfZQBf/EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAREjH/2gAIAQEAAQUCn5MKFadNxHTChUdkZ//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhET/9oACAEDAQE/AaRnE//EABgRAAIDAAAAAAAAAAAAAAAAAAARAQIT/9oACAECAQE/AXLNLn//xAAcEAABBQADAAAAAAAAAAAAAAABAAIRITEQEmH/2gAIAQEABj8CdJitQJz3jq66RYFq/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/IRVEnpCpsGXm4be5DbPyvkqEpTWNIEZ4z//aAAwDAQACAAMAAAAQkO//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAEDAQE/EAsEupf/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFx/9oACAECAQE/EBU7cL//xAAbEAEAAwEBAQEAAAAAAAAAAAABABExIXFRYf/aAAgBAQABPxBOe0Ii80hJKcAr3n5Wv2KaUsFUUrlwt1KbPMDbGApCDIBVAeE//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="apples being placed in bucket after washing"
+        title="apples being placed in bucket after washing"
+        src="/static/91d0d44f56a3beb3264dd595fccdd688/c35de/evasorganics005.jpg"
+        srcset="/static/91d0d44f56a3beb3264dd595fccdd688/afcd2/evasorganics005.jpg 300w,
+/static/91d0d44f56a3beb3264dd595fccdd688/82472/evasorganics005.jpg 600w,
+/static/91d0d44f56a3beb3264dd595fccdd688/c35de/evasorganics005.jpg 1200w,
+/static/91d0d44f56a3beb3264dd595fccdd688/98235/evasorganics005.jpg 1800w,
+/static/91d0d44f56a3beb3264dd595fccdd688/d7d8f/evasorganics005.jpg 2400w,
+/static/91d0d44f56a3beb3264dd595fccdd688/1ac66/evasorganics005.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUA/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAEVSY0avScr/8QAHBABAQABBQEAAAAAAAAAAAAAAgEAAwQREiEi/9oACAEBAAEFAhxM0fk9jcK9ipi3KV//xAAYEQACAwAAAAAAAAAAAAAAAAABEBESMf/aAAgBAwEBPwGo2F//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGH/8QAHBAAAgICAwAAAAAAAAAAAAAAAAEREiExAiJR/9oACAEBAAY/AonJZ8WzsqvwTWDcmj//xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMVFBYXH/2gAIAQEAAT8hzX8TN+oHDAat1NhOiJViORaq6Oy50PFT/9oADAMBAAIAAwAAABCk/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQMBAT8QBYF13//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxAA7YX/xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAhMUFRYXH/2gAIAQEAAT8QG0z0x8PXu5DJRAJeSZOMBsdmGpGCCN9wCQPJAefMTSzSBh+pn//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Apples being tipped into a hopper"
+        title="Apples being tipped into a hopper"
+        src="/static/c0ddea64be3cd6011e345b0946e0f8da/c35de/evasorganics008.jpg"
+        srcset="/static/c0ddea64be3cd6011e345b0946e0f8da/afcd2/evasorganics008.jpg 300w,
+/static/c0ddea64be3cd6011e345b0946e0f8da/82472/evasorganics008.jpg 600w,
+/static/c0ddea64be3cd6011e345b0946e0f8da/c35de/evasorganics008.jpg 1200w,
+/static/c0ddea64be3cd6011e345b0946e0f8da/98235/evasorganics008.jpg 1800w,
+/static/c0ddea64be3cd6011e345b0946e0f8da/d7d8f/evasorganics008.jpg 2400w,
+/static/c0ddea64be3cd6011e345b0946e0f8da/1ac66/evasorganics008.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABtYz5g1hUqf/EABoQAQEAAgMAAAAAAAAAAAAAAAIBAxIAISL/2gAIAQEAAQUCxAiLVcyYZsX4a6Ttv//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAwEBPwGsf//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8Bjpp//8QAGBAAAwEBAAAAAAAAAAAAAAAAABARIQH/2gAIAQEABj8CsNhnVV//xAAcEAEBAAICAwAAAAAAAAAAAAABACExEUFRYXH/2gAIAQEAAT8hIA/YggR7jax4mObnrcyBiZrf/9oADAMBAAIAAwAAABC8L//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxCEij//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EKBKNP/EABwQAQACAwADAAAAAAAAAAAAAAEAESExUUFhcf/aAAgBAQABPxDjL6Ke1j1Ro8nmYvqcuzdPIwNzKOCSwNgIXYfIJRc//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Crushed Apples"
+        title="Crushed Apples"
+        src="/static/68732b544bd4e044d5d351777622780d/c35de/evasorganics009.jpg"
+        srcset="/static/68732b544bd4e044d5d351777622780d/afcd2/evasorganics009.jpg 300w,
+/static/68732b544bd4e044d5d351777622780d/82472/evasorganics009.jpg 600w,
+/static/68732b544bd4e044d5d351777622780d/c35de/evasorganics009.jpg 1200w,
+/static/68732b544bd4e044d5d351777622780d/98235/evasorganics009.jpg 1800w,
+/static/68732b544bd4e044d5d351777622780d/d7d8f/evasorganics009.jpg 2400w,
+/static/68732b544bd4e044d5d351777622780d/1ac66/evasorganics009.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB6S3JqQmGf//EABwQAAICAgMAAAAAAAAAAAAAAAECAAMEERITIf/aAAgBAQABBQLJBCLW2urcpcmXr5zaf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGNf//EABYRAQEBAAAAAAAAAAAAAAAAABEAIf/aAAgBAgEBPwF0i//EAB0QAAMAAAcAAAAAAAAAAAAAAAABIQIQERIxQUL/2gAIAQEABj8CWzhyCUnZNMnj9EZ//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARIUEx/9oACAEBAAE/IfA2yDisXhaVAvrE3cOOweQdJX6hP//aAAwDAQACAAMAAAAQCz//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFB/9oACAEDAQE/EE1lH//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxAwh//EABsQAQACAwEBAAAAAAAAAAAAAAERMQAhQVGh/9oACAEBAAE/EES49S1g5naEtVd2PKyUyADTfYMnSmmtPE8jCgLJOTEXv7hNJNMTn//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Crushed apple being tipped into the press"
+        title="Crushed apple being tipped into the press"
+        src="/static/f70b5e15f6ae0e070d32c4978054f95a/c35de/evasorganics011.jpg"
+        srcset="/static/f70b5e15f6ae0e070d32c4978054f95a/afcd2/evasorganics011.jpg 300w,
+/static/f70b5e15f6ae0e070d32c4978054f95a/82472/evasorganics011.jpg 600w,
+/static/f70b5e15f6ae0e070d32c4978054f95a/c35de/evasorganics011.jpg 1200w,
+/static/f70b5e15f6ae0e070d32c4978054f95a/98235/evasorganics011.jpg 1800w,
+/static/f70b5e15f6ae0e070d32c4978054f95a/d7d8f/evasorganics011.jpg 2400w,
+/static/f70b5e15f6ae0e070d32c4978054f95a/1ac66/evasorganics011.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFZ2JTishAof//EABkQAQADAQEAAAAAAAAAAAAAAAIAAQMhEf/aAAgBAQABBQIWDSvMRrJKuxZeZXy//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAESE0H/2gAIAQMBAT8BsxIkf//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEkH/2gAIAQIBAT8BnSv/xAAcEAAABgMAAAAAAAAAAAAAAAAAAQIQETESIUH/2gAIAQEABj8CoJNVGNNGXW//xAAaEAADAQEBAQAAAAAAAAAAAAABESEAMVFh/9oACAEBAAE/IWG16cUOlCBikovs1Llht0JzCweb/9oADAMBAAIAAwAAABBLL//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESFR/9oACAEDAQE/EHRwofL/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQIBAT8QYRNLv//EABwQAQEAAgIDAAAAAAAAAAAAAAERACFRgTFBcf/aAAgBAQABPxCQ62F2FNM6Di40/pEbdYY15Q+ZVwAbkImbVtS5/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Apple juice running out of the press"
+        title="Apple juice running out of the press"
+        src="/static/e73c38c3716739892ef6b2edf3424f00/c35de/evasorganics013.jpg"
+        srcset="/static/e73c38c3716739892ef6b2edf3424f00/afcd2/evasorganics013.jpg 300w,
+/static/e73c38c3716739892ef6b2edf3424f00/82472/evasorganics013.jpg 600w,
+/static/e73c38c3716739892ef6b2edf3424f00/c35de/evasorganics013.jpg 1200w,
+/static/e73c38c3716739892ef6b2edf3424f00/98235/evasorganics013.jpg 1800w,
+/static/e73c38c3716739892ef6b2edf3424f00/d7d8f/evasorganics013.jpg 2400w,
+/static/e73c38c3716739892ef6b2edf3424f00/1ac66/evasorganics013.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABAv/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/aAAwDAQACEAMQAAABWfk472JNP//EABsQAAICAwEAAAAAAAAAAAAAAAEDAhEABBIz/9oACAEBAAEFAtbzbTDJhiezVnGAdf/EABYRAQEBAAAAAAAAAAAAAAAAAAASMf/aAAgBAwEBPwHFP//EABYRAQEBAAAAAAAAAAAAAAAAAAIBEP/aAAgBAgEBPwEqrP/EAB0QAAEEAgMAAAAAAAAAAAAAAAEAEBIhEUFRcZH/2gAIAQEABj8C6WpDlYn4xJum/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERITFBYXGh/9oACAEBAAE/IWUFujISG2BGdpvtC4MlVs1BrWhSq9P/2gAMAwEAAgADAAAAENgv/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERMWH/2gAIAQMBAT8QhXHg/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAECAQE/EAbJgZv/xAAeEAEAAwABBQEAAAAAAAAAAAABABEhMVFhcYGx8f/aAAgBAQABPxAZCg2emn2Hfi3Anj1KtyNF+FEbBi1HOQTRHTA7ROJwXabZ/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="apple juice being bottled"
+        title="apple juice being bottled"
+        src="/static/529f5d5157a8658cfe3ec16b9949d260/c35de/evasorganics015.jpg"
+        srcset="/static/529f5d5157a8658cfe3ec16b9949d260/afcd2/evasorganics015.jpg 300w,
+/static/529f5d5157a8658cfe3ec16b9949d260/82472/evasorganics015.jpg 600w,
+/static/529f5d5157a8658cfe3ec16b9949d260/c35de/evasorganics015.jpg 1200w,
+/static/529f5d5157a8658cfe3ec16b9949d260/98235/evasorganics015.jpg 1800w,
+/static/529f5d5157a8658cfe3ec16b9949d260/d7d8f/evasorganics015.jpg 2400w,
+/static/529f5d5157a8658cfe3ec16b9949d260/1ac66/evasorganics015.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAABbqWjJRjCn//EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSESH/2gAIAQEAAQUCoYiXFmG7VinLD2Gsd//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/Adhb/8QAGxAAAwACAwAAAAAAAAAAAAAAABEhAQJBcYH/2gAIAQEABj8CWOySMWNoI8OT/8QAHBAAAwABBQAAAAAAAAAAAAAAAAERMSFBUXGR/9oACAEBAAE/Ibs3upHNEZGckmEiSiXYly8C3r6P/9oADAMBAAIAAwAAABB4P//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QAe2r/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EMAZX//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQAxQWFRcfH/2gAIAQEAAT8QENRcijjWJBCWKMtjHjIvFwEHrrHlpZtN/MdGwJ+ycIOtjH//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Bottled apple juice range"
+        title="Bottled apple juice range"
+        src="/static/dd28ead7d768923d101fe56b454f1492/c35de/evasorganics19.jpg"
+        srcset="/static/dd28ead7d768923d101fe56b454f1492/afcd2/evasorganics19.jpg 300w,
+/static/dd28ead7d768923d101fe56b454f1492/82472/evasorganics19.jpg 600w,
+/static/dd28ead7d768923d101fe56b454f1492/c35de/evasorganics19.jpg 1200w,
+/static/dd28ead7d768923d101fe56b454f1492/98235/evasorganics19.jpg 1800w,
+/static/dd28ead7d768923d101fe56b454f1492/d7d8f/evasorganics19.jpg 2400w,
+/static/dd28ead7d768923d101fe56b454f1492/1ac66/evasorganics19.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<p>After the batch has been made I go for a look around the rest of the farm.  As I wander through the farm’s polytunnels I am surrounded by a plenitude of organic veg varieties  – courgette, cucumber, peas, rhubarb, blackberries, raspberries, salad leaves, and much more.  The quality of the fruit and veg looks incredible. This well organised variety of fruit and veg is the outcome of many year’s hard work and the amount of veg grown is tailored to the demands of the veg box scheme. </p>
+<blockquote>
+<p>“A lot of it has been learning through trial and error.  Seeing what works, seeing what doesn’t.  Trying different crops and honing in on what works.  So none of this happened overnight.”</p>
+</blockquote>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAFTc6WY0pFL/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECEUH/2gAIAQEAAQUCmIx1KHRLZzT/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8BsZf/xAAZEAACAwEAAAAAAAAAAAAAAAABIQAQETH/2gAIAQEABj8CbiE6a01//8QAGhABAAIDAQAAAAAAAAAAAAAAAQARIUFhgf/aAAgBAQABPyElujqYsZxvYje5Y0LViltn/9oADAMBAAIAAwAAABAk3//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAwEBPxC4r//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QVetm/8QAHBABAQACAgMAAAAAAAAAAAAAAREAITFxYZHw/9oACAEBAAE/ENykaKQYRp5Tk6cGl1NBM94Kxii+e8EGIts+4xElc//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Seedlings"
+        title="Seedlings"
+        src="/static/6b93d6a45c30c9b8983db2800aa284a7/c35de/evasorganics022.jpg"
+        srcset="/static/6b93d6a45c30c9b8983db2800aa284a7/afcd2/evasorganics022.jpg 300w,
+/static/6b93d6a45c30c9b8983db2800aa284a7/82472/evasorganics022.jpg 600w,
+/static/6b93d6a45c30c9b8983db2800aa284a7/c35de/evasorganics022.jpg 1200w,
+/static/6b93d6a45c30c9b8983db2800aa284a7/98235/evasorganics022.jpg 1800w,
+/static/6b93d6a45c30c9b8983db2800aa284a7/d7d8f/evasorganics022.jpg 2400w,
+/static/6b93d6a45c30c9b8983db2800aa284a7/1ac66/evasorganics022.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAFntiguZ//EABoQAQADAAMAAAAAAAAAAAAAAAIAAQMREiL/2gAIAQEAAQUC0V9tU1VLiPahHonMq8//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAgEEAwAAAAAAAAAAAAAAAAERAxAiMRIhUf/aAAgBAQAGPwJcXs7RqTGmp9MnNv/EABsQAQEBAAIDAAAAAAAAAAAAAAERACExYXGB/9oACAEBAAE/ISpxS536+pMAk+S52FHSbN3zgP3v/9oADAMBAAIAAwAAABBo3//EABgRAAMBAQAAAAAAAAAAAAAAAAABIRFR/9oACAEDAQE/EKo2Y4f/xAAWEQEBAQAAAAAAAAAAAAAAAAABIRD/2gAIAQIBAT8QbTP/xAAdEAEBAAIDAAMAAAAAAAAAAAABEQAhMVFxYaHh/9oACAEBAAE/EH2SQl3fzjAIwJQ+zzvC/rEcJIBEl8i5WCJodTLHdq8b+s//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Blackberries being picked"
+        title="Blackberries being picked"
+        src="/static/7910584b018a33ea702d871d1355a4ac/c35de/evasorganics024.jpg"
+        srcset="/static/7910584b018a33ea702d871d1355a4ac/afcd2/evasorganics024.jpg 300w,
+/static/7910584b018a33ea702d871d1355a4ac/82472/evasorganics024.jpg 600w,
+/static/7910584b018a33ea702d871d1355a4ac/c35de/evasorganics024.jpg 1200w,
+/static/7910584b018a33ea702d871d1355a4ac/98235/evasorganics024.jpg 1800w,
+/static/7910584b018a33ea702d871d1355a4ac/d7d8f/evasorganics024.jpg 2400w,
+/static/7910584b018a33ea702d871d1355a4ac/1ac66/evasorganics024.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAFupHdm2kso/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECEyED/9oACAEBAAEFAl7yao2kli7Lff/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AVn/xAAZEAACAwEAAAAAAAAAAAAAAAAQEQAhQWH/2gAIAQEABj8C2OyuD//EABwQAAICAgMAAAAAAAAAAAAAAAABESExQVFhkf/aAAgBAQABPyFtY8FMqDl2U9iJDcSKB//aAAwDAQACAAMAAAAQKw//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QjX//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QU1tv/8QAHRAAAgICAwEAAAAAAAAAAAAAAREAMSFhUXGB8P/aAAgBAQABPxAcDCaWMUQQ6QkkPvsJmqW44gljeuIyR7n/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Polytunnel interior view"
+        title="Polytunnel interior view"
+        src="/static/6aa12b79395ad98a35efb670180797cb/c35de/evasorganics025.jpg"
+        srcset="/static/6aa12b79395ad98a35efb670180797cb/afcd2/evasorganics025.jpg 300w,
+/static/6aa12b79395ad98a35efb670180797cb/82472/evasorganics025.jpg 600w,
+/static/6aa12b79395ad98a35efb670180797cb/c35de/evasorganics025.jpg 1200w,
+/static/6aa12b79395ad98a35efb670180797cb/98235/evasorganics025.jpg 1800w,
+/static/6aa12b79395ad98a35efb670180797cb/d7d8f/evasorganics025.jpg 2400w,
+/static/6aa12b79395ad98a35efb670180797cb/1ac66/evasorganics025.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<p>The production of organic fruit and veg doesn’t use any artificial fertilisers or pesticides.  These chemicals can cause damage to the natural world and require the use of fossil fuels in their manufacture.  Here they don’t use any artificial chemicals or heavy machinery, they do everything on a smaller scale and with great concern for the environment.  </p>
+<blockquote>
+<p>“The very nature of growing organically is more balanced and in tune with looking after nature”</p>
+</blockquote>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAGOnMrksYn/xAAZEAACAwEAAAAAAAAAAAAAAAABAgASIRH/2gAIAQEAAQUCarNnGXQZbTP/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAgEBPwGcWf/EABcQAAMBAAAAAAAAAAAAAAAAAAAQEXH/2gAIAQEABj8CLHq//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITGR/9oACAEBAAE/IdAryas3EeBiKS5QvVM66z//2gAMAwEAAgADAAAAEOPf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFR/9oACAEDAQE/ENK//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EAoyDf/EABwQAQEBAQACAwAAAAAAAAAAAAERIQAx0UFhcf/aAAgBAQABPxBgULNNeuReIGSR9wOwEQGSH1w1fkORWFN/IScVuH53/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Tomatoes on the vine"
+        title="Tomatoes on the vine"
+        src="/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/c35de/evasorganics028.jpg"
+        srcset="/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/afcd2/evasorganics028.jpg 300w,
+/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/82472/evasorganics028.jpg 600w,
+/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/c35de/evasorganics028.jpg 1200w,
+/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/98235/evasorganics028.jpg 1800w,
+/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/d7d8f/evasorganics028.jpg 2400w,
+/static/cdf20cd06a11e770dfa3fb0e2b8e3e40/1ac66/evasorganics028.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<p>Without the use of such chemicals or heavy machinery, the workload is much more intensive in relation to the yield.  However, the extra cost which consumers pay for organic produce is at the benefit of the planet.</p>
+<p>Robert tells me that this kind of farming that they pursue is a fight back against the type of large scale agriculture that uses artificial chemicals and big machinery burning fossil fuels.  </p>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABkRKgQzLX/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAECAxETMUL/2gAIAQEAAQUCc7jQqZ1p5pH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAEAECIXH/2gAIAQEABj8CNhdLL//EAB0QAAICAgMBAAAAAAAAAAAAAAERACFBUWFxgbH/2gAIAQEAAT8hOAFDgQKZkNYlOuxGhOfqMmeCIqqn/9oADAMBAAIAAwAAABDwD//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxBVcsL/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EMXL/8QAHxABAQACAgEFAAAAAAAAAAAAAREAITFBUWGBoeHw/9oACAEBAAE/EDPB7Yvtm0hm1y/cOStCtgdD13mhhRt8O8QJoEpwT5+sAaLhUz//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Picked courgettes"
+        title="Picked courgettes"
+        src="/static/4d607be7e22691f36e0af64a51578083/c35de/evasorganics026.jpg"
+        srcset="/static/4d607be7e22691f36e0af64a51578083/afcd2/evasorganics026.jpg 300w,
+/static/4d607be7e22691f36e0af64a51578083/82472/evasorganics026.jpg 600w,
+/static/4d607be7e22691f36e0af64a51578083/c35de/evasorganics026.jpg 1200w,
+/static/4d607be7e22691f36e0af64a51578083/98235/evasorganics026.jpg 1800w,
+/static/4d607be7e22691f36e0af64a51578083/d7d8f/evasorganics026.jpg 2400w,
+/static/4d607be7e22691f36e0af64a51578083/1ac66/evasorganics026.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAGGqTJMZCj/xAAaEAEBAAMBAQAAAAAAAAAAAAACAQADExES/9oACAEBAAEFAtYPLn8404o7JdqxO+//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BhX//xAAZEAEAAwEBAAAAAAAAAAAAAAABABARUQL/2gAIAQEABj8CevIK4TA8hW1//8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAIVEQQf/aAAgBAQABPyElgQoqZh82HIQpOGS4BDXY2f/aAAwDAQACAAMAAAAQw9//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBEh/9oACAEDAQE/EBL2P//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBSNy//xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAhMVFhQXH/2gAIAQEAAT8QLtCqLrmHvzvAFoAgsUA/M16lbL7iAm8W9Yha2k7wk0ILEZ//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Raspberry"
+        title="Raspberry"
+        src="/static/41bb721c63815631a0811e283f13e3e6/c35de/evasorganics031.jpg"
+        srcset="/static/41bb721c63815631a0811e283f13e3e6/afcd2/evasorganics031.jpg 300w,
+/static/41bb721c63815631a0811e283f13e3e6/82472/evasorganics031.jpg 600w,
+/static/41bb721c63815631a0811e283f13e3e6/c35de/evasorganics031.jpg 1200w,
+/static/41bb721c63815631a0811e283f13e3e6/98235/evasorganics031.jpg 1800w,
+/static/41bb721c63815631a0811e283f13e3e6/d7d8f/evasorganics031.jpg 2400w,
+/static/41bb721c63815631a0811e283f13e3e6/1ac66/evasorganics031.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAUNxxlLCov8A/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAEhMDEf/aAAgBAQABBQLPqIWrGe50aB/GLFj/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAgEBPwGMv//EABkQAQADAQEAAAAAAAAAAAAAAAEAAhEQQf/aAAgBAQAGPwIZYPJpU7s//8QAGxAAAwEBAAMAAAAAAAAAAAAAAAERITFBYXH/2gAIAQEAAT8hTrts47DNddXz9GRk2l6OY0lpdIvSR//aAAwDAQACAAMAAAAQhM//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EIxT/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAgEBPxA7qf/EABsQAQEAAwEBAQAAAAAAAAAAAAERACExQVGB/9oACAEBAAE/ECKmSEuZ+zERU5X10ffMWAXUQuvcNwk63lNMLUu8PckAEM//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Cucumber"
+        title="Cucumber"
+        src="/static/e92b4b915f616a4fe79937b90175b972/c35de/evasorganics037.jpg"
+        srcset="/static/e92b4b915f616a4fe79937b90175b972/afcd2/evasorganics037.jpg 300w,
+/static/e92b4b915f616a4fe79937b90175b972/82472/evasorganics037.jpg 600w,
+/static/e92b4b915f616a4fe79937b90175b972/c35de/evasorganics037.jpg 1200w,
+/static/e92b4b915f616a4fe79937b90175b972/98235/evasorganics037.jpg 1800w,
+/static/e92b4b915f616a4fe79937b90175b972/d7d8f/evasorganics037.jpg 2400w,
+/static/e92b4b915f616a4fe79937b90175b972/1ac66/evasorganics037.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABspzJwAgX/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAECEQMTIjH/2gAIAQEAAQUC2xSeWyXqfN0Nn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/Aaf/xAAXEAEAAwAAAAAAAAAAAAAAAAAAASAx/9oACAEBAAY/Aktp/8QAGhABAQEAAwEAAAAAAAAAAAAAAQAhEUFRcf/aAAgBAQABPyEIHfkPEmdRKfUPXttf/9oADAMBAAIAAwAAABDv7//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABgRAAMBAQAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EKzhvT//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMWFB8P/aAAgBAQABPxDOBD5cUQPQ3XYxJe+6jbFVwcJRBtFMRvRmf//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Polytunnel view"
+        title="Polytunnel view"
+        src="/static/6b107dbf8a750efc01001bade9a3e012/c35de/evasorganics35.jpg"
+        srcset="/static/6b107dbf8a750efc01001bade9a3e012/afcd2/evasorganics35.jpg 300w,
+/static/6b107dbf8a750efc01001bade9a3e012/82472/evasorganics35.jpg 600w,
+/static/6b107dbf8a750efc01001bade9a3e012/c35de/evasorganics35.jpg 1200w,
+/static/6b107dbf8a750efc01001bade9a3e012/98235/evasorganics35.jpg 1800w,
+/static/6b107dbf8a750efc01001bade9a3e012/d7d8f/evasorganics35.jpg 2400w,
+/static/6b107dbf8a750efc01001bade9a3e012/1ac66/evasorganics35.jpg 3000w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<p>When questioned about the momentum behind the organic movement, Robert strongly believes that there is not enough focus surrounding it in the media.  Despite consumers beginning to have more concerns about plastic usage and the environmental cost of food transportation, organic farming still doesn’t get mentioned much despite being the most obvious way of growing food sustainably.</p>
+<p>The entire site is 16 acres but they currently only use about a third of this.  There are plans for a new orchard in their largest field, which they’re keen on creating as an agroforestry project.  This means they would have a mixture of elements among the rows of apple trees; such as hedgerows, rhubarb &#x26; a wildlife pond.  The system would help maintain a healthy soil and provide areas for wildlife to flourish.  Robert emphasises how such a project would also aid the environment through carbon sequestration – the removal and storage of carbon from the atmosphere into the soil through biological processes such as photosynthesis.</p>
+<blockquote>
+<p>“At the same time you’re thinking about nature.  So you’ve got the planting of hedgerows, establishing wildlife patches and a wildlife pond”</p>
+</blockquote>
+<p>In further response to their concerns for the environment, Eva’s Organics has intentions to work towards becoming self-sufficient with their electricity and water supply.  As part of the agroforestry project they intend to install an array of solar panels to meet their electricity requirements.  A rain water collection system and a natural spring are already in use, both of which they use to irrigate the polytunnels.</p>
+<blockquote>
+<p>“We want to be able to create food and nice sustainable products without impacting on the planet in a detrimental way, which I think is often overlooked.”</p>
+</blockquote>
+<p>At a time where the evidence of man-made damage to the environment is so prolific, it is important for both consumers and producers to be aware of how they’re affecting the environment.  Eva’s Organics is a great example of a company which seems to be based around these environmental ethics whilst providing great quality produce to the local area.</p>
+<p>You can find out more about organic farming on the <a href="https://www.soilassociation.org/organic-living/organic-farming/">Soil Association website</a></p></article><section class="featureLayout__ShareIcons-awzc2p-2 bEFWfz"><h3>Share</h3><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.johndory.uk/posts/evasorganics" target="_blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDExMi4xOTYgMTEyLjE5NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEyLjE5NiAxMTIuMTk2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMzQjU5OTg7IiBjeD0iNTYuMDk4IiBjeT0iNTYuMDk4IiByPSI1Ni4wOTgiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTcwLjIwMSw1OC4yOTRoLTEwLjAxdjM2LjY3Mkg0NS4wMjVWNTguMjk0aC03LjIxM1Y0NS40MDZoNy4yMTN2LTguMzQNCgkJYzAtNS45NjQsMi44MzMtMTUuMzAzLDE1LjMwMS0xNS4zMDNMNzEuNTYsMjEuODF2MTIuNTFoLTguMTUxYy0xLjMzNywwLTMuMjE3LDAuNjY4LTMuMjE3LDMuNTEzdjcuNTg1aDExLjMzNEw3MC4yMDEsNTguMjk0eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="facebook"/></a></li><li><a href="https://twitter.com/intent/tweet/?text=Eva&#x27;s Organics&amp;url=https://www.johndory.uk/posts/evasorganics" target="blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDExMi4xOTcgMTEyLjE5NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEyLjE5NyAxMTIuMTk3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiM1NUFDRUU7IiBjeD0iNTYuMDk5IiBjeT0iNTYuMDk4IiByPSI1Ni4wOTgiLz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6I0YxRjJGMjsiIGQ9Ik05MC40NjEsNDAuMzE2Yy0yLjQwNCwxLjA2Ni00Ljk5LDEuNzg3LTcuNzAyLDIuMTA5YzIuNzY5LTEuNjU5LDQuODk0LTQuMjg0LDUuODk3LTcuNDE3DQoJCQljLTIuNTkxLDEuNTM3LTUuNDYyLDIuNjUyLTguNTE1LDMuMjUzYy0yLjQ0Ni0yLjYwNS01LjkzMS00LjIzMy05Ljc5LTQuMjMzYy03LjQwNCwwLTEzLjQwOSw2LjAwNS0xMy40MDksMTMuNDA5DQoJCQljMCwxLjA1MSwwLjExOSwyLjA3NCwwLjM0OSwzLjA1NmMtMTEuMTQ0LTAuNTU5LTIxLjAyNS01Ljg5Ny0yNy42MzktMTQuMDEyYy0xLjE1NCwxLjk4LTEuODE2LDQuMjg1LTEuODE2LDYuNzQyDQoJCQljMCw0LjY1MSwyLjM2OSw4Ljc1Nyw1Ljk2NSwxMS4xNjFjLTIuMTk3LTAuMDY5LTQuMjY2LTAuNjcyLTYuMDczLTEuNjc5Yy0wLjAwMSwwLjA1Ny0wLjAwMSwwLjExNC0wLjAwMSwwLjE3DQoJCQljMCw2LjQ5Nyw0LjYyNCwxMS45MTYsMTAuNzU3LDEzLjE0N2MtMS4xMjQsMC4zMDgtMi4zMTEsMC40NzEtMy41MzIsMC40NzFjLTAuODY2LDAtMS43MDUtMC4wODMtMi41MjMtMC4yMzkNCgkJCWMxLjcwNiw1LjMyNiw2LjY1Nyw5LjIwMywxMi41MjYsOS4zMTJjLTQuNTksMy41OTctMTAuMzcxLDUuNzQtMTYuNjU1LDUuNzRjLTEuMDgsMC0yLjE1LTAuMDYzLTMuMTk3LTAuMTg4DQoJCQljNS45MzEsMy44MDYsMTIuOTgxLDYuMDI1LDIwLjU1Myw2LjAyNWMyNC42NjQsMCwzOC4xNTItMjAuNDMyLDM4LjE1Mi0zOC4xNTNjMC0wLjU4MS0wLjAxMy0xLjE2LTAuMDM5LTEuNzM0DQoJCQlDODYuMzkxLDQ1LjM2Niw4OC42NjQsNDMuMDA1LDkwLjQ2MSw0MC4zMTZMOTAuNDYxLDQwLjMxNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" alt="twitter"/></a></li></ul></section><section id="comments" class="featureLayout__Comments-awzc2p-4 sQelg"><div id="disqus_thread"></div></section></main></section><div class="footer__FooterContainer-r54yyk-0 cIubBB"><div class="email__FormContainer-sc-8wfbjn-0 qFpNt"><h3><em>New Content Direct To Your Inbox</em></h3><form name="contact" method="POST" data-netlify="true" action="/formSuccess"><input type="hidden" name="form-name" value="contact"/><p><label><div class="emailInput"><input type="email" name="email" placeholder=" Your Email"/><button type="submit">Subscribe</button></div></label></p><p></p></form></div><p>thejohndoryuk@gmail.com<br/><br/>© <!-- -->2019</p></div></main></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-143662307-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/evasorganics";window.webpackCompilationHash="39a26b99a46753e4a855";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-63e3114736a6bbd73350.js"],"component---src-components-feature-list-js":["/component---src-components-feature-list-js-bd32487f179324f3ccbf.js"],"component---src-components-feature-layout-js":["/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js"],"component---src-components-gallery-listing-js":["/component---src-components-gallery-listing-js-63f616d1cc71051c7f1c.js"],"component---src-components-post-layout-js":["/component---src-components-post-layout-js-db2a8a91fc1b7d485453.js"],"component---src-components-category-listing-js":["/component---src-components-category-listing-js-36969de663171ee4ebed.js"],"component---src-pages-404-js":["/component---src-pages-404-js-da85e1f270da44b19447.js"],"component---src-pages-features-js":["/component---src-pages-features-js-412cff7043c5224f71cd.js"],"component---src-pages-form-success-js":["/component---src-pages-form-success-js-862499294d5b03de51b9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bf11b036728227b8bdd4.js"],"component---src-pages-posts-js":["/component---src-pages-posts-js-cfbe8e0b5f75113b7f27.js"]};/*]]>*/</script><script src="/webpack-runtime-6e2461f555a4f107593c.js" async=""></script><script src="/commons-12c480c907c3e5fc5bdc.js" async=""></script><script src="/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js" async=""></script><script src="/app-63e3114736a6bbd73350.js" async=""></script></body></html>

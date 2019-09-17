@@ -1,0 +1,504 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.666 'Montserrat';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Montserrat';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;color:inherit;font-family:'Playfair Display';font-weight:400;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}ul{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;font-size:0.85rem;line-height:1.666rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;font-size:1rem;line-height:1.666rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}blockquote{margin-left:1.666rem;margin-right:1.666rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.666rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.666rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.666rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.666rem;margin-bottom:calc(1.666rem / 2);margin-top:calc(1.666rem / 2);}li > ul{margin-left:1.666rem;margin-bottom:calc(1.666rem / 2);margin-top:calc(1.666rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.666rem / 2);}code{font-size:0.85rem;line-height:1.666rem;}kbd{font-size:0.85rem;line-height:1.666rem;}samp{font-size:0.85rem;line-height:1.666rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.11067rem;padding-right:1.11067rem;padding-top:0.833rem;padding-bottom:calc(0.833rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-styled="ioCBRP eKjZYp bAdRTz cowOco fZnBly bThrJy bxsYkR cPssay hKkEDM hYUueF dKiBGq bEFWfz sQelg cIubBB qFpNt" data-styled-version="4.3.2">
+/* sc-component-id: menu__Nav-ldryeq-0 */
+.bThrJy .navbar-menu{position:fixed;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;background-color:white;width:100%;color:#6B8090;z-index:10;height:100%;top:-5px;left:-100%;} .bThrJy .is-active{-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);} .bThrJy .clicked-menu .line:nth-child(2){opacity:0;} .bThrJy .clicked-menu .line:nth-child(1){-webkit-transform:translateY(9px) rotate(45deg);-ms-transform:translateY(9px) rotate(45deg);transform:translateY(9px) rotate(45deg);background-color:#6B8090;} .bThrJy .clicked-menu .line:nth-child(3){-webkit-transform:translateY(-9px) rotate(-45deg);-ms-transform:translateY(-9px) rotate(-45deg);transform:translateY(-9px) rotate(-45deg);background-color:#6B8090;} .bThrJy .menu-button{border:none;background-color:white;border-radius:0px 0px 12px 0px;position:fixed;top:0;left:0;z-index:12;padding:1rem;cursor:pointer;} .bThrJy .menu-button p{font-size:1.5rem;-webkit-transition:opacity 0.3s linear;transition:opacity 0.3s linear;} .bThrJy .clicked-menu{border-radius:0px 0px 0px 0px;} .bThrJy .clicked-menu p{opacity:0;} .bThrJy .line{width:2rem;height:2.5px;display:block;margin:6px auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-radius:20px;background-color:#6B8090;} .bThrJy ul{list-style-type:none;text-align:left;padding-top:4rem;margin-right:1rem;} .bThrJy li{cursor:pointer;} .bThrJy .navbar-link{color:#6B8090;-webkit-text-decoration:none;text-decoration:none;font-size:2rem;font-family:montserrat;display:block;line-height:1.5;} .bThrJy .navbar-link .blog-tag{display:none;font-size:.8rem;color:white;-webkit-text-decoration:none;text-decoration:none;padding-left:2rem;} .bThrJy .navbar-link .clicked-place,.bThrJy .navbar-link .clicked-activity{display:block;}
+/* sc-component-id: header__HeaderWrapper-sc-31ozxh-0 */
+.eKjZYp{background:white;padding-bottom:.1rem;text-align:center;position:relative;left:0;top:0;z-index:100;box-shadow:0px 2px 2px rgba(0,0,0,0.1);}
+/* sc-component-id: header__HeaderContainer-sc-31ozxh-1 */
+.bAdRTz{margin:0 auto;max-width:960;padding:0.5rem;padding-bottom:0;}
+/* sc-component-id: header__HeaderText-sc-31ozxh-2 */
+.cowOco{font-size:1.5rem;} @media only screen and (min-width:720px){}
+/* sc-component-id: header__SubheaderText-sc-31ozxh-3 */
+.fZnBly{font-family:Playfair Display;font-size:1rem;margin:0;} @media only screen and (min-width:720px){.fZnBly{margin-bottom:.5rem;}}
+/* sc-component-id: header__Social-sc-31ozxh-4 */
+@media only screen and (min-width:720px){.bxsYkR{position:absolute;right:7rem;bottom:0rem;}} .bxsYkR img{width:10px;margin:0.5rem;} @media only screen and (min-width:720px){.bxsYkR img{margin:1rem;width:20px;}}
+/* sc-component-id: email__FormContainer-sc-8wfbjn-0 */
+.qFpNt{height:auto;width:100%;color:#9baeb4;margin:0;padding-top:2rem;} .qFpNt p{padding:2rem;text-align:center;margin-bottom:0;} .qFpNt a{color:white;} .qFpNt h3{font:2rem playfair display;text-align:center;padding-top:1rem;color:white;} .qFpNt form{margin-bottom:0;} .qFpNt form p{margin:0.5rem;padding:0;margin-bottom:0;} .qFpNt form button{padding:.1rem 1rem;margin-top:1rem;color:white;border:1px solid white;background-color:#d2a193;-webkit-text-decoration:none;text-decoration:none;font-size:1rem;cursor:pointer;text-align:center;box-shadow:0px 2px 2px rgba(0,0,0,0.1);font-family:montserrat;margin-bottom:1rem;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;border-radius:20px;} @media only screen and (min-width:720px){.qFpNt form button{position:absolute;top:-17px;right:0;}} .qFpNt form button:hover{color:#9baeb4;border:1px solid #9baeb4;background:none;} .qFpNt form input{border-radius:20px;width:100%;} .qFpNt form .emailInput{position:relative;max-width:400px;margin:auto;}
+/* sc-component-id: footer__FooterContainer-r54yyk-0 */
+.cIubBB{height:auto;background-color:#406f7d;width:100%;color:white;margin:0;border-top:0.5rem solid #6e929e;} .cIubBB p{padding:2rem;text-align:center;margin-bottom:0;} .cIubBB a{color:white;}
+/* sc-component-id: layout__Main-ii2kc2-0 */
+.ioCBRP{margin:auto;}
+/* sc-component-id: layout__Content-ii2kc2-1 */
+.cPssay{margin:auto;margin-bottom:0;}
+/* sc-component-id: featureLayout__BlogPostMain-awzc2p-0 */
+.hKkEDM .image-container{padding:0;display:block;max-height:80vh;max-width:1200px;margin:auto;margin-top:3rem;} .hKkEDM .image-container Img{padding:0;display:block;max-height:80vh;}
+/* sc-component-id: featureLayout__BlogPostContent-awzc2p-1 */
+.dKiBGq{padding:1rem;color:#333;max-width:1200px;margin:auto;text-align:center;font-size:1.2rem;} .dKiBGq blockquote{color:#6e929e;font:1.5rem playfair display;font-weight:bold;} @media only screen and (min-width:720px){.dKiBGq{padding:2rem;}} .dKiBGq h2,.dKiBGq h3{color:#115974;font:1.5rem Playfair Display;font-style:italic;max-width:900px;margin:auto;padding-bottom:2rem;line-height:1.4;} .dKiBGq h3{margin-top:2rem;} .dKiBGq p{max-width:900px;margin:auto;padding-bottom:1rem;line-height:1.5;}
+/* sc-component-id: featureLayout__ShareIcons-awzc2p-2 */
+.bEFWfz{width:100%;padding-bottom:2rem;} .bEFWfz h3{text-align:center;font-family:playfair display;font-weight:400;font-size:2rem;} .bEFWfz ul{margin:auto;text-align:center;} .bEFWfz li{display:inline;} .bEFWfz img{max-width:50px;margin-left:2rem;margin-right:2rem;margin-bottom:2rem;}
+/* sc-component-id: featureLayout__FeaturedContainer-awzc2p-3 */
+.hYUueF{position:relative;border-bottom:0.2rem solid #d2a193;border-top:0.2rem solid #6e929e;margin:2rem;max-width:900px;margin-top:3rem;margin:2rem;} @media only screen and (min-width:900px){.hYUueF{margin:auto;margin-top:3rem;}} .hYUueF .text-container{position:relative;text-align:center;padding-top:2rem;padding-bottom:2rem;} .hYUueF .text-container h2,.hYUueF .text-container h3,.hYUueF .text-container h4,.hYUueF .text-container h5{font-family:playfair display;} .hYUueF .text-container h5{color:#d2a193;margin-bottom:0.5rem;} .hYUueF .text-container h2{margin-top:0.5rem;margin-bottom:0.5rem;color:#565555;font-weight:bold;font-size:3rem;} .hYUueF .text-container h4{color:#565555;display:none;} @media only screen and (min-width:1100px){.hYUueF .text-container h4{display:block;}} .hYUueF .text-container h3{margin-left:0.1rem;color:#6B8090;} @media only screen and (min-width:480px){.hYUueF .text-container h3{font-size:1.8rem;}} .hYUueF .text-container button{border:1px solid #d2a193;padding:.1rem 1rem;margin-top:1rem;color:#d2a193;-webkit-text-decoration:none;text-decoration:none;background:none;font-size:1rem;cursor:pointer;text-align:center;box-shadow:0px 2px 2px rgba(0,0,0,0.1);font-family:montserrat;margin-bottom:1rem;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;} .hYUueF .text-container button:hover{color:white;border:1px solid white;background-color:#d2a193;} .hYUueF .text-container hr{display:block;height:0px;border:0;background-color:#d2a193;margin:auto;padding:0;width:50%;} .hYUueF .text-container span{margin:1rem;} .hYUueF a{-webkit-text-decoration:none;text-decoration:none;color:inherit;}
+/* sc-component-id: featureLayout__Comments-awzc2p-4 */
+.sQelg{padding:1rem;}</style><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><title data-react-helmet="true">Northern Seas Fishing | The John Dory</title><meta data-react-helmet="true" name="description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" property="og:url" content="https://www.johndory.uk"/><meta data-react-helmet="true" property="og:title" content="Northern Seas Fishing"/><meta data-react-helmet="true" property="og:description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" property="og:image" content="https://www.johndory.uk/static/43aae0c1c63a9273b714343698a3ce74/81ef8/white-fishing-028.jpg"/><meta data-react-helmet="true" property="og:image:width" content="1200"/><meta data-react-helmet="true" property="og:image:height" content="630"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="Calum Toogood"/><meta data-react-helmet="true" name="twitter:title" content="Northern Seas Fishing"/><meta data-react-helmet="true" name="twitter:description" content="Stories about great local food and drink - Photography &amp; Food Journalism"/><meta data-react-helmet="true" name="twitter:image" content="https://www.johndory.uk/static/43aae0c1c63a9273b714343698a3ce74/81ef8/white-fishing-028.jpg"/><meta data-react-helmet="true" name="keywords" content="food, drink, blog, produce, culinary"/><meta name="generator" content="Gatsby 2.15.14"/><style type="text/css">
+        .markdown-grid {
+          margin: 20px auto;
+        }
+
+        .markdown-grid-grid {
+          display: grid;
+          min-height: 0;
+          min-width: 0;
+          grid-gap: 20px;
+        }
+
+        .markdown-grid-figcaption {
+          text-align: center;
+        }
+      </style><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><style data-href="/commons.5921514d047312145b8b.css">html{//font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{//font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);//font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{//font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-weight:400;text-rendering:optimizeLegibility;line-height:1.1}h6{//font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;//font-family:"SFMono-Regular",Consolas,"Roboto Mono","Droid Sans Mono","Liberation Mono",Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}.gatsby-resp-image-wrapper{width:100%}</style><link href="//fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display:400,400i,700,900" rel="stylesheet" type="text/css"/><link as="script" rel="preload" href="/app-63e3114736a6bbd73350.js"/><link as="script" rel="preload" href="/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js"/><link as="script" rel="preload" href="/commons-12c480c907c3e5fc5bdc.js"/><link as="script" rel="preload" href="/webpack-runtime-6e2461f555a4f107593c.js"/><link as="fetch" rel="preload" href="/page-data\posts\white-fishing-shetland\page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><main class="layout__Main-ii2kc2-0 ioCBRP"><div class="header__HeaderWrapper-sc-31ozxh-0 eKjZYp"><div class="header__HeaderContainer-sc-31ozxh-1 bAdRTz"><a style="color:#115974;text-decoration:none" href="/"><h1 style="margin:0" class="header__HeaderText-sc-31ozxh-2 cowOco">The John Dory</h1><h4 style="color:#ab4f34" class="header__SubheaderText-sc-31ozxh-3 fZnBly"><em>Culinary Tales</em></h4></a><nav class="navbar menu__Nav-ldryeq-0 bThrJy"><div class="menu-button "><span class="line"></span><span class="line"></span><span class="line"></span></div><div class="navbar-menu "><div><div><ul><li><a class="navbar-link" href="/"><em>Home</em></a><hr/><a class="navbar-link" href="/featurelisting"><em>Features</em></a><hr/></li></ul></div></div></div></nav></div><div class="header__Social-sc-31ozxh-4 bxsYkR"><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/thejohndoryuk"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDYxMiA2MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIGNsYXNzPSIiPjxnPjxnPgoJPGc+CgkJPHBhdGggZD0iTTYxMiwxMTYuMjU4Yy0yMi41MjUsOS45ODEtNDYuNjk0LDE2Ljc1LTcyLjA4OCwxOS43NzJjMjUuOTI5LTE1LjUyNyw0NS43NzctNDAuMTU1LDU1LjE4NC02OS40MTEgICAgYy0yNC4zMjIsMTQuMzc5LTUxLjE2OSwyNC44Mi03OS43NzUsMzAuNDhjLTIyLjkwNy0yNC40MzctNTUuNDktMzkuNjU4LTkxLjYzLTM5LjY1OGMtNjkuMzM0LDAtMTI1LjU1MSw1Ni4yMTctMTI1LjU1MSwxMjUuNTEzICAgIGMwLDkuODI4LDEuMTA5LDE5LjQyNywzLjI1MSwyOC42MDZDMTk3LjA2NSwyMDYuMzIsMTA0LjU1NiwxNTYuMzM3LDQyLjY0MSw4MC4zODZjLTEwLjgyMywxOC41MS0xNi45OCw0MC4wNzgtMTYuOTgsNjMuMTAxICAgIGMwLDQzLjU1OSwyMi4xODEsODEuOTkzLDU1LjgzNSwxMDQuNDc5Yy0yMC41NzUtMC42ODgtMzkuOTI2LTYuMzQ4LTU2Ljg2Ny0xNS43NTZ2MS41NjhjMCw2MC44MDYsNDMuMjkxLDExMS41NTQsMTAwLjY5MywxMjMuMTA0ICAgIGMtMTAuNTE3LDIuODMtMjEuNjA3LDQuMzk4LTMzLjA4LDQuMzk4Yy04LjEwNywwLTE1Ljk0Ny0wLjgwMy0yMy42MzQtMi4zMzNjMTUuOTg1LDQ5LjkwNyw2Mi4zMzYsODYuMTk5LDExNy4yNTMsODcuMTk0ICAgIGMtNDIuOTQ3LDMzLjY1NC05Ny4wOTksNTMuNjU1LTE1NS45MTYsNTMuNjU1Yy0xMC4xMzQsMC0yMC4xMTYtMC42MTItMjkuOTQ0LTEuNzIxYzU1LjU2NywzNS42ODEsMTIxLjUzNiw1Ni40ODUsMTkyLjQzOCw1Ni40ODUgICAgYzIzMC45NDgsMCwzNTcuMTg4LTE5MS4yOTEsMzU3LjE4OC0zNTcuMTg4bC0wLjQyMS0xNi4yNTNDNTczLjg3MiwxNjMuNTI2LDU5NS4yMTEsMTQxLjQyMiw2MTIsMTE2LjI1OHoiIGRhdGEtb3JpZ2luYWw9IiMwMTAwMDIiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMTAwMDIiIGZpbGw9IiMxMTU5NzQiLz4KCTwvZz4KPC9nPjwvZz4gPC9zdmc+Cg==" alt="twitter logo"/></a><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/johndoryuk/"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDE2OS4wNjMgMTY5LjA2MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTY5LjA2MyAxNjkuMDYzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8cGF0aCBkPSJNMTIyLjQwNiwwSDQ2LjY1NEMyMC45MjksMCwwLDIwLjkzLDAsNDYuNjU1djc1Ljc1MmMwLDI1LjcyNiwyMC45MjksNDYuNjU1LDQ2LjY1NCw0Ni42NTVoNzUuNzUyICAgYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcgICBjMCwxNy40NTUtMTQuMjAxLDMxLjY1NS0zMS42NTYsMzEuNjU1SDQ2LjY1NEMyOS4yLDE1NC4wNjMsMTUsMTM5Ljg2MiwxNSwxMjIuNDA3VjQ2LjY1NUMxNSwyOS4yMDEsMjkuMiwxNSw0Ni42NTQsMTVoNzUuNzUyICAgYzE3LjQ1NSwwLDMxLjY1NiwxNC4yMDEsMzEuNjU2LDMxLjY1NVYxMjIuNDA3eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgZmlsbD0iIzExNTk3NCIvPgoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MSAgIEMxMjguMDk0LDYwLjUxMiwxMDguNTUyLDQwLjk3LDg0LjUzMSw0MC45N3ogTTg0LjUzMSwxMTMuMDkzYy0xNS43NDksMC0yOC41NjMtMTIuODEyLTI4LjU2My0yOC41NjEgICBjMC0xNS43NSwxMi44MTMtMjguNTYzLDI4LjU2My0yOC41NjNzMjguNTYzLDEyLjgxMywyOC41NjMsMjguNTYzQzExMy4wOTQsMTAwLjI4MSwxMDAuMjgsMTEzLjA5Myw4NC41MzEsMTEzLjA5M3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMxMTU5NzQiLz4KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4ICAgYzIuMDQsMi4wNCw0Ljg4LDMuMjIsNy43NywzLjIyYzIuOSwwLDUuNzMtMS4xOCw3Ljc4LTMuMjJjMi4wNS0yLjA1LDMuMjItNC44OSwzLjIyLTcuNzhjMC0yLjktMS4xNy01Ljc0LTMuMjItNy43OCAgIEMxMzUuNjYxLDI5LjQyMSwxMzIuODIxLDI4LjI1MSwxMjkuOTIxLDI4LjI1MXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMxMTU5NzQiLz4KPC9nPjwvZz4gPC9zdmc+Cg==" alt="instagram logo"/></a></div></div><section style="margin:0 auto;padding-top:0" class="layout__Content-ii2kc2-1 cPssay"><main class="featureLayout__BlogPostMain-awzc2p-0 hKkEDM"><div class="featureLayout__FeaturedContainer-awzc2p-3 hYUueF"><div class="text-container"><span><h5><em>September 19, 2013</em></h5><h2><em>Northern Seas Fishing</em></h2><h3><em>Shetland Islands</em></h3></span></div></div><article class="blog-content featureLayout__BlogPostContent-awzc2p-1 dKiBGq"><h2>The waters surrounding Shetland have been fished by many for centuries, providing a source of food and income.  The Shetland seafood industry is worth around £300 million annually, far more than any other industry in the isles.</h2>
+<p>Many fishermen spend a huge part of their lives at sea, often battling the elements to get their catch. Sea conditions can be extreme around Shetland as winds often gust over 100mph and wave heights have been known to reach over 15m high.</p>
+<p>This series of images is the outcome of a succession of trips aboard local white fishing vessels in the waters around Shetland.</p>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABW+cwrSTyz//EABkQAAIDAQAAAAAAAAAAAAAAAAACAQMRE//aAAgBAQABBQKrLXbEO7yVthLSSf/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAwEBPwFQf//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAgEBPwG6j//EABoQAAICAwAAAAAAAAAAAAAAAAERACEgIjL/2gAIAQEABj8CskOoNip2sP/EABoQAQADAQEBAAAAAAAAAAAAAAEAESFBcbH/2gAIAQEAAT8huBS0BKGM9gQ45RUbB15Not+zDR8n/9oADAMBAAIAAwAAABAQ7//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxAOmf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBWC1f/xAAdEAEBAQEAAQUAAAAAAAAAAAABESEAcTFBUZGh/9oACAEBAAE/EFEoCeMfPAV50QVx9d6DKNwinvpzJQANRPmPCMWpdWJv7wXQh9u//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fisherman operating a winch"
+        title="Fisherman operating a winch"
+        src="/static/2bfb9edd0407548417424c5120f5f9dc/c35de/white-fishing-001.jpg"
+        srcset="/static/2bfb9edd0407548417424c5120f5f9dc/afcd2/white-fishing-001.jpg 300w,
+/static/2bfb9edd0407548417424c5120f5f9dc/82472/white-fishing-001.jpg 600w,
+/static/2bfb9edd0407548417424c5120f5f9dc/c35de/white-fishing-001.jpg 1200w,
+/static/2bfb9edd0407548417424c5120f5f9dc/98235/white-fishing-001.jpg 1800w,
+/static/2bfb9edd0407548417424c5120f5f9dc/36a65/white-fishing-001.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAwQG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbdnPSj0Rif/xAAbEAADAAIDAAAAAAAAAAAAAAABAhEABBITIf/aAAgBAQABBQIbQnekZ/WMx2o5Gf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AUf/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARMjH/2gAIAQEABj8CyyzIo6z/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhQVFhcf/aAAgBAQABPyGixPkrKaua7YiN9xjXUDBo5n//2gAMAwEAAgADAAAAECz/AP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ECf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBI/8QAHRABAAMAAgMBAAAAAAAAAAAAAQARITGhQVFhkf/aAAgBAQABPxARWNFH66g4B8E2VZZBG+e4fliB9S+jQG/JwygFMn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Crew at bow"
+        title="Crew at bow"
+        src="/static/1068f0d117efad53e32e65f4082cea8e/c35de/white-fishing-003.jpg"
+        srcset="/static/1068f0d117efad53e32e65f4082cea8e/afcd2/white-fishing-003.jpg 300w,
+/static/1068f0d117efad53e32e65f4082cea8e/82472/white-fishing-003.jpg 600w,
+/static/1068f0d117efad53e32e65f4082cea8e/c35de/white-fishing-003.jpg 1200w,
+/static/1068f0d117efad53e32e65f4082cea8e/98235/white-fishing-003.jpg 1800w,
+/static/1068f0d117efad53e32e65f4082cea8e/36a65/white-fishing-003.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABU7IwqEg//8QAGRABAQADAQAAAAAAAAAAAAAAAQIDERIh/9oACAEBAAEFAoNjJp8cdodPN3zX/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAIDAAAAAAAAAAAAAAAAAAERABIg/9oACAEBAAY/AkskVc//xAAaEAEAAwADAAAAAAAAAAAAAAABABExIUGR/9oACAEBAAE/IQp41i8kyIy8Vr5LhXFMB0V7Wf/aAAwDAQACAAMAAAAQID//xAAWEQEBAQAAAAAAAAAAAAAAAAAAAWH/2gAIAQMBAT8QpNv/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAYH/2gAIAQIBAT8QlY//xAAdEAACAwACAwAAAAAAAAAAAAABEQAhMUGxUXHh/9oACAEBAAE/ECECrRo8A8+o5KItLRwO4IMYIxB1AFBCQMbWOoWo9RF8/ZXxCIFLKn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Net full of fish"
+        title="Net full of fish"
+        src="/static/eaacbcf771817082de419fb51203dd99/c35de/white-fishing-002.jpg"
+        srcset="/static/eaacbcf771817082de419fb51203dd99/afcd2/white-fishing-002.jpg 300w,
+/static/eaacbcf771817082de419fb51203dd99/82472/white-fishing-002.jpg 600w,
+/static/eaacbcf771817082de419fb51203dd99/c35de/white-fishing-002.jpg 1200w,
+/static/eaacbcf771817082de419fb51203dd99/98235/white-fishing-002.jpg 1800w,
+/static/eaacbcf771817082de419fb51203dd99/36a65/white-fishing-002.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAF5GLQ2DOEP/8QAGRABAQADAQAAAAAAAAAAAAAAAwECESEA/9oACAEBAAEFAjS+HjZLqnl17Ica6//EABcRAAMBAAAAAAAAAAAAAAAAAAACESH/2gAIAQMBAT8BRphD/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERAv/aAAgBAgEBPwHSpT//xAAZEAACAwEAAAAAAAAAAAAAAAAAAREhMRL/2gAIAQEABj8Cs6b1swU2NQKbP//EABsQAAIDAQEBAAAAAAAAAAAAAAERACFBMVGB/9oACAEBAAE/ISAwVTgRSY9hk3+QhCRtpg1DiVKa6XZ//9oADAMBAAIAAwAAABDbH//EABgRAAMBAQAAAAAAAAAAAAAAAAABETFR/9oACAEDAQE/EEXqj4P/xAAWEQEBAQAAAAAAAAAAAAAAAAABAEH/2gAIAQIBAT8QYQtv/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBcVGBof/aAAgBAQABPxCjBGSmiUKpigmiPuLAh5FAzSREqujENiFHIZpmDOgL+T//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fisherman&#39;s legs on gunwhales"
+        title="Fisherman&#39;s legs on gunwhales"
+        src="/static/a69ee9198d8b3c5c45f89e986bd9ae6b/c35de/white-fishing-006.jpg"
+        srcset="/static/a69ee9198d8b3c5c45f89e986bd9ae6b/afcd2/white-fishing-006.jpg 300w,
+/static/a69ee9198d8b3c5c45f89e986bd9ae6b/82472/white-fishing-006.jpg 600w,
+/static/a69ee9198d8b3c5c45f89e986bd9ae6b/c35de/white-fishing-006.jpg 1200w,
+/static/a69ee9198d8b3c5c45f89e986bd9ae6b/98235/white-fishing-006.jpg 1800w,
+/static/a69ee9198d8b3c5c45f89e986bd9ae6b/36a65/white-fishing-006.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAFGhU3KOM//xAAZEAACAwEAAAAAAAAAAAAAAAABAgADETH/2gAIAQEAAQUCSs4UhB3iLbsbv//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPwEzWL//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAQIR/9oACAECAQE/AYu1/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAERIQIQQf/aAAgBAQAGPwKVaOakjJJlUf/EABsQAQEBAAIDAAAAAAAAAAAAAAERACFBUWGB/9oACAEBAAE/IYAnqdIWj7uscLE8iZOJLkNBHi7/2gAMAwEAAgADAAAAEHPv/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQARIVH/2gAIAQMBAT8QGBypXs//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QZNn/xAAcEAEBAQADAAMAAAAAAAAAAAABEQAhMUFhkbH/2gAIAQEAAT8QpgOfb6dZ1DDpWYKGnxzqOHQMq5Qa4iAfmtRPFhv/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fisherman sorting nets"
+        title="Fisherman sorting nets"
+        src="/static/393ac94b9709673ceacda27e863eda29/c35de/white-fishing-007.jpg"
+        srcset="/static/393ac94b9709673ceacda27e863eda29/afcd2/white-fishing-007.jpg 300w,
+/static/393ac94b9709673ceacda27e863eda29/82472/white-fishing-007.jpg 600w,
+/static/393ac94b9709673ceacda27e863eda29/c35de/white-fishing-007.jpg 1200w,
+/static/393ac94b9709673ceacda27e863eda29/98235/white-fishing-007.jpg 1800w,
+/static/393ac94b9709673ceacda27e863eda29/36a65/white-fishing-007.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG8Z6OYRxP/xAAcEAEAAgEFAAAAAAAAAAAAAAACAQMAERIhIjH/2gAIAQEAAQUCDOlrOOvtR7K3XKef/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AVyf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECEBFSYf/aAAgBAQAGPwIUNhiM9r//xAAbEAADAAIDAAAAAAAAAAAAAAAAAREhMUFR8f/aAAgBAQABPyGZkYondCEuxbTPo2jiEV0P/9oADAMBAAIAAwAAABDED//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QD//EABURAQEAAAAAAAAAAAAAAAAAABEQ/9oACAECAQE/EBn/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUFhgeH/2gAIAQEAAT8QJiywYPGN9gAoFqIDtwufAI6GhAHRZ31BdXfc/J//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fishing boat deck"
+        title="Fishing boat deck"
+        src="/static/2842dd57406d41ad7a89ac6e0469749c/c35de/white-fishing-008.jpg"
+        srcset="/static/2842dd57406d41ad7a89ac6e0469749c/afcd2/white-fishing-008.jpg 300w,
+/static/2842dd57406d41ad7a89ac6e0469749c/82472/white-fishing-008.jpg 600w,
+/static/2842dd57406d41ad7a89ac6e0469749c/c35de/white-fishing-008.jpg 1200w,
+/static/2842dd57406d41ad7a89ac6e0469749c/98235/white-fishing-008.jpg 1800w,
+/static/2842dd57406d41ad7a89ac6e0469749c/36a65/white-fishing-008.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAbefGcVUQUv/xAAbEAACAQUAAAAAAAAAAAAAAAABAgAQERMhMf/aAAgBAQABBQK5xNqHrsYTT//EABYRAQEBAAAAAAAAAAAAAAAAABECEP/aAAgBAwEBPwGxz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAAAEQAv/aAAgBAQAGPwIwtL//xAAbEAACAwADAAAAAAAAAAAAAAAAAREhMRBhcf/aAAgBAQABPyGnCfoudaHkUnQyOP/aAAwDAQACAAMAAAAQ2P8A/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QBQE//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxA1Dtl//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFRkbH/2gAIAQEAAT8QHBQKToM9RHd1W3YTifI4HA8o7S7Fbn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Net mending"
+        title="Net mending"
+        src="/static/ce05a116caecb1c57bf9435a43931d28/c35de/white-fishing-009.jpg"
+        srcset="/static/ce05a116caecb1c57bf9435a43931d28/afcd2/white-fishing-009.jpg 300w,
+/static/ce05a116caecb1c57bf9435a43931d28/82472/white-fishing-009.jpg 600w,
+/static/ce05a116caecb1c57bf9435a43931d28/c35de/white-fishing-009.jpg 1200w,
+/static/ce05a116caecb1c57bf9435a43931d28/98235/white-fishing-009.jpg 1800w,
+/static/ce05a116caecb1c57bf9435a43931d28/36a65/white-fishing-009.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAVP0XjkJi8P/xAAbEAEAAgIDAAAAAAAAAAAAAAACAxIBEBEhMv/aAAgBAQABBQI4pNxVHyIQdT9r/8QAGREBAAIDAAAAAAAAAAAAAAAAAQACAxEh/9oACAEDAQE/ATktlB1P/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEC/9oACAECAQE/AUy//8QAHRAAAgIBBQAAAAAAAAAAAAAAAAECIQMQETFx4f/aAAgBAQAGPwKFmTbn0uTRS0XR/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUFRgf/aAAgBAQABPyHsWjkXftvIyLlvPsonU6ygtqWUsf/aAAwDAQACAAMAAAAQQ+//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAwEBPxBACVz/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQIBAT8QWuqXf//EABsQAQADAQADAAAAAAAAAAAAAAEAESExcYGh/9oACAEBAAE/ECHVmRy6ZtAFsNlivkapyVMywZ6iILsJbGim3rXYViIDPLP/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Skipper in wheelhouse"
+        title="Skipper in wheelhouse"
+        src="/static/856ee6febb1ae3e77b5c9d354db053b0/c35de/white-fishing-010.jpg"
+        srcset="/static/856ee6febb1ae3e77b5c9d354db053b0/afcd2/white-fishing-010.jpg 300w,
+/static/856ee6febb1ae3e77b5c9d354db053b0/82472/white-fishing-010.jpg 600w,
+/static/856ee6febb1ae3e77b5c9d354db053b0/c35de/white-fishing-010.jpg 1200w,
+/static/856ee6febb1ae3e77b5c9d354db053b0/98235/white-fishing-010.jpg 1800w,
+/static/856ee6febb1ae3e77b5c9d354db053b0/36a65/white-fishing-010.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAD/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAEySMjwtrE//8QAGhAAAwADAQAAAAAAAAAAAAAAAQIRAAMEEv/aAAgBAQABBQJQYgasYym4R4PQLs//xAAZEQACAwEAAAAAAAAAAAAAAAAAAQMREiH/2gAIAQMBAT8BUddMM//EABkRAQACAwAAAAAAAAAAAAAAAAIAARESIf/aAAgBAgEBPwG1yB7HM//EABkQAQEBAAMAAAAAAAAAAAAAAAEAMSFBUf/aAAgBAQAGPwLZC5LwhHu2/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAIUExUXH/2gAIAQEAAT8h5YvHFAN9wxBYIdFZghTvlZCvcVP/2gAMAwEAAgADAAAAEGP/AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABEUH/2gAIAQMBAT8QspjzR//EABcRAQEBAQAAAAAAAAAAAAAAAAEAMVH/2gAIAQIBAT8QQSbAHd//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhQTH/2gAIAQEAAT8QKAYnB0mbTVBWSIckulGMB9vLdebhsK7PmnNJoG//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Net being winched in"
+        title="Net being winched in"
+        src="/static/42e33f5e433e2a30ca53e1339e9cf684/c35de/white-fishing-011.jpg"
+        srcset="/static/42e33f5e433e2a30ca53e1339e9cf684/afcd2/white-fishing-011.jpg 300w,
+/static/42e33f5e433e2a30ca53e1339e9cf684/82472/white-fishing-011.jpg 600w,
+/static/42e33f5e433e2a30ca53e1339e9cf684/c35de/white-fishing-011.jpg 1200w,
+/static/42e33f5e433e2a30ca53e1339e9cf684/98235/white-fishing-011.jpg 1800w,
+/static/42e33f5e433e2a30ca53e1339e9cf684/36a65/white-fishing-011.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABe6VVnBOL/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIDEgAEISL/2gAIAQEAAQUCRhUMFEj+tVbCZuBxn//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAEDAQE/AYf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIREoEhIjH/2gAIAQEABj8CilsxSPEZOzra2cxP/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPyEFXVagFaHGSlnFBRPADEyqVO3cCYr7c//aAAwDAQACAAMAAAAQix//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QWU5//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARMf/aAAgBAgEBPxDTF//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExYUGx/9oACAEBAAE/EIS2jdQhz38w7MbKCX7TuRFjQe/c5axIB7g4sBstesgKqtS5/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Stormy seas view from wheelhouse"
+        title="Stormy seas view from wheelhouse"
+        src="/static/e2bdb6787ae1aaa030fe20b804d7217a/c35de/white-fishing-019.jpg"
+        srcset="/static/e2bdb6787ae1aaa030fe20b804d7217a/afcd2/white-fishing-019.jpg 300w,
+/static/e2bdb6787ae1aaa030fe20b804d7217a/82472/white-fishing-019.jpg 600w,
+/static/e2bdb6787ae1aaa030fe20b804d7217a/c35de/white-fishing-019.jpg 1200w,
+/static/e2bdb6787ae1aaa030fe20b804d7217a/98235/white-fishing-019.jpg 1800w,
+/static/e2bdb6787ae1aaa030fe20b804d7217a/36a65/white-fishing-019.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAGrWtkE2OdNv//EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAEDEv/aAAgBAQABBQIr7oENDuEySMo5/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEREjH/2gAIAQMBAT8BqpHp/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bp//EABsQAAIBBQAAAAAAAAAAAAAAAAABAhARITFB/9oACAEBAAY/ArLhFszJI0NU/8QAGhABAQEAAwEAAAAAAAAAAAAAAREAIUFRYf/aAAgBAQABPyEjFnZcVKe5Q8CwusryMvxu7b//2gAMAwEAAgADAAAAEDPf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARQf/aAAgBAwEBPxBAHImsv//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/EFMX/8QAGxABAQACAwEAAAAAAAAAAAAAAREAIUFxsfD/2gAIAQEAAT8QuMitAtAfchIFFLyn3WXWFBGzhxKkjpFMPMh1L3hTQO8//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fishermen sorting net"
+        title="Fishermen sorting net"
+        src="/static/2424838783c4b170f81861d60ccb9072/c35de/white-fishing-021.jpg"
+        srcset="/static/2424838783c4b170f81861d60ccb9072/afcd2/white-fishing-021.jpg 300w,
+/static/2424838783c4b170f81861d60ccb9072/82472/white-fishing-021.jpg 600w,
+/static/2424838783c4b170f81861d60ccb9072/c35de/white-fishing-021.jpg 1200w,
+/static/2424838783c4b170f81861d60ccb9072/98235/white-fishing-021.jpg 1800w,
+/static/2424838783c4b170f81861d60ccb9072/36a65/white-fishing-021.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABayZsWwQBn//EABkQAAMAAwAAAAAAAAAAAAAAAAECAwAREv/aAAgBAQABBQIX1godZF+StCiu56//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8BAyf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAABEAAxAkFx/9oACAEBAAY/AgMalbXX/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAITFBcbH/2gAIAQEAAT8hpKMc3dIcnrPGD8bwRFw1N//aAAwDAQACAAMAAAAQED//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCgf//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBXbL//xAAdEAEAAwABBQAAAAAAAAAAAAABABExIUFRYXGx/9oACAEBAAE/ED5jYW25wIFs2KNuZ5Ih0XvmNDk2/EHgYhM7wYQHQn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fishing boat deck view"
+        title="Fishing boat deck view"
+        src="/static/ed2c6f100e425156a374d67aa0ec38f9/c35de/white-fishing-023.jpg"
+        srcset="/static/ed2c6f100e425156a374d67aa0ec38f9/afcd2/white-fishing-023.jpg 300w,
+/static/ed2c6f100e425156a374d67aa0ec38f9/82472/white-fishing-023.jpg 600w,
+/static/ed2c6f100e425156a374d67aa0ec38f9/c35de/white-fishing-023.jpg 1200w,
+/static/ed2c6f100e425156a374d67aa0ec38f9/98235/white-fishing-023.jpg 1800w,
+/static/ed2c6f100e425156a374d67aa0ec38f9/36a65/white-fishing-023.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAXAQADAQAAAAAAAAAAAAAAAAABAgME/9oADAMBAAIQAxAAAAFbFXDyZSev/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAIBAxEh/9oACAEBAAEFAq146mYVtJZPJsY//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERAgP/2gAIAQMBAT8B5uagtqH/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/AXqpD//EABgQAAMBAQAAAAAAAAAAAAAAAAARQQEQ/9oACAEBAAY/AtdgxC7/AP/EABsQAAIDAQEBAAAAAAAAAAAAAAERACExUWGB/9oACAEBAAE/IVjqmNikW9Ee4CvIETwU+xn1DDuCf//aAAwDAQACAAMAAAAQuB//xAAYEQACAwAAAAAAAAAAAAAAAAAAEQEhQf/aAAgBAwEBPxCgaLnB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EEW9f//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQAxQXFRkcH/2gAIAQEAAT8QisDaTIal+YAjgrkjr3khAdKNbLyQxMjl2x3nw1hkagFaIz//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Tying the knot in the end of the net"
+        title="Tying the knot in the end of the net"
+        src="/static/2c0b1c55191de8e8d5e662e83a01005e/c35de/white-fishing-024.jpg"
+        srcset="/static/2c0b1c55191de8e8d5e662e83a01005e/afcd2/white-fishing-024.jpg 300w,
+/static/2c0b1c55191de8e8d5e662e83a01005e/82472/white-fishing-024.jpg 600w,
+/static/2c0b1c55191de8e8d5e662e83a01005e/c35de/white-fishing-024.jpg 1200w,
+/static/2c0b1c55191de8e8d5e662e83a01005e/98235/white-fishing-024.jpg 1800w,
+/static/2c0b1c55191de8e8d5e662e83a01005e/36a65/white-fishing-024.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAaaLZysBSN//xAAZEAADAQEBAAAAAAAAAAAAAAABAgMAESH/2gAIAQEAAQUCDS5R0ZGtLqnE+b//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGI/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EAB8QAAAEBwEAAAAAAAAAAAAAAAABESECAxATIjGBof/aAAgBAQAGPwKXiTbYJbTgeHwHX//EABwQAAMAAgMBAAAAAAAAAAAAAAABESFhQVGRsf/aAAgBAQABPyFxn0hEEZuqejthajMK4W5Y2WH/2gAMAwEAAgADAAAAEHzP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QFH//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QwMf/xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMVFBgZH/2gAIAQEAAT8QMjLFnFPPe8egJGaHYyyAaIasIaCbLz7mLdeGDRl6X5M//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Wheelhouse"
+        title="Wheelhouse"
+        src="/static/7d39bb28d076ad7ff3ac3a474b44e667/c35de/white-fishing-025.jpg"
+        srcset="/static/7d39bb28d076ad7ff3ac3a474b44e667/afcd2/white-fishing-025.jpg 300w,
+/static/7d39bb28d076ad7ff3ac3a474b44e667/82472/white-fishing-025.jpg 600w,
+/static/7d39bb28d076ad7ff3ac3a474b44e667/c35de/white-fishing-025.jpg 1200w,
+/static/7d39bb28d076ad7ff3ac3a474b44e667/98235/white-fishing-025.jpg 1800w,
+/static/7d39bb28d076ad7ff3ac3a474b44e667/36a65/white-fishing-025.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAEr8nWgsCb/AP/EABgQAQEBAQEAAAAAAAAAAAAAAAECAAMS/9oACAEBAAEFAuSG9Hlqa3Ma1c6mKUr/xAAYEQACAwAAAAAAAAAAAAAAAAAAEgECUf/aAAgBAwEBPwFJFrp//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAgEBPwFeWt//xAAcEAABBAMBAAAAAAAAAAAAAAAAASEiMRARcaH/2gAIAQEABj8CveJXwRxJ+Cuf/8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERIUFRgZH/2gAIAQEAAT8hi9M4WnrXwbSs9BolfBBqU0FxY//aAAwDAQACAAMAAAAQp8//xAAZEQEAAgMAAAAAAAAAAAAAAAABAEEhkdH/2gAIAQMBAT8QLMQtWjs//8QAFxEAAwEAAAAAAAAAAAAAAAAAABFhof/aAAgBAgEBPxBaENP/xAAdEAEBAAICAwEAAAAAAAAAAAABEQAhMUFRYYGh/9oACAEBAAE/EGIMWxpexP3OJRDJRdfMqJGK54eYizlMPqOw611vGKoefOf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Net full of fish alongside boat"
+        title="Net full of fish alongside boat"
+        src="/static/43aae0c1c63a9273b714343698a3ce74/c35de/white-fishing-028.jpg"
+        srcset="/static/43aae0c1c63a9273b714343698a3ce74/afcd2/white-fishing-028.jpg 300w,
+/static/43aae0c1c63a9273b714343698a3ce74/82472/white-fishing-028.jpg 600w,
+/static/43aae0c1c63a9273b714343698a3ce74/c35de/white-fishing-028.jpg 1200w,
+/static/43aae0c1c63a9273b714343698a3ce74/98235/white-fishing-028.jpg 1800w,
+/static/43aae0c1c63a9273b714343698a3ce74/36a65/white-fishing-028.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAFFuZoSySAQP//EABsQAAIDAAMAAAAAAAAAAAAAAAECAxETEiEx/9oACAEBAAEFApl6TxuN6EjQmMtZ/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAgBAwEBPwGI1YOT/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAESIf/aAAgBAgEBPwFvSj//xAAcEAABBAMBAAAAAAAAAAAAAAAAAREhQQIQImH/2gAIAQEABj8CTJKGptdSJ4Sf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERITGR/9oACAEBAAE/IUvQ4cOcZVkimb4Qp5Glw2K9P//aAAwDAQACAAMAAAAQWM//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAEDAQE/ED3dgFBv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAgEBPxBzRC5f/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFhccH/2gAIAQEAAT8QdXCpH0z9gECSgHPC9iQHPZckrguh73NiC0hqq85HYkvKZU//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fisherman operating crane"
+        title="Fisherman operating crane"
+        src="/static/b679c199d57ffd86abddb2aba67f44b3/c35de/white-fishing-027.jpg"
+        srcset="/static/b679c199d57ffd86abddb2aba67f44b3/afcd2/white-fishing-027.jpg 300w,
+/static/b679c199d57ffd86abddb2aba67f44b3/82472/white-fishing-027.jpg 600w,
+/static/b679c199d57ffd86abddb2aba67f44b3/c35de/white-fishing-027.jpg 1200w,
+/static/b679c199d57ffd86abddb2aba67f44b3/98235/white-fishing-027.jpg 1800w,
+/static/b679c199d57ffd86abddb2aba67f44b3/36a65/white-fishing-027.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure>
+<figure class="markdown-grid"><div class="markdown-grid-grid" style="
+            grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+          ">
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGlZTiqiUT/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADIhP/2gAIAQEAAQUC7oqm1gXsdjpo1hg3P//EABYRAAMAAAAAAAAAAAAAAAAAAAIQEf/aAAgBAwEBPwEYv//EABcRAAMBAAAAAAAAAAAAAAAAAAIQEkH/2gAIAQIBAT8BKsX/xAAaEAADAAMBAAAAAAAAAAAAAAAAARECECEy/9oACAEBAAY/AvLFlEWw69Vtn//EABoQAQADAQEBAAAAAAAAAAAAAAEAESFBUWH/2gAIAQEAAT8hLCh5ZLKHyWk/AXHExDyMDnIUUCZjP//aAAwDAQACAAMAAAAQuD//xAAXEQADAQAAAAAAAAAAAAAAAAAAESEB/9oACAEDAQE/EI01OH//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EFqC52//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFR8P/aAAgBAQABPxBsGw51jgZss9xbRFoJ8KrjTKhK8cj2ZDkOyIkhwX9c/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Boxes of fish being landed"
+        title="Boxes of fish being landed"
+        src="/static/d4212ad3a22cc9cd4454b3bf6059b418/c35de/white-fishing-031.jpg"
+        srcset="/static/d4212ad3a22cc9cd4454b3bf6059b418/afcd2/white-fishing-031.jpg 300w,
+/static/d4212ad3a22cc9cd4454b3bf6059b418/82472/white-fishing-031.jpg 600w,
+/static/d4212ad3a22cc9cd4454b3bf6059b418/c35de/white-fishing-031.jpg 1200w,
+/static/d4212ad3a22cc9cd4454b3bf6059b418/98235/white-fishing-031.jpg 1800w,
+/static/d4212ad3a22cc9cd4454b3bf6059b418/36a65/white-fishing-031.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACA//EABYBAQEBAAAAAAAAAAAAAAAAAAMCBP/aAAwDAQACEAMQAAABP1wjMxJEsf/EABsQAAICAwEAAAAAAAAAAAAAAAECAxIABCEi/9oACAEBAAEFAoYzjQvcp613NAWYuvf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAwEBPwGK/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACESH/2gAIAQIBAT8BbdgabP/EABsQAAICAwEAAAAAAAAAAAAAAAABETESIjJh/9oACAEBAAY/AskybHtA/DqCz//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8hKANznIovQm8j27LyoY7aUz1L8Jbf13J//9oADAMBAAIAAwAAABA4P//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8Q4xJYpf/EABgRAAMBAQAAAAAAAAAAAAAAAAABETFB/9oACAECAQE/EGVFnaKQP//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQVGR/9oACAEBAAE/EEJTPbVdJcI01CX5uMYEVoabiYSyF1vLAB2mV+sbCCLps+z/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Boxes of fish being stacked"
+        title="Boxes of fish being stacked"
+        src="/static/6086522b310d29cdb227281937d3f8a8/c35de/white-fishing-034.jpg"
+        srcset="/static/6086522b310d29cdb227281937d3f8a8/afcd2/white-fishing-034.jpg 300w,
+/static/6086522b310d29cdb227281937d3f8a8/82472/white-fishing-034.jpg 600w,
+/static/6086522b310d29cdb227281937d3f8a8/c35de/white-fishing-034.jpg 1200w,
+/static/6086522b310d29cdb227281937d3f8a8/98235/white-fishing-034.jpg 1800w,
+/static/6086522b310d29cdb227281937d3f8a8/36a65/white-fishing-034.jpg 2100w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        loading="lazy"
+      />
+    </span>
+</div></figure></article><section class="featureLayout__ShareIcons-awzc2p-2 bEFWfz"><h3>Share</h3><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.johndory.uk/posts/white-fishing-shetland" target="_blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDExMi4xOTYgMTEyLjE5NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEyLjE5NiAxMTIuMTk2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMzQjU5OTg7IiBjeD0iNTYuMDk4IiBjeT0iNTYuMDk4IiByPSI1Ni4wOTgiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTcwLjIwMSw1OC4yOTRoLTEwLjAxdjM2LjY3Mkg0NS4wMjVWNTguMjk0aC03LjIxM1Y0NS40MDZoNy4yMTN2LTguMzQNCgkJYzAtNS45NjQsMi44MzMtMTUuMzAzLDE1LjMwMS0xNS4zMDNMNzEuNTYsMjEuODF2MTIuNTFoLTguMTUxYy0xLjMzNywwLTMuMjE3LDAuNjY4LTMuMjE3LDMuNTEzdjcuNTg1aDExLjMzNEw3MC4yMDEsNTguMjk0eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="facebook"/></a></li><li><a href="https://twitter.com/intent/tweet/?text=Northern Seas Fishing&amp;url=https://www.johndory.uk/posts/white-fishing-shetland" target="blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDExMi4xOTcgMTEyLjE5NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEyLjE5NyAxMTIuMTk3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiM1NUFDRUU7IiBjeD0iNTYuMDk5IiBjeT0iNTYuMDk4IiByPSI1Ni4wOTgiLz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6I0YxRjJGMjsiIGQ9Ik05MC40NjEsNDAuMzE2Yy0yLjQwNCwxLjA2Ni00Ljk5LDEuNzg3LTcuNzAyLDIuMTA5YzIuNzY5LTEuNjU5LDQuODk0LTQuMjg0LDUuODk3LTcuNDE3DQoJCQljLTIuNTkxLDEuNTM3LTUuNDYyLDIuNjUyLTguNTE1LDMuMjUzYy0yLjQ0Ni0yLjYwNS01LjkzMS00LjIzMy05Ljc5LTQuMjMzYy03LjQwNCwwLTEzLjQwOSw2LjAwNS0xMy40MDksMTMuNDA5DQoJCQljMCwxLjA1MSwwLjExOSwyLjA3NCwwLjM0OSwzLjA1NmMtMTEuMTQ0LTAuNTU5LTIxLjAyNS01Ljg5Ny0yNy42MzktMTQuMDEyYy0xLjE1NCwxLjk4LTEuODE2LDQuMjg1LTEuODE2LDYuNzQyDQoJCQljMCw0LjY1MSwyLjM2OSw4Ljc1Nyw1Ljk2NSwxMS4xNjFjLTIuMTk3LTAuMDY5LTQuMjY2LTAuNjcyLTYuMDczLTEuNjc5Yy0wLjAwMSwwLjA1Ny0wLjAwMSwwLjExNC0wLjAwMSwwLjE3DQoJCQljMCw2LjQ5Nyw0LjYyNCwxMS45MTYsMTAuNzU3LDEzLjE0N2MtMS4xMjQsMC4zMDgtMi4zMTEsMC40NzEtMy41MzIsMC40NzFjLTAuODY2LDAtMS43MDUtMC4wODMtMi41MjMtMC4yMzkNCgkJCWMxLjcwNiw1LjMyNiw2LjY1Nyw5LjIwMywxMi41MjYsOS4zMTJjLTQuNTksMy41OTctMTAuMzcxLDUuNzQtMTYuNjU1LDUuNzRjLTEuMDgsMC0yLjE1LTAuMDYzLTMuMTk3LTAuMTg4DQoJCQljNS45MzEsMy44MDYsMTIuOTgxLDYuMDI1LDIwLjU1Myw2LjAyNWMyNC42NjQsMCwzOC4xNTItMjAuNDMyLDM4LjE1Mi0zOC4xNTNjMC0wLjU4MS0wLjAxMy0xLjE2LTAuMDM5LTEuNzM0DQoJCQlDODYuMzkxLDQ1LjM2Niw4OC42NjQsNDMuMDA1LDkwLjQ2MSw0MC4zMTZMOTAuNDYxLDQwLjMxNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" alt="twitter"/></a></li></ul></section><section id="comments" class="featureLayout__Comments-awzc2p-4 sQelg"><div id="disqus_thread"></div></section></main></section><div class="footer__FooterContainer-r54yyk-0 cIubBB"><div class="email__FormContainer-sc-8wfbjn-0 qFpNt"><h3><em>New Content Direct To Your Inbox</em></h3><form name="contact" method="POST" data-netlify="true" action="/formSuccess"><input type="hidden" name="form-name" value="contact"/><p><label><div class="emailInput"><input type="email" name="email" placeholder=" Your Email"/><button type="submit">Subscribe</button></div></label></p><p></p></form></div><p>thejohndoryuk@gmail.com<br/><br/>© <!-- -->2019</p></div></main></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-143662307-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/white-fishing-shetland";window.webpackCompilationHash="39a26b99a46753e4a855";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-63e3114736a6bbd73350.js"],"component---src-components-feature-list-js":["/component---src-components-feature-list-js-bd32487f179324f3ccbf.js"],"component---src-components-feature-layout-js":["/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js"],"component---src-components-gallery-listing-js":["/component---src-components-gallery-listing-js-63f616d1cc71051c7f1c.js"],"component---src-components-post-layout-js":["/component---src-components-post-layout-js-db2a8a91fc1b7d485453.js"],"component---src-components-category-listing-js":["/component---src-components-category-listing-js-36969de663171ee4ebed.js"],"component---src-pages-404-js":["/component---src-pages-404-js-da85e1f270da44b19447.js"],"component---src-pages-features-js":["/component---src-pages-features-js-412cff7043c5224f71cd.js"],"component---src-pages-form-success-js":["/component---src-pages-form-success-js-862499294d5b03de51b9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bf11b036728227b8bdd4.js"],"component---src-pages-posts-js":["/component---src-pages-posts-js-cfbe8e0b5f75113b7f27.js"]};/*]]>*/</script><script src="/webpack-runtime-6e2461f555a4f107593c.js" async=""></script><script src="/commons-12c480c907c3e5fc5bdc.js" async=""></script><script src="/component---src-components-feature-layout-js-b8f31e15ea28b97d2bc9.js" async=""></script><script src="/app-63e3114736a6bbd73350.js" async=""></script></body></html>
