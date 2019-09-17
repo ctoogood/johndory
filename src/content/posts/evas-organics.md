@@ -3,12 +3,15 @@ title: Eva's Organics
 location: 'Cumbria, UK'
 category: Producers & Vendors
 slug: /evasorganics
+description: >-
+  Eva's Organics is a family-run organic farm with an ethos based around
+  sustainability. They have been providing fresh, organic fruit and veg to the
+  community for over a decade and in recent years they've begun production of
+  apple juice using apples from their orchard.
 date: 2019-07-21T12:14:11.338Z
 featuredImage: >-
   https://res.cloudinary.com/johndory/image/upload/q_auto/c_limit,q_80,w_2000/v1568614472/posts/evasorganics/evasorganics028_hxgmez.jpg
 ---
-![]()
-
 ## Eva's Organics is a family-run organic farm with an ethos based around sustainability. They have been providing fresh, organic fruit and veg to the community for over a decade and in recent years they've begun production of apple juice using apples from their orchard.
 
 ```grid|1
