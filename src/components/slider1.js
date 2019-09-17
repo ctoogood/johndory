@@ -60,21 +60,25 @@ const ContentSlider = styled.section `
 
     .image-container {
       position:relative;
-      max-height:80vh;
       width:100%;
       filter:opacity(0.7);
 
       @media only screen and (min-width:800px) {
         filter:none;
+        height:80vh;
+
       }
     }
 
 
 
 
-    Img {
+    img {
       min-height:400px;
-      overflow:hidden
+      overflow:hidden;
+      height:100%;
+      object-fit:cover;
+      margin:0;
       
     }
 
@@ -84,7 +88,6 @@ const ContentSlider = styled.section `
         left:0;
         transform:translateY(-50%);
         margin-top:3rem;
-        max-height:80vh;
         text-align:center;
         width:100%;
         color:white;
@@ -95,8 +98,10 @@ const ContentSlider = styled.section `
           transform:translate(0);
           text-align:left;
           padding:1rem;
-          margin-top:3rem;
+          margin-top:2rem;
           color:#565555;
+          height:80vh;
+
         }
 
         h2, h3, h4, h5 {

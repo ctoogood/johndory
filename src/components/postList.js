@@ -31,7 +31,7 @@ const ArchiveList = styled.main `
     text-align:center;
   
 
-  @media only screen and (min-width:720px) {
+  @media only screen and (min-width:900px) {
     display:grid;
     grid-template-columns: 1fr 1fr;
     position:relative;
