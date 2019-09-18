@@ -59,13 +59,13 @@ Here's a selection of images taken in Mackie Mayor
 ![Table](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614422/posts/mackiemayor/mackieMayor-021_tutint.jpg)
 ```
 
-```grid|2
+```grid|1
 ![coffee](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614412/posts/mackiemayor/mackieMayor-010_bxtcxo.jpg)
-
-![Sign](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614413/posts/mackiemayor/mackieMayor-004_jmhvup.jpg)
 ```
 
-```grid|1
+```grid|2
+![Sign](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614413/posts/mackiemayor/mackieMayor-004_jmhvup.jpg)
+
 ![Barista](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614410/posts/mackiemayor/mackieMayor-007_vfvigq.jpg)
 ```
 
