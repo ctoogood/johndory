@@ -61,10 +61,6 @@ After the batch has been made I go for a look around the rest of the farm.  As I
 ![berries being picked](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614469/posts/evasorganics/evasorganics024_qidgjl.jpg)
 ```
 
-```grid|1
-![Polytunnel interior view](./images/evasorganics025.jpg)
-```
-
 The production of organic fruit and veg doesn’t use any artificial fertilisers or pesticides.  These chemicals can cause damage to the natural world and require the use of fossil fuels in their manufacture.  Here they don’t use any artificial chemicals or heavy machinery, they do everything on a smaller scale and with great concern for the environment.  
 
 > “The very nature of growing organically is more balanced and in tune with looking after nature”

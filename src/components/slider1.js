@@ -304,7 +304,7 @@ query SlideQuery {
           description
           featuredImage {
             childImageSharp {
-              fluid(maxWidth:1200) {
+              fluid(maxWidth:800) {
                 ...GatsbyImageSharpFluid
               }
             }

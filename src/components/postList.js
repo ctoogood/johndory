@@ -117,7 +117,7 @@ const ArchiveList = styled.main `
     overflow:hidden;
 
     @media only screen and (min-width:720px) {
-      height:55vh;
+      height:350px;
 
     }
     }
@@ -222,7 +222,7 @@ query postQuery {
           slug
           featuredImage {
             childImageSharp {
-              fluid(maxWidth:600) {
+              fluid(maxWidth:400) {
                 ...GatsbyImageSharpFluid
               }
             }
