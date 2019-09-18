@@ -12,17 +12,17 @@ import PostIndex from '../components/postList'
 
 const AboutText = styled.section `
     border-top:0.5rem solid #6e929e;
-    margin-top:1rem;
     text-align:center;
     padding:2rem;
 
     h2 {
       font:3rem playfair display;
       font-weight:bold;
-      margin-top:10rem;
+      margin-top:2rem;
       color:#5A5A5A;
       @media only screen and (min-width:480px) {
         font-size:4rem;
+        margin-top:8rem;
       }
     }
 

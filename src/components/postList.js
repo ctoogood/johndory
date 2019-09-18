@@ -4,6 +4,8 @@ import styled from 'styled-components'
 
 const ArchiveList = styled.main `
   margin-bottom:5rem;
+  max-width:1200px;
+  margin:auto;
 
   p {
     color:#6E929E;

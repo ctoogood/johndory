@@ -61,6 +61,7 @@ const ContentSlider = styled.section `
     .image-container {
       position:relative;
       width:100%;
+      height:100%;
       filter:opacity(0.7);
 
       @media only screen and (min-width:800px) {
@@ -76,11 +77,13 @@ const ContentSlider = styled.section `
     img {
       min-height:400px;
       overflow:hidden;
-      height:100%;
       object-fit:cover;
       margin:0;
 
+      @media only screen and (min-width:800px) {
+        height:100%;
 
+      }
       
     }
 
@@ -89,7 +92,6 @@ const ContentSlider = styled.section `
         top:50%;
         left:0;
         transform:translateY(-50%);
-        margin-top:3rem;
         text-align:center;
         width:100%;
         color:white;
