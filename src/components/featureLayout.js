@@ -16,13 +16,13 @@ const BlogPostMain = styled.main `
   padding:0;
   display:block;
   max-height:80vh;
-  max-width:1200px;
+  max-width:900px;
   margin:auto;
   margin-top:3rem;
   
 
 
-  Img {
+  img {
     padding:0;
     display:block;
     max-height:80vh;
@@ -289,7 +289,13 @@ export const query = graphql `
             date(formatString: "MMMM DD, YYYY" )
             slug
             location
-            featuredImage
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth:1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
               
         }
         }

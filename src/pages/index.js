@@ -12,6 +12,7 @@ import PostIndex from '../components/postList'
 
 const AboutText = styled.section `
     border-top:0.5rem solid #6e929e;
+    margin-top:1rem;
     text-align:center;
     padding:2rem;
 
@@ -82,7 +83,13 @@ export const pageQuery = graphql`
             location
             description
             slug
-            featuredImage
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth:1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

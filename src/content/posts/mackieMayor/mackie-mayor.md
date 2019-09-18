@@ -1,13 +1,20 @@
 ---
 title: Mackie Mayor
-location: Manchester
-slug: /mackiemayor
-date: 2019-08-12
-featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568614444/posts/mackiemayor/mackieMayor_p7ylxw.png
-description: Originally a meat market, the once abandoned building in Manchester's Northern Quarter now houses an array of exciting food & drink sellers. Coffee, cake, pizza, steak, fish, beer, wine, and much more!
+location: 'Manchester, UK'
 category: Producers & Vendors
+slug: /mackiemayor
+description: >-
+  Originally a meat market, the once abandoned building in Manchester's Northern
+  Quarter now houses an array of exciting food & drink sellers. Coffee, cake,
+  pizza, steak, fish, beer, wine, and much more!
+date: 2019-08-12T06:50:25.003Z
+featuredImage: ./mackieMayor.png
 ---
 ## Originally a meat market, the once abandoned building in Manchester's Northern Quarter now houses an array of exciting food & drink sellers. Coffee, cake, pizza, steak, fish, beer, wine, and much more!
+
+```grid|1
+![Collage of images from Mackie Mayor](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614444/posts/mackiemayor/mackieMayor_p7ylxw.png)
+```
 
 The food hall is a fantastically open space - Rows of long benches span the centre of the hall, bordered by an incredible variety of merchants offering a range of meals and beverages.
 
@@ -39,54 +46,49 @@ Vendors offering food & drink at Mackie Mayor include:
 
 Here's a selection of images taken in Mackie Mayor
 
-
 ```grid|2
-![Mackie Mayor Entrance](/images/mackieMayor-025.jpg)
+![Entrance](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614426/posts/mackiemayor/mackieMayor-025_kpofhq.jpg)
 
-![Mackie Mayor food hall](/images/mackieMayor-022.jpg)
+![Interior layout](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614429/posts/mackiemayor/mackieMayor-022_gobizi.jpg)
 ```
 
 ```grid|2
-![Tables in Mackie Mayor](/images/mackieMayor-021.jpg)
+![Balcony Bench](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614434/posts/mackiemayor/mackieMayor-023_iploe1.jpg)
 
-![Balcony seating, Mackie Mayor](/images/mackieMayor-023.jpg)
+![Table](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614422/posts/mackiemayor/mackieMayor-021_tutint.jpg)
 ```
 
 ```grid|1
-![Coffee at Atkinsons](/images/mackieMayor-010.jpg)
+![coffee](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614412/posts/mackiemayor/mackieMayor-010_bxtcxo.jpg)
 ```
 
 ```grid|2
-![Atkinson's sign](/images/mackieMayor-004.jpg)
+![Sign](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614413/posts/mackiemayor/mackieMayor-004_jmhvup.jpg)
 
-![Coffee being made](/images/mackieMayor-007.jpg)
+![Barista](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614410/posts/mackiemayor/mackieMayor-007_vfvigq.jpg)
 ```
-
-
 
 ```grid|2
-![Pizza being prepared, Honest Crust](/images/mackieMayor-018.jpg)
+![Pizza being made](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614419/posts/mackiemayor/mackieMayor-018_nngcsl.jpg)
 
-![Freshly baked pizza](/images/mackieMayor-019.jpg)
+![Pizza being made](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614421/posts/mackiemayor/mackieMayor-019_w8diz8.jpg)
 ```
+
 ```grid|1
-![Pizza oven, Honest Crust](/images/mackieMayor-020.jpg)
+![Pizza oven](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614421/posts/mackiemayor/mackieMayor-020_ld5rm3.jpg)
 ```
-
 ```grid|2
-![Steak sandwich being prepared, Tender Cow](/images/mackieMayor-029.jpg)
+![sandwich prep](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614430/posts/mackiemayor/mackieMayor-029_kimppk.jpg)
 
-![Steak sandwich, Tender Cow](/images/mackieMayor-032.jpg)
+![Steak sandwich](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614434/posts/mackiemayor/mackieMayor-032_pkdwsh.jpg)
 ```
-
 ```grid|2
-![Fin Fish Bar](/images/mackieMayor-028.jpg)
+![Chalk sign](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614428/posts/mackiemayor/mackieMayor-028_vdndu4.jpg)
 
-![Iced fish on display, Fin Fish Bar](/images/mackieMayor-026.jpg)
+![Fish bar display](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614429/posts/mackiemayor/mackieMayor-026_pz7juq.jpg)
 ```
-
 ```grid|2
-![Rotisserie](/images/mackieMayor-034.jpg)
+![Rotisserie sign](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614433/posts/mackiemayor/mackieMayor-034_somp2a.jpg)
 
-![Rotisserie chicken](/images/mackieMayor-035.jpg)
+![Rotisserie chicken](https://res.cloudinary.com/johndory/image/upload/c_limit,q_80,w_2000/v1568614435/posts/mackiemayor/mackieMayor-035_mgud6o.jpg)
 ```

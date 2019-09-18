@@ -3,7 +3,7 @@ title: Pelagic Fishing
 location: North Sea
 slug: /pelagicfishing
 date: 2011-10-01T14:51:12.521Z
-featuredImage: https://res.cloudinary.com/johndory/image/upload/v1568614621/posts/pelagicfishing/pelagic-fishing-016_ure4oe.jpg
+featuredImage: ./pelagic-fishing-016.jpg
 description: A highly lucrative form of fishing due to the sheer volume of fish caught.  Expansive nets are trawled behind very large vessels.  With the aid of sonar technology these vessels can target large shoals of mackerel or herring.
 category: Producers & Vendors
 
