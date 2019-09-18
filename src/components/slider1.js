@@ -79,6 +79,8 @@ const ContentSlider = styled.section `
       height:100%;
       object-fit:cover;
       margin:0;
+
+
       
     }
 
@@ -173,29 +175,37 @@ const ContentSlider = styled.section `
     }
 
     .viewPost {
-      border: 1px solid #d2a193;;
-      padding: .5rem 2rem;
-      margin-top: 0;
-      color:#d2a193;
-      text-decoration: none;
-      background: none;
-      font:1rem Montserrat;
-      font-weight:400;
-      cursor: pointer;
-      text-align: center;
-      margin-bottom:1rem;
-      transition:all 0.4s ease-in-out;
-      width: auto;
-      margin: auto;
-      position: relative;
-      left: 0;
-      margin-top: 1rem;
+      display:none;
 
-      &:hover {
-        color:white;
-        border:1px solid white;
-        background-color: #d2a193
+      @media only screen and (min-width:800px) {
+        display:inline;
+        border: 1px solid #d2a193;;
+        padding: .5rem 2rem;
+        margin-top: 0;
+        color:#d2a193;
+        text-decoration: none;
+        background: none;
+        font:1rem Montserrat;
+        font-weight:400;
+        cursor: pointer;
+        text-align: center;
+        margin-bottom:1rem;
+        transition:all 0.4s ease-in-out;
+        width: auto;
+        margin: auto;
+        position: relative;
+        left: 0;
+        margin-top: 1rem;
+  
+        &:hover {
+          color:white;
+          border:1px solid white;
+          background-color: #d2a193
+        }
       }
+      
+
+      
     }
   }
 
