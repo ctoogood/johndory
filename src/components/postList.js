@@ -94,7 +94,7 @@ const ArchiveList = styled.main `
   .text-container {
 
     color:#707070;
-
+    background-color:rgba(255,255,255,0.7);
    
 
   }
