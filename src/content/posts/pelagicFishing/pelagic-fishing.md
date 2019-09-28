@@ -10,6 +10,11 @@ category: Producers & Vendors
 ---
 ## A highly lucrative form of fishing due to the sheer volume of fish caught.  Expansive nets are trawled behind very large vessels.  With the aid of sonar technology these vessels can target large shoals of mackerel or herring.
 
+```grid|1
+![Ship's bow alongside](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_900/v1568614620/posts/pelagicfishing/pelagic-fishing-019_g4ltdx.jpg)
+```
+
+
 I joined the crew of the pelagic vessel Voyager in Lerwick harbour.  The vessel and its 9 crew are northern Irish, from the fishing town of Kilkeel.  They often visit the waters surrounding Shetland during the mackerel season, as it was currently.  Arnold, the skipper of the vessel, informed me that we would be fishing for just a day, in the area north of Muckle Flugga, and then landing the catch.
 
 We left the berth and headed out the north harbour entrance.  It would take a few hours to get to the fishing grounds.  I was allocated a cabin for the trip and had a good look around the vessel as we steamed north.  The interior of the vessel was like no other fishing vessel I’d been on.  There were many large single berth cabins, all with their own tv.  A large living area with an incredibly large flat-screen tv mounted on the wall, and multiple couches.  Large dining room and kitchen.  Although the vessel had its own chef, so there was no need to use the kitchen yourself.  Breakfast, lunch, dinner is all provided.  It all seemed so spacious and spotlessly clean.  I spent most of the voyage up in the wheelhouse with Arnold and some of the other crew. I enjoyed the 360 degree view you could get through the surrounding windows.
@@ -29,62 +34,62 @@ Much of this mackerel will be processed and packaged in tins for distribution to
 
 
 ```grid|2
-![Pelagic boat passing other vessels in Lerwick harbour](/images/pelagic-fishing-001.jpg)
+![Pelagic boat passing other vessels in Lerwick harbour](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614613/posts/pelagicfishing/pelagic-fishing-001_bpfbv1.jpg)
 
-![Crewman operating crane](/images/pelagic-fishing-003.jpg)
+![Crewman operating crane](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614613/posts/pelagicfishing/pelagic-fishing-003_l4lgcf.jpg)
 ```
 
 ```grid|1
-![Fishing net in front of crew](/images/pelagic-fishing-004.jpg)
+![Fishing net in front of crew](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_900/v1568614623/posts/pelagicfishing/pelagic-fishing-004_lw38j0.jpg)
 ```
 
 ```grid|2
-![Trawler doors emerging from the sea](/images/pelagic-fishing-006.jpg)
+![Trawler doors emerging from the sea](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614625/posts/pelagicfishing/pelagic-fishing-006_gxjsw2.jpg)
 
-![Fishing net emerging from the sea](/images/pelagic-fishing-007.jpg)
+![Fishing net emerging from the sea](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614616/posts/pelagicfishing/pelagic-fishing-007_lx2fnw.jpg)
 ```
 ```grid|1
-![Pelagic boat on the horizon](/images/pelagic-fishing-008.jpg)
+![Pelagic boat on the horizon](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_900/v1568614616/posts/pelagicfishing/pelagic-fishing-008_ydxgxt.jpg)
 ```
 
 ```grid|2
-![Crewman checking tanks](/images/pelagic-fishing-009.jpg)
+![Crewman checking tanks](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614615/posts/pelagicfishing/pelagic-fishing-009_fymtir.jpg)
 
-![mackerel](/images/pelagic-fishing-010.jpg)
-```
-
-```grid|1
-![Ship's bow](/images/pelagic-fishing-017.jpg)
-```
-
-```grid|2
-![tank overflowing with mackerel](/images/pelagic-fishing-011.jpg)
-
-![Skipper watches as the fish is pumped aboard](/images/pelagic-fishing-012.jpg)
-```
-
-```grid|2
-![Orcas surround the vessel as the catch is pumped aboard](/images/pelagic-fishing-013.jpg)
-
-![Crew working with the net](/images/pelagic-fishing-014.jpg)
-```
-
-```grid|2
-![Winch levers](/images/pelagic-fishing-015.jpg)
-
-![pelagic vessel at sea](/images/pelagic-fishing-016.jpg)
+![mackerel](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614615/posts/pelagicfishing/pelagic-fishing-010_cs8f09.jpg)
 ```
 
 ```grid|1
-![Vessel alongside in Denmark](/images/pelagic-fishing-018.jpg)
+![Ship's bow](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_900/v1568614619/posts/pelagicfishing/pelagic-fishing-017_eilpbp.jpg)
 ```
 
 ```grid|2
-![ship's bow alongside](/images/pelagic-fishing-020.jpg)
+![tank overflowing with mackerel](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614616/posts/pelagicfishing/pelagic-fishing-011_gteqiy.jpg)
 
-![Mackerel is pumped into the back of large trailers](/images/pelagic-fishing-022.jpg)
+![Skipper watches as the fish is pumped aboard](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614617/posts/pelagicfishing/pelagic-fishing-012_bod7rq.jpg)
+```
+
+```grid|2
+![Orcas surround the vessel as the catch is pumped aboard](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614618/posts/pelagicfishing/pelagic-fishing-013_xaerzt.jpg)
+
+![Crew working with the net](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614619/posts/pelagicfishing/pelagic-fishing-014_fqlv85.jpg)
+```
+
+```grid|2
+![Winch levers](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614621/posts/pelagicfishing/pelagic-fishing-015_nhcxui.jpg)
+
+![pelagic vessel at sea](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614621/posts/pelagicfishing/pelagic-fishing-016_ure4oe.jpg)
 ```
 
 ```grid|1
-![Mackerel is pumped into the back of large trailers](/images/pelagic-fishing-021.jpg)
+![Vessel alongside in Denmark](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_900/v1568614620/posts/pelagicfishing/pelagic-fishing-018_x29iiz.jpg)
+```
+
+```grid|2
+![ship's bow alongside](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614621/posts/pelagicfishing/pelagic-fishing-020_pjrkt7.jpg)
+
+![Mackerel is pumped into the back of large trailers](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_600/v1568614621/posts/pelagicfishing/pelagic-fishing-022_i4h2jl.jpg)
+```
+
+```grid|1
+![Mackerel is pumped into the back of large trailers](https://res.cloudinary.com/johndory/image/upload/c_scale,q_auto,w_900/v1568614621/posts/pelagicfishing/pelagic-fishing-021_wjbdbw.jpg)
 ```

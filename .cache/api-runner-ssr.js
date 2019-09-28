@@ -1,29 +1,29 @@
 var plugins = [{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[],"query":"\n          {\n            site {\n              siteMetadata {\n                title\n                description\n                siteUrl\n                site_url: siteUrl\n              }\n            }\n          }\n        ","feeds":[{"query":"\n              {\n                allMarkdownRemark(\n                  sort: { order: DESC, fields: [frontmatter___date] },\n                ) {\n                  edges {\n                    node {\n                      excerpt\n                      html\n                      frontmatter {\n                        title\n                        date\n                        slug\n                      }\n                    }\n                  }\n                }\n              }\n            ","output":"/rss.xml","title":"The John Dory","match":"^/blog/"}]},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-143662307-1"},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-remark-images-grid/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-remark-images-grid/gatsby-ssr'),
       options: {"plugins":[],"className":"markdown-grid","gridGap":"20px","margin":"20px auto"},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-remark-images/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-remark-images/gatsby-ssr'),
       options: {"plugins":[],"maxWidth":1200,"linkImagesToOriginal":false},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui"},
     },{
-      plugin: require('C:/Users/calum/webdev/Gatsby/johndory/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('C:/Users/calum/Web Dev/Gatsby/johndory/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
