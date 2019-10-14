@@ -166,6 +166,10 @@ export default class Menu extends Component {
           <em>Features</em>
         </Link>
         <hr />
+        <Link className="navbar-link" to="/about" onClick={this.toggleMenu}>
+          <em>About</em>
+        </Link>
+        <hr />
       </li>
       </ul>
 

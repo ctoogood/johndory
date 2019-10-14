@@ -6,6 +6,7 @@ exports.components = {
   "component---src-components-feature-layout-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\src\\components\\featureLayout.js" /* webpackChunkName: "component---src-components-feature-layout-js" */),
   "component---cache-dev-404-page-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\.cache\\dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\src\\pages\\404.js" /* webpackChunkName: "component---src-pages-404-js" */),
+  "component---src-pages-about-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\src\\pages\\about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-features-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\src\\pages\\features.js" /* webpackChunkName: "component---src-pages-features-js" */),
   "component---src-pages-form-success-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\src\\pages\\formSuccess.js" /* webpackChunkName: "component---src-pages-form-success-js" */),
   "component---src-pages-index-js": () => import("C:\\Users\\calum\\Web Dev\\Gatsby\\johndory\\src\\pages\\index.js" /* webpackChunkName: "component---src-pages-index-js" */)
