@@ -36,6 +36,7 @@ const BlogPostContent = styled.article`
     max-width:900px;
     margin:auto;
     font-size:1.2rem;
+    text-align:center;
 
     blockquote {
       color:#6e929e;
@@ -46,6 +47,7 @@ const BlogPostContent = styled.article`
 
         @media only screen and (min-width:720px) {
             padding:2rem;
+            text-align:left;
             }
 
             
