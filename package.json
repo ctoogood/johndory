@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
-    "browserslist": "^4.7.0",
+    "browserslist": "^4.16.5",
     "caniuse-lite": "^1.0.30000989",
     "core-js": "^2.6.9",
     "disqus-react": "^1.0.7",
